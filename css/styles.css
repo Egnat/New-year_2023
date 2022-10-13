@@ -803,8 +803,8 @@ border: 2px solid #2798f1;
 
 
 @media screen and (max-width: 1300px) {
-body {width: 1300px;}
-html {width: 1300px;}
+body {width: 1024px;}
+html {width: 1024px;}
 .text-friends { font-size: 110px; left: 202px; color: #ffa500;}
 }
 
