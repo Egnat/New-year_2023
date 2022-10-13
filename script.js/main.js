@@ -1,4 +1,4 @@
-let slideIndex = 1;
+/*let slideIndex = 1;
         
 function positionSlides(n) {
   showSlides(slideIndex += n);
@@ -96,7 +96,7 @@ document.body.insertBefore(div, appp);*/
 
 //5 пример с AdjacentHTML
 //создаем переменну с контентом, который будет в новом элементе <article></article>,который будет расположен над <article id="img"></article> 
-const contentt = "Happy New Year !";
+/*const contentt = "Happy New Year !";
 document.querySelector(".friends").insertAdjacentHTML("beforebegin", `<article class="text-friends"> ${contentt} </article>`);
 const textFriends = document.querySelector('.text-friends');
 textFriends.style ="font-size: 127px";
@@ -104,7 +104,7 @@ textFriends.style.position ="absolute";
 textFriends.style.color = "##ff9800";
 textFriends.style.top = "2773px";
 textFriends.style.left = "161px";
-textFriends.style.zindex = "1";
+textFriends.style.zindex = "1";*/
 
 /*document.getElementsByTagName("img")[0];
 const img = document.querySelector('.img-2');
