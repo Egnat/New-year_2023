@@ -1,0 +1,865 @@
+@font-face {
+src: url("fonts/Yeseva+One.ttf");
+font-family:"Yeseva+One";
+}
+
+body {
+background-image: url('https://highstar.ru/pictures/snejinki/09.gif');
+margin: 0 auto;
+box-sizing: border-box;
+}
+
+.rebbit2 {
+ position: absolute;
+width: 126px;
+top: 12px; 
+left: 1118px;
+box-shadow: 0px 2px 25px 15px yellowgreen;        
+}
+
+.slider_demonstration {
+background-color: black;
+}
+
+.btn-prev, .btn-next { 
+position: absolute;
+top: 50%;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+color: white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+cursor: pointer;
+}
+
+.btn-next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+.btn-prev:hover, .btn-next:hover {
+background-color: #bf88369e;
+}
+
+.slider-wrapper {
+position: absolute;
+display: flex;  
+width: 688px;/*53%;*/
+left: 511px;
+top: 213px;	
+}
+
+.slideshow-container {
+position: relative;
+width: 100%;
+height: 479px;
+top: 0px;
+box-shadow: 0px 0px 22px 20px rgb(225 225 235 / 38%);
+border-radius: 17px;
+}
+
+.mySlides {
+display:none;
+width: 100%;
+height: 100%;
+background-size: cover;
+background-position: center center;
+-webkit-animation-name: slowing;
+-webkit-animation-duration: 1.5s;
+animation-name: slowing;
+animation-duration: 1.5s;
+}
+
+@keyframes slowing {
+from {opacity: .5} 
+to {opacity: 1}
+}
+
+.img {
+width: 100%;
+height: 100%;
+vertical-align: middle;
+}
+
+.filter_img {
+width: 100%;
+height: 100%;
+filter: brightness(0.8);/*drop-shadow(0px 20px 10px rgba(0, 0, 0, 0.15));*/
+}
+
+.dots-wrapper {
+position: absolute;
+display: flex;
+justify-content: space-between;
+width: 175px;
+top: 493px;
+right: 248px;     
+}
+
+.dot.active {
+background-color: red;    
+}
+
+.dot {
+width: 12px;
+height: 12px;
+border-radius: 50%;
+margin-right: 10px;
+background-color:#8693df; 
+cursor: pointer; 
+transition: background-color 0.6s ease;  
+}
+
+.slide-text {
+position: absolute;
+width: 162px;
+right: 506px;
+bottom: 514px;
+color: #E3B873;
+
+font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+text-transform: uppercase;
+}
+
+.mini-text1-slide {
+position: absolute;
+width: 229px;
+top: 0px;
+right: 944px;
+    
+font-family: 'Nunito Sans', Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 53px;
+line-height: 21px;
+color: #d91818;
+text-shadow: 7px 7px 7px;	
+}
+
+.mini-text2-slide {
+position: absolute;
+width: 223px;
+bottom: 0px;
+right: 829px;
+
+font-family: 'Nunito Sans', Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 51px;
+line-height: 21px;
+color: #FFFFFF;
+text-shadow: 7px 7px 7px;	
+}
+
+.mini-text3-slide {
+position: absolute;
+width: 221px;
+bottom: 189px;
+right: 888px;
+
+font-family: 'Nunito Sans', Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 21px;
+color: #26cb23;
+text-shadow: 7px 7px 7px;
+}
+
+.mini-text4-slide {
+position: absolute;
+width: 381px;
+right: 769px;
+bottom: 388px;
+color: #fff;
+
+font-family: 'Nunito Sans', Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 51px;
+line-height: 21px;
+text-shadow: 6px 9px 10px;
+}
+
+.photo-slide-4 {
+position: absolute;
+width: 441px;
+right: 734px;
+bottom: 63px;
+box-shadow: 0px 0px 37px 20px #d435d7;     
+}
+
+.photo-slide-6 {
+position: absolute;
+width: 441px;
+right: 734px;
+bottom: 16px;
+border-radius: 10px;
+box-shadow: 0px 2px 53px 26px #55bf55;          
+}
+
+.photo-slide-7 {
+position: absolute;
+    width: 331px;
+    right: 802px;
+    bottom: -3px;
+    border-radius: 64px;
+    box-shadow: 0px 0px 27px 29px yellow;  
+}
+
+.photo-slide-8 {
+position: absolute;
+    width: 443px;
+    right: 735px;
+    bottom: 60px;
+    border-radius: 82px;
+    box-shadow: 0px 4px 43px 24px red; 
+}
+
+.slide-text5 {
+position: absolute;
+width: 869px;
+right: 45px;
+bottom: 564px;
+color: #f00;
+
+font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 74px;
+text-shadow: -10px 10px 6px;
+text-transform: uppercase;
+}
+
+.slide-text6 {
+position: absolute;
+width: 929px;
+right: 106px;
+bottom: 587px;
+color: #e3739c;
+
+font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 74px;
+text-shadow: -10px 10px 6px;
+ext-transform: uppercase;      
+}
+
+.slide-text7 {
+position: absolute;
+width: 815px;
+right: 106px;
+bottom: 561px;
+color: #5ee59a;
+
+font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 74px;
+text-shadow: -10px 10px 6px;
+ext-transform: uppercase;         
+}
+
+.slide-text8 {
+position: absolute;
+width: 760px;
+right: 143px;
+bottom: 561px;
+color: #ffa500;
+
+font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 74px;
+text-shadow: -10px 10px 6px;
+ext-transform: uppercase;      
+}
+
+.mini2-text4-slide {
+position: absolute;
+width: 379px;
+right: 772px;
+bottom: -50px;
+color: #fff;
+
+font-family: 'Nunito Sans', Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 51px;
+line-height: 21px;
+text-shadow: 7px 7px 7px;   
+}
+
+.mini2-text5-slide {
+position: absolute;
+width: 615px;
+right: 555px;
+bottom: -43px;
+color: #daa520;
+
+font-family: 'Nunito Sans', Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 48px;  
+}
+
+.congratulations {
+position: absolute;
+right: 240px;
+bottom: 79px;
+font-size: 47px;
+}
+
+.text-with-new {
+position: absolute;
+width: 232px;
+bottom: 79px;
+left: -7px;
+font-size: 47px;
+}
+
+.year {
+position: absolute;
+width: 302px;
+bottom: 79px;
+left: 281px;
+font-size: 47px;
+}
+
+.line {
+position: relative;
+display: inline-block;
+width: 153px;
+height: 1px;
+right: 0px;
+bottom: 523px;
+background-color: #E3B873; 
+}
+
+.numbertext {
+position: absolute;
+top: 5px;
+left: 9px;
+color: #efebe5;
+z-index: 1;
+}
+
+.menu-list {
+position: absolute;
+width: 766px;
+height: 16.32px;
+top: 126px;
+left: 491px;
+margin: 0 auto;
+}
+
+.list {
+display: flex;
+justify-content: space-between;
+
+font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+list-style-type: none; 
+text-transform: uppercase;
+color: #ffffff38;
+}
+
+.list_item {
+padding-right: 82px;
+}
+
+.container-text {
+position: absolute;
+display: flex;
+flex-direction: column;
+top: 192px;
+left: 67px;
+}
+
+.h2 {
+width: 147px;
+height: 66px;
+bottom: 10px;
+
+font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 37px;
+letter-spacing: -0.07em;
+text-transform: uppercase;
+color: #E3B873;
+}
+
+.rectangle {
+position: absolute;
+width: 92px;
+height: 2px;
+top: 76px;
+left: 147px;
+}
+
+.text-p1 {
+width: 393px;
+height: 86px;
+bottom: 13px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 25px;
+color: #FFFFFF;
+}
+
+.container-mini-text {
+display: flex;
+bottom: 33px;
+}
+
+.mini-text-group {
+display: flex;
+flex-direction: column;
+}
+
+.h3 {
+width: 192px; 
+height: 22px;  
+
+font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-transform: uppercase;
+color: #E3B873;
+}
+
+.mini-text-p {
+width: 103px;
+height: 24px;
+bottom: 25px;
+
+font-family: 'Nunito Sans', Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 21px;
+color: #FFFFFF;
+}
+
+.mini-text-group2 {
+display: flex;
+flex-direction: column;
+}
+
+.img1 {
+  margin-left: 10px;
+}
+
+@keyframes mymove {
+from { left:0px; }
+to { left:933px; } /*ставим размер экрана, чтобы гугл исчезал если нужно*/
+}
+    
+img.img-2 {
+position: absolute;
+width: 650p;
+height: 64px;
+/*animation-duration: 100s; /*регулируется быстрота и медлительность движения при включенном js*/
+animation-name: mymove;
+top: 767px;
+right: 242px;
+z-index: 1;
+cursor: pointer;
+animation-delay: 500s;/*время через сколько запустится анимация*/
+animation: mymove 45s infinite; /*регулируется быстрота и медлительность движения*/
+/*animation-iteration-count: mymove ; /*сколько раз сработает, но пока не работает*/ 
+}
+
+.houses {
+ position: absolute;
+    width: 301px;
+    height: 198px;
+    top: 757px;
+    right: 957px;
+    z-index: ;
+    box-shadow: -116px 0px 80px 38px rgb(203 200 215 / 97%);
+    ransform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 9p;
+}
+
+.houses3 {
+ position: absolute;
+    width: 301px;
+    height: 198px;
+    top: 757px;
+    right: 355px;
+    z-index: ;
+    box-shadow: 93px 0px 80px 38px rgb(203 200 215 / 97%);
+    ransform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 9p;
+}
+
+.houses5 {
+ position: absolute;
+    width: 301px;
+    height: 198px;
+    top: 757px;
+    right: 656px;
+    z-index: ;
+    box-shadow: 0px -3px 80px 38px rgb(203 200 215 / 97%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 9p;
+}
+
+.houses6 {
+     position: absolute;
+    width: 350px;
+    height: 198px;
+    top: 757px;
+    right: 6px;
+    z-index: ;
+    box-shadow: -110px 2px 80px 38px rgb(203 200 215 / 97%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 9p;
+}
+
+.rabbit {
+position: absolute;
+    width: 375px;
+    top: 1376px;
+    left: 442px;
+    box-shadow: 0px 2px 55px 45px #cbdfeb;
+    border-radius: 101px;
+    background-color: #b0e0e6c9;
+}
+
+.tree1 {
+position: absolute;
+    width: 187px;
+    top: 1023px;
+    right: 1054px;
+    height: 296px;
+    border-radius: 46px;
+    box-shadow: 0px 4px 27px 23px lightskyblue;
+}
+
+.oval {
+position: absolute;
+    width: 187px;
+    height: 296px; 
+    top: 1025px;
+    right: 30px; 
+box-shadow: 0px 0px 24px 19px greenyellow; 
+background-color: #15723dba;
+    border-radius: 76px;   
+}
+
+.accordions {
+position: absolute;
+width:827px;
+top: 975px;
+left: 215px;
+ox-shadow: 10px 4px 63px -19px rgb(14 14 12 / 99%/*255 255 0 / 99%*/);
+}  
+
+.accordions .contentBs {
+  position: relative;
+  height: auto;
+  margin: 10px 20px;
+}
+.accordions .contentBs .labels-accordions {
+  position: relative;
+  padding: 10px;
+  background: #194fe6;
+  color: #e39577;
+  cursor: pointer;
+  text-align: center;
+}
+
+.labels-accordions {
+  position: absolute;
+  bottom: 0px;
+  left: 1px;
+  font-size: 20px;
+  olor: #194fe6;
+}
+
+.accordions .contentBs .labels-accordions:before {
+  content: '+';
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 1.5em;
+}
+
+.accordions .contentBs.active .labels-accordions:before {
+  content: '-';
+}  
+
+.accordions .contentBs .contents {
+  overflow: hidden; / * контент скрыт * /
+  height: 0;
+  background: #f5deb3;
+  visibility: hidden; / * контент скрыт * /
+  transition: 0.5s;
+  overflow-y: auto;
+  animation-duration: 1.5s;
+}
+
+.accordions .contentBs.active .contents {
+  height: 302px;
+  padding: 10px;
+  visibility: visible; / * контент виден * /
+}
+
+.ps-accordions {
+  text-transform: uppercas;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-style: italic;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: cente;
+  color: #ef2222; 
+}
+
+.accordions .contentBs.active .labels-accordions:before {
+-webkit-animation-name: slow;
+-webkit-animation-duration: 1.5s;
+animation-name: slow;
+animation-duration: 1.5s;
+}
+
+@keyframes slow {
+from {opacity: .5} 
+to {opacity: 1}
+}
+
+.house {
+  width: 150px;
+  height: 170px;
+}
+
+.car2 {
+  position: relative;
+  width: 150px;
+  height: 170px;
+  ottom: 39px;
+}
+
+.text-car2 {
+position: absolute;
+    top: 325px;
+    left: -80px;
+    font-size: 42px;
+}
+
+.sqrudg {
+  width: 150px;
+  height: 170px; 
+}
+
+.eggs {
+  width: 150px;
+  height: 170px;       
+}
+
+.santa {
+  width: 150px;
+  height: 170px;       
+}
+
+.img3 {
+ position: absolute;
+    top: 1452px;
+    width: 344px;
+    right: 875px;
+    box-shadow: 0px 2px 31px 26px darkred;
+    border-radius: 45px;     
+}
+
+.santa1 {
+ position: absolute;
+    width: 81px;
+    top: 2271px;
+    left: 827px;
+    animation-name: go;
+    animation-delay: 500s;
+    animation: go 45s infinite;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    z-index: 1;
+}
+
+@keyframes go {
+from { left:0px; }
+to { left:787px; } /*ставим размер экрана, чтобы гугл исчезал если нужно*/
+}
+
+.showman {
+position: absolute;
+width: 322px;     
+top: 1452px;
+left: 895px;
+box-shadow: 2px 0px 56px 42px magenta;
+    border-radius: 19px;
+}
+
+.forest {
+position: absolute;
+    width: 379px;
+    top: 1980px;
+    right: 879px;
+    border-radius: 0px;
+    z-index: ;
+    height: 404px;
+    box-shadow: 0px 0px 80px 38px #2f2fd3ed;
+}
+
+.houses2 {
+ position: absolute;
+    width: 377px;
+    top: 1982px;
+    ransform: matrix(-1, 0, 0, 1, 0, 0);
+    left: 336px;
+    height: 404px;
+    border-radius: 12p;
+    box-shadow: 72px 0px 80px 38px #0f0f74ed;
+    ox-shadow: 0px 0px 77px 28px blue;
+}
+
+.houses4 {
+ position: absolute;
+    width: 548px;
+    top: 1982px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    left: 712px;
+    height: 404px;
+    border-radius: 12p;
+    box-shadow: 0px 0px 80px 38px #2f2fd3ed;
+}
+
+.iframe {
+position: absolute;
+    width: 555px;
+    top: 2435px;
+    left: 361px;
+    box-shadow: 2px 1px 86px 26px #21afe5f2;
+}
+
+.company {
+position: absolute;
+    width: 325px;
+    height: 259px;
+    top: 2475px;
+    left: 11px;
+    border-radius: 27px;
+    box-shadow: 0px 0px 80px 30px rgb(41 211 38 / 91%);   
+}
+
+.lаnten {
+position: absolute;
+    width: 325px;
+    height: 259px;
+    top: 2475px;
+    left: 933px;
+    border-radius: 56px;
+    box-shadow: -1px 2px 43px 21px gold;
+}
+
+.friends {
+ position: absolute;
+ width: 1202px;
+    height: 854px;  
+    top: 2795px;
+    left: 29px;
+    border-radius: 36px;
+    box-shadow: 0px 0px 80px 38px #9358e1;
+    z-index: -1;      
+}
+
+.span:hove {
+border-bottom: 2px solid #2798f1;
+}
+
+.rectangle:hover, .line:hover {
+border: 2px solid #2798f1;
+}
+/*Можно добавить .dot:hover, но будут дергаться кнопки*/
+
+
+@media screen and (max-width: 1300px) {
+body {width: 1300px;}
+html {width: 1300px;}
+.text-friends { font-size: 110px; left: 202px; color: #ffa500;}
+}
+
+@media screen and (max-width:1024px) {
+      .houses { width: 322px; right: 699px;}
+      .houses5 { right: 398px; }
+      .houses3 { right: 97px; }
+      .houses6 { right: -253px; }
+ .img3 { right: 641px; } 
+ .houses4 { left: 729px; box-shadow: -97px 0px 80px 38px #2f2fd3ed;} 
+ .houses2 { left: 352px; }
+ .forest { width: 390px; right: 622px;}
+ .tree1 { right: 810px; } 
+ .oval { right: -221px; } 
+ .friends { left: 39px; } 
+ .text-friends {width: 946px; font-size: 110px; left: 202px; color: #ffa500;}
+}
+
+@media screen and (max-width: 768px) {
+      .houses6 { right: -520px; }
+      .houses3 {right: -170px;}
+      .houses5 {right: 131px;}
+      .houses {width: 334px; right: 432px;}
+      .accordions { left: 224px; }
+.oval {right: -482px;}
+.tree1 {right: 554px;}
+.forest {width: 398px;right: 365px;}
+ .img3 { right: 392px; } 
+ .houses4 {left: 739px;}
+ .text-friends { width: 946p; color: #ffa500; }  
+ .houses2 {left: 362px;}
+ .forest {width: 408px;right: 353px;}  
+}
+
+@media screen and (max-width: 425px) {
+.houses6 { right: -866px; }
+      .houses3 {right: -517px;}
+      .houses5 {right: -216px;}
+      .houses {width: 330px; right: 84px;}
+      .accordions {left: 250px;} 
+      .img3 {right: 46px;}
+      .oval {right: -822px;}
+.tree1 {right: 196px;}
+.forest {width: 389px;right: 10px;}
+.lаnten { left: 946px; }
+.company {left: 18px;}     
+}
+
+@media screen and (max-width: 375px) {
+      .houses6 {right: -912px;}
+.houses3 {right: -561px;}
+.houses5 {right: -260px;}
+.houses {width: 326px;right: 42px;}
+.oval {right: -875px;}
+.tree1 {right: 157px;}
+.img3 {right: -7px;}
+.forest {width: 407px;right: -40px;}
+}
