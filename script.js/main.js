@@ -56,6 +56,7 @@ newCard.addEventListener('click', function loop() {
   newCar.style.cursor = "pointer";
   newText.innerHTML = "Эта тачка тебе";
   newText.style.color = "#ffeb00";
+  newText.style.left = "-84px";
   if (newCar !== null) { // если элемент найден
     newCar.setAttribute('src', 'https://gif5gif.ucoz.ru/_ph/1/130202818.gif?1665612335');
     return true;
@@ -69,6 +70,7 @@ newCar.addEventListener('mousemove', function loop() {
   newCar.style.cursor = "pointer";
    newText.innerHTML = "А эта тачка жене";
    newText.style.color = "#e30d0d";
+   newText.style.left = "198px";
   if (newCar !== null) { // если элемент найден
     newCar.setAttribute('src', 'https://gif5gif.ucoz.ru/_ph/1/883246981.gif');
     return true;
@@ -101,7 +103,7 @@ document.querySelector(".friends").insertAdjacentHTML("beforebegin", `<article c
 const textFriends = document.querySelector('.text-friends');
 textFriends.style ="font-size: 127px";
 textFriends.style.position ="absolute";
-textFriends.style.color = "##ff9800";
+textFriends.style.color = "#ff9800";
 textFriends.style.top = "2773px";
 textFriends.style.left = "161px";
 textFriends.style.zindex = "1";

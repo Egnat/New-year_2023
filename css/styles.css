@@ -539,9 +539,10 @@ animation: mymove 45s infinite; /*регулируется быстрота и �
 
 .rabbit {
 position: absolute;
-    width: 375px;
-    top: 1376px;
-    left: 442px;
+    width: 412px;
+    height: 473px;
+    top: 1431px;
+    left: 428px;
     box-shadow: 0px 2px 55px 45px #cbdfeb;
     border-radius: 101px;
     background-color: #b0e0e6c9;
@@ -664,9 +665,9 @@ to {opacity: 1}
 
 .text-car2 {
 position: absolute;
-    top: 325px;
+    top: 294px;
     left: -80px;
-    font-size: 42px;
+    font-size: 62px;
 }
 
 .sqrudg {
