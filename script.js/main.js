@@ -106,7 +106,8 @@ textFriends.style.position ="absolute";
 textFriends.style.color = "#ff9800";
 textFriends.style.top = "2773px";
 textFriends.style.left = "161px";
-textFriends.style.zindex = "1";
+textFriends.style.zIndex = "1";
+textFriends.style.textShadow = "7px 7px 7px";
 
 /*document.getElementsByTagName("img")[0];
 const img = document.querySelector('.img-2');
