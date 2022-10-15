@@ -50,6 +50,7 @@ accs[i].addEventListener("click", function() {
 
 const newCard = document.querySelector('.accordions');
 const newText = document.querySelector('.text-car2');
+const newPhoto2 = document.querySelector('.rabbit');
 
 newCard.addEventListener('click', function loop() {
   const newCar = document.querySelector('#newCar img');
@@ -64,7 +65,6 @@ newCard.addEventListener('click', function loop() {
     return false;
   }
 });
-
 newCar.addEventListener('mousemove', function loop() {
   const newCar = document.querySelector('#newCar img');
   newCar.style.cursor = "pointer";
@@ -73,6 +73,69 @@ newCar.addEventListener('mousemove', function loop() {
    newText.style.left = "198px";
   if (newCar !== null) { // если элемент найден
     newCar.setAttribute('src', 'https://gif5gif.ucoz.ru/_ph/1/883246981.gif');
+    return true;
+  } else { // иначе он не найден
+    return false;
+  }  
+});
+
+newCard.addEventListener('click', function loopp() {
+const newPhoto = document.querySelector('#newPhoto img');
+  newPhoto.style.cursor = "pointer";
+  if (newPhoto !== null) { // если элемент найден
+    newPhoto.setAttribute('src', 'https://god-krolika.ru/wp-content/uploads/2022/06/snov8y923uu-25.gif');
+    return true;
+  } else { // иначе он не найден
+    return false;
+  }
+});
+newPhoto.addEventListener('mousemove', function loopp() {
+  const newPhoto = document.querySelector('#newPhoto img');
+  newPhoto.style.cursor = "pointer";
+  if (newPhoto !== null) { // если элемент найден
+    newPhoto.setAttribute('src', 'https://www.mirgif.com/prazdniki/noviy-god/nov-god-7.gif');
+    return true;
+  } else { // иначе он не найден
+    return false;
+  }
+});
+
+newCard.addEventListener('click', function looppp() {
+const newPhoto1 = document.querySelector('#newPhoto1 img');
+  newPhoto1.style.cursor = "pointer";
+  if (newPhoto1 !== null) { // если элемент найден
+    newPhoto1.setAttribute('src', 'https://miranimacii.ru/_ph/2/834869077.gif');
+    return true;
+  } else { // иначе он не найден
+    return false;
+  }
+});
+newPhoto1.addEventListener('mousemove', function looppp() {
+  const newPhoto1 = document.querySelector('#newPhoto1 img');
+  newPhoto1.style.cursor = "pointer";
+  if (newPhoto1 !== null) { // если элемент найден
+    newPhoto1.setAttribute('src', 'https://www.mirgif.com/prazdniki/noviy-god/novyj-god-180.gif');
+    return true;
+  } else { // иначе он не найден
+    return false;
+  }
+});
+
+newPhoto2.addEventListener('click', function loopppp() {
+const newPhoto2 = document.querySelector('#newPhoto2 img');
+  newPhoto2.style.cursor = "pointer";
+  if (newPhoto2 !== null) { // если элемент найден
+    newPhoto2.setAttribute('src', 'https://2023god.com/wp-content/uploads/2022/09/animacionnye-otkrytki-s-novym-2023-godom-krolika-16-1.gif');
+    return true;
+  } else { // иначе он не найден
+    return false;
+  }
+});
+newPhoto2.addEventListener('mousemove', function loopppp() {
+  const newPhoto2 = document.querySelector('#newPhoto2 img');
+  newPhoto2.style.cursor = "pointer";
+  if (newPhoto2 !== null) { // если элемент найден
+    newPhoto2.setAttribute('src', 'https://god-krolika.ru/wp-content/uploads/2022/06/6fed085f54bf2b5e385ceb6c2550a4b0.gif');
     return true;
   } else { // иначе он не найден
     return false;
@@ -88,18 +151,12 @@ newCar.addEventListener('mousemove', function loop() {
 <img src="https://something.com/something.svg">
 </div> это пример, как нужно записывать img для замены ссылок */
 
-/*//3 пример создаем элемент
-const div = document.createElement("div");
-//заполняем элемент
-div.innerHTML = "<p id=\"custom\">Hello!</p>";
-//ищем родительский по методу (поиск по любому CSS-селектору) узел и добавляем над ним элемент
-const appp = document.querySelector("#appp");
-document.body.insertBefore(div, appp);*/
-
 //5 пример с AdjacentHTML
-//создаем переменну с контентом, который будет в новом элементе <article></article>,который будет расположен над <article id="img"></article> 
-const contentt = "Happy New Year !";
-document.querySelector(".friends").insertAdjacentHTML("beforebegin", `<article class="text-friends"> ${contentt} </article>`);
+//создаем переменну с контентом, который будет в новом элементе 
+//<article></article>,который будет расположен над <article id="img"></article> 
+const content = "Happy New Year !";
+document.querySelector(".friends").insertAdjacentHTML("beforebegin", 
+`<article class="text-friends"> ${content} </article>`);
 const textFriends = document.querySelector('.text-friends');
 textFriends.style ="font-size: 127px";
 textFriends.style.position ="absolute";
@@ -108,6 +165,14 @@ textFriends.style.top = "2773px";
 textFriends.style.left = "161px";
 textFriends.style.zIndex = "1";
 textFriends.style.textShadow = "7px 7px 7px";
+
+/*//3 пример создаем элемент
+const div = document.createElement("div");
+//заполняем элемент
+div.innerHTML = "<p id=\"custom\">Hello!</p>";
+//ищем родительский по методу (поиск по любому CSS-селектору) узел и добавляем над ним элемент
+const appp = document.querySelector("#appp");
+document.body.insertBefore(div, appp);*/
 
 /*document.getElementsByTagName("img")[0];
 const img = document.querySelector('.img-2');

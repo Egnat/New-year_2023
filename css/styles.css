@@ -537,6 +537,10 @@ animation: mymove 45s infinite; /*регулируется быстрота и �
     border-radius: 9p;
 }
 
+#newPhoto2 {
+margin: 0 auto;
+}
+
 .rabbit {
 position: absolute;
     width: 459px;
@@ -544,7 +548,7 @@ position: absolute;
     top: 1431px;
     left: 411px;
     box-shadow: 0px 2px 55px 45px #cbdfeb;
-    border-radius: 101px;
+    border-radius: 62px;
     background-color: #b0e0e6c9;
 }
 
@@ -731,6 +735,14 @@ position: absolute;
     box-shadow: 0px 0px 80px 38px #2f2fd3ed;
 }
 
+.santaInPipe {
+position: absolute;
+    top: 2428px;
+    z-index: 1;
+    left: 661px;
+    width: 68px;
+}
+
 .houses2 {
  position: absolute;
     width: 377px;
@@ -758,28 +770,37 @@ position: absolute;
 position: absolute;
     width: 555px;
     top: 2435px;
-    left: 361px;
-    box-shadow: 2px 1px 86px 26px #21afe5f2;
+    left: 356px;
+   box-shadow: 0px 21px 86px 38px #21afe5f2;
 }
 
 .company {
 position: absolute;
     width: 325px;
-    height: 259px;
-    top: 2475px;
+    height: 350px;
+    top: 2414px;
     left: 11px;
     border-radius: 27px;
-    box-shadow: 0px 0px 80px 30px rgb(41 211 38 / 91%);   
+    box-shadow: 0px 27px 80px 30px rgb(41 211 38 / 91%);
 }
 
 .lаnten {
 position: absolute;
-    width: 325px;
-    height: 259px;
-    top: 2475px;
+    width: 319px;
+    height: 354px;
+    top: 2412px;
     left: 933px;
     border-radius: 56px;
     box-shadow: -1px 2px 43px 21px gold;
+}
+
+.toy {
+position: absolute;
+    top: 2799px;
+    z-index: 1;
+    width: 102px;
+    left: 1122px;
+    border-radius: 25px;  
 }
 
 .friends {
