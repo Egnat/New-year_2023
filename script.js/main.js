@@ -201,14 +201,15 @@ function blink() {
 } 
 /*можно сделать в штмл див или артикль id с текстом hi, найти его 
 const article = document.getElementById('hi'); и включить сэт интервал*/
-window.setInterval(blink, 2000);
-
-/*const timer = setInterval(() => {// по идее работает если поставить ссылку с неограниченным колличеством фоток, на пример, 'https://picsum.photos/100'
+//window.setInterval(blink, 2000);
+const timer = setInterval(() => {
   const resultLoop = blink();
   if (resultLoop === true) { // если элемент найден
     clearInterval(timer); // остановить setInterval
   }
-}, 3000);*/ 
+}, 2000); /* можно использовать для изменения фото если 
+поставить ссылку с неограниченным колличеством фоток, на пример, 
+'https://picsum.photos/100'*/
 
 /*//3 пример создаем элемент
 const div = document.createElement("div");
