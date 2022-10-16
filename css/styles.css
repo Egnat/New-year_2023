@@ -27,7 +27,7 @@ top: 50%;
 width: auto;
 padding: 16px;
 margin-top: -22px;
-color: white;
+color: #f44336;
 font-weight: bold;
 font-size: 18px;
 transition: 0.6s ease;
@@ -471,7 +471,7 @@ flex-direction: column;
 
 @keyframes mymove {
 from { left:0px; }
-to { left:933px; } /*ставим размер экрана, чтобы гугл исчезал если нужно*/
+to { left:938px; } /*ставим размер экрана, чтобы гугл исчезал если нужно*/
 }
     
 img.img-2 {
@@ -485,7 +485,7 @@ right: 242px;
 z-index: 1;
 cursor: pointer;
 animation-delay: 500s;/*время через сколько запустится анимация*/
-animation: mymove 45s infinite; /*регулируется быстрота и медлительность движения*/
+animation: mymove 75s infinite; /*регулируется быстрота и медлительность движения*/
 /*animation-iteration-count: mymove ; /*сколько раз сработает, но пока не работает*/ 
 }
 
@@ -527,10 +527,10 @@ animation: mymove 45s infinite; /*регулируется быстрота и �
 
 .houses6 {
      position: absolute;
-    width: 350px;
+    width: 353px;
     height: 198px;
     top: 757px;
-    right: 6px;
+    right: 2px;
     z-index: ;
     box-shadow: -110px 2px 80px 38px rgb(203 200 215 / 97%);
     transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -737,6 +737,7 @@ position: absolute;
 
 .santaInPipe {
 position: absolute;
+display: block;
     top: 2428px;
     z-index: 1;
     left: 661px;
@@ -792,6 +793,7 @@ position: absolute;
     left: 933px;
     border-radius: 56px;
     box-shadow: -1px 2px 43px 21px gold;
+    cursor: pointer;
 }
 
 .toy {
@@ -827,7 +829,7 @@ border: 2px solid #2798f1;
 @media screen and (max-width: 1300px) {
 body {width: 1280p;}
 html {width: 1280p;}
-.text-friends { font-size: 110px; left: 202px; color: #ffa500;}
+text-friends { font-size: 110px; left: 202px; color: #ffa500;}
 }
 
 @media screen and (max-width:1024px) {
