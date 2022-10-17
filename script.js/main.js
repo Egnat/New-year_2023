@@ -33,7 +33,8 @@ btnNext.addEventListener("click", () => {positionSlides(1);});
 
 const articleText = document.querySelector(".slide-text5");
 
-articleText.addEventListener('mousemove', () => {
+articleText.addEventListener('mousemove', (event) => {
+  event.stopPropagation();
   articleText.innerHTML = "З Новим роком !";
   articleText.style.color = "#e5d03d";
   articleText.style.left = "-198px";
@@ -53,8 +54,8 @@ const newText = document.querySelector('.text-car2');
 const newPhoto2 = document.querySelector('.rabbit');
 const cardOff = document.querySelector('.cardOff');
 
-newCard.addEventListener('click', function loop(/*event*/) {
-  //event.stopPropagation();//чтоб событие не всплывало 
+newCard.addEventListener('click', function loop(event) {
+  event.stopPropagation();//чтоб событие не всплывало 
   const newCar = document.querySelector('#newCar img');
     newCar.style.cursor = "pointer";
     newText.innerHTML = "Эта тачка тебе";
@@ -67,8 +68,8 @@ newCard.addEventListener('click', function loop(/*event*/) {
     return false;
   }
 });
-newCar.addEventListener('mousemove', function loop(/*event*/) {
-  //event.stopPropagation();//чтоб событие не всплывало 
+newCar.addEventListener('mousemove', function loop(event) {
+  event.stopPropagation();//чтоб событие не всплывало 
   const newCar = document.querySelector('#newCar img');
     newCar.style.cursor = "pointer";
     newText.innerHTML = "А эта тачка жене";
@@ -82,8 +83,8 @@ newCar.addEventListener('mousemove', function loop(/*event*/) {
   }  
 });
 
-newCard.addEventListener('click', function loopp(/*event*/) {
-  //event.stopPropagation();//чтоб событие не всплывало 
+newCard.addEventListener('click', function loopp(event) {
+  event.stopPropagation();//чтоб событие не всплывало 
   const newPhoto = document.querySelector('#newPhoto img');
     newPhoto.style.cursor = "pointer";
   if (newPhoto !== null) { // если элемент найден
@@ -93,8 +94,8 @@ newCard.addEventListener('click', function loopp(/*event*/) {
     return false;
   }
 });
-newPhoto.addEventListener('mousemove', function loopp(/*event*/) {
-  //event.stopPropagation();//чтоб событие не всплывало 
+newPhoto.addEventListener('mousemove', function loopp(event) {
+  event.stopPropagation();//чтоб событие не всплывало 
   const newPhoto = document.querySelector('#newPhoto img');
     newPhoto.style.cursor = "pointer";
   if (newPhoto !== null) { // если элемент найден
@@ -105,8 +106,8 @@ newPhoto.addEventListener('mousemove', function loopp(/*event*/) {
   }
 });
 
-newCard.addEventListener('click', function looppp(/*event*/) {
-  //event.stopPropagation();//чтоб событие не всплывало 
+newCard.addEventListener('click', function looppp(event) {
+  event.stopPropagation();//чтоб событие не всплывало 
   const newPhoto1 = document.querySelector('#newPhoto1 img');
     newPhoto1.style.cursor = "pointer";
   if (newPhoto1 !== null) { // если элемент найден
@@ -116,8 +117,8 @@ newCard.addEventListener('click', function looppp(/*event*/) {
     return false;
   }
 });
-newPhoto1.addEventListener('mousemove', function looppp(/*event*/) {
- //event.stopPropagation();//чтоб событие не всплывало 
+newPhoto1.addEventListener('mousemove', function looppp(event) {
+ event.stopPropagation();//чтоб событие не всплывало 
   const newPhoto1 = document.querySelector('#newPhoto1 img');
     newPhoto1.style.cursor = "pointer";
   if (newPhoto1 !== null) { // если элемент найден
@@ -128,8 +129,8 @@ newPhoto1.addEventListener('mousemove', function looppp(/*event*/) {
   }
 });
 
-newPhoto2.addEventListener('click', function loopppp(/*event*/) {
-  //event.stopPropagation();//чтоб событие не всплывало 
+newPhoto2.addEventListener('click', function loopppp(event) {
+  event.stopPropagation();//чтоб событие не всплывало 
   const newPhoto2 = document.querySelector('#newPhoto2 img');
     newPhoto2.style.cursor = "pointer";
   if (newPhoto2 !== null) { // если элемент найден
@@ -139,8 +140,8 @@ newPhoto2.addEventListener('click', function loopppp(/*event*/) {
     return false;
   }
 });
-newPhoto2.addEventListener('mousemove', function loopppp(/*event*/) {
-  //event.stopPropagation();//чтоб событие не всплывало 
+newPhoto2.addEventListener('mousemove', function loopppp(event) {
+  event.stopPropagation();//чтоб событие не всплывало 
   const newPhoto2 = document.querySelector('#newPhoto2 img');
     newPhoto2.style.cursor = "pointer";
   if (newPhoto2 !== null) { // если элемент найден
@@ -161,8 +162,8 @@ newPhoto2.addEventListener('mousemove', function loopppp(/*event*/) {
 </div> это пример, как нужно записывать img для замены ссылок */
 
 // можно нажимать на самого Деда Мороза /*photoOff*/
-cardOff.addEventListener('click', function showHide(/*event*/) {
-  //event.stopPropagation();//чтоб событие не всплывало 
+cardOff.addEventListener('click', function showHide(event) {
+  event.stopPropagation();//чтоб событие не всплывало 
   const photoOff = document.querySelector('#photoOff img');
     photoOff.style.cursor = "pointer";
   if (photoOff.style.display == "block") { // если элемент найден // 
@@ -210,6 +211,26 @@ const timer = setInterval(() => {
 }, 2000); /* можно использовать для изменения фото если 
 поставить ссылку с неограниченным колличеством фоток, на пример, 
 'https://picsum.photos/100'*/
+
+function blinked() {
+  const div = document.getElementById('copyrite');//#hi
+  if (div.style.visibility == "hidden") {
+    div.style.visibility = "visible";
+  } else {
+    div.style.visibility = "hidden";
+  }
+} 
+window.setInterval(blinked, 1000);
+
+function blinkede() {
+  const figure = document.getElementById('salutes');//#hi
+  if (figure.style.visibility == "hidden") {
+    figure.style.visibility = "visible";
+  } else {
+    figure.style.visibility = "hidden";
+  }
+} 
+window.setInterval(blinkede, 3000);
 
 /*//3 пример создаем элемент
 const div = document.createElement("div");
