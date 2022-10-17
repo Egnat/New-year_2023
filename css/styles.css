@@ -876,7 +876,6 @@ display: block;
     height: 404px;
     border-radius: 12p;
     box-shadow: 72px 0px 80px 38px #0f0f74ed;
-    ox-shadow: 0px 0px 77px 28px blue;
 }
 
 .houses4 {
@@ -893,20 +892,21 @@ display: block;
 .moon {
     position: absolute;
     width: 61px;
-    top: 1988px;
-    left: 59px;
+    top: 2023px;
+    left: 65px;
     border-radius: 80px;
     border: 1px solid #00f;
     box-shadow: 0px 0px 21px 23px blue;
     z-index: 1;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 .stars {
  position: absolute;
  width: 26px;
  height: 26px;
- top: 2001px;
- left: 108px;
+ top: 1997px;
+ left: 254px;
  border-radius: 42p;
  z-index: 1;   
 }
@@ -958,9 +958,9 @@ position: absolute;
 
 .stars7 {
 position: absolute;
- width: 30px;
- height: 30px;
- top: 1990px;
+ width: 25px;
+ height: 25px;
+ top: 1984px;
  left: 174px;
  z-index: 1;     
 }
@@ -969,8 +969,8 @@ position: absolute;
 position: absolute;
  width: 20px;
  height: 20px;
- top: 2038px;
- left: 74px;
+ top: 2002px;
+ left: 98px;
  z-index: 1;     
 }
 
@@ -978,17 +978,17 @@ position: absolute;
  position: absolute;
  width: 42px;
  height: 42px;
- top: 2028px;
- left: 131px;
+ top: 2024px;
+ left: 135px;
  z-index: 1;        
 }
 
 .stars10 {
  position: absolute;
- width: 19px;
- height: 19px;
- top: 1991px;
- left: 13px;
+ width: 25px;
+ height: 25px;
+ top: 1994px;
+ left: 26px;
  z-index: 1;       
 }
 
@@ -1003,11 +1003,128 @@ position: absolute;
 
 .stars12 {
  position: absolute;
+ width: 62px;
+ height: 62px;
+ top: 2021px;
+ left: 403px;
+ z-index: 1;      
+}
+
+.stars13 {
+ position: absolute;
+ width: 20px;
+ height: 20px;
+ top: 2091px;
+ left: 264px;
+ z-index: 1;        
+}
+
+.stars14 {
+ position: absolute;
  width: 15px;
  height: 15px;
- top: 1998px;
- left: 260px;
+ top: 1198px;
+ left: 44px;
  z-index: 1;      
+}
+
+.stars15 {
+ position: absolute;
+ width: 15px;
+ height: 15px;
+ top: 1035px;
+ left: 119px;
+ z-index: 1;      
+}
+
+.stars16 {
+ position: absolute;
+ width: 15px;
+ height: 15px;
+ top: 1127px;
+ left: 166px;
+ z-index: 1;      
+}
+
+.stars17 {
+ position: absolute;
+ width: 15px;
+ height: 15px;
+ top: 1203px;
+ left: 167px;
+ z-index: 1;      
+}
+
+.stars18 {
+ position: absolute;
+ width: 15px;
+ height: 15px;
+ top: 1093px;
+ left: 50px;
+ z-index: 1;      
+}
+
+.stars19 {
+ position: absolute;
+ width: 48px;
+ height: 48px;
+ top: 1994px;
+ left: 970px;
+ z-index: 1;      
+}
+
+.stars20 {
+ position: absolute;
+ width: 48px;
+ height: 48px;
+ top: 2080px;
+ left: 823px;
+ z-index: 1;      
+}
+
+.stars21 {
+position: absolute;
+ width: 49px;
+ height: 49px;
+ top: 2121px;
+ left: 1209px;
+ z-index: 1;        
+}
+
+.stars22 {
+position: absolute;
+ width: 51px;
+ height: 46px;
+ top: 1987px;
+ left: 737px;
+ z-index: 1;        
+}
+
+.stars23 {
+position: absolute;
+ width: 38px;
+ height: 38px;
+ top: 1997px;
+ left: 589px;
+ z-index: 1;        
+}
+
+.stars24 {
+position: absolute;
+ width: 38px;
+ height: 38px;
+ top: 1994px;
+ left: 1222px;
+ z-index: 1;        
+}
+
+.stars25 {
+position: absolute;
+ width: 38px;
+ height: 38px;
+ top: 1985px;
+ left: 1091px;
+ z-index: 1;        
 }
 
 .iframe {
