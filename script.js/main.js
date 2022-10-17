@@ -213,7 +213,7 @@ const timer = setInterval(() => {
 'https://picsum.photos/100'*/
 
 function blinked() {
-  const div = document.getElementById('copyrite');//#hi
+  const div = document.getElementById('copyrite');
   if (div.style.visibility == "hidden") {
     div.style.visibility = "visible";
   } else {
@@ -223,7 +223,7 @@ function blinked() {
 window.setInterval(blinked, 1000);
 
 function blinkede() {
-  const figure = document.getElementById('salutes');//#hi
+  const figure = document.getElementById('salutes');
   if (figure.style.visibility == "hidden") {
     figure.style.visibility = "visible";
   } else {
@@ -231,6 +231,17 @@ function blinkede() {
   }
 } 
 window.setInterval(blinkede, 3000);
+
+/*function blinkeded() {
+  const section = document.getElementById('continer-salute');
+  if (section.style.visibility == "hidden") {
+    section.style.visibility = "visible";
+  } else {
+    section.style.visibility = "hidden";
+  }
+} 
+window.setInterval(blinkeded, 4500);*/ // можно подключить, чтоб массив салютов 
+//появился, исчез
 
 /*//3 пример создаем элемент
 const div = document.createElement("div");
