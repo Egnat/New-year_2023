@@ -574,7 +574,7 @@ animation: mymove 75s infinite; /*регулируется быстрота и �
 
 .houses {
  position: absolute;
-    width: 301px;
+    width: 325px;
     height: 198px;
     top: 757px;
     right: 957px;
@@ -849,7 +849,7 @@ box-shadow: 2px 0px 56px 42px magenta;
 
 .forest {
 position: absolute;
-    width: 379px;
+    width: 402px;
     top: 1980px;
     right: 879px;
     border-radius: 0px;
@@ -880,7 +880,7 @@ display: block;
 
 .houses4 {
  position: absolute;
-    width: 548px;
+    width: 568px;
     top: 1982px;
     transform: matrix(-1, 0, 0, 1, 0, 0);
     left: 712px;
@@ -1087,7 +1087,7 @@ position: absolute;
  width: 49px;
  height: 49px;
  top: 2121px;
- left: 1209px;
+ left: 1233px;
  z-index: 1;        
 }
 
@@ -1132,7 +1132,7 @@ position: absolute;
   display: flex;
   justify-content: space-between; 
   top: 763px;
-  left: 35px;
+  left: 8px;
   z-index: 1;  
 }
 
@@ -1141,19 +1141,20 @@ position: absolute;
   display: flex;
   justify-content: space-between; 
   top: 773px;
+  left: 44px;
   z-index: 1;  
 }
 
 .star {
   width: 15px;
   height: 15px;
-  margin-right: 34px;
+  margin-right: 35px;
 }
 
 .star2 {
  width: 16px;
   height: 15px;
-  margin-right: 34px;   
+  margin-right: 33px;   
 }
 
 .continer-salute {
@@ -1166,7 +1167,7 @@ position: absolute;
 }
 
 .salute-small {
- width: 96px;
+ width: 98px;
   height: 60px;
   margin-right: 33p;   
 }
