@@ -49,13 +49,16 @@ accs[i].addEventListener("click", function() {
  });
 } 
 
+// здесь найдены и записаны в переменные эл-ты, с кликом на них или 
+//наведением мыши для замены фото
 const newCard = document.querySelector('.accordions');
 const newText = document.querySelector('.text-car2');
-const newPhoto2 = document.querySelector('.newPhoto2_rabbit');
+const newPhoto2 = document.querySelector('.newPhoto2_rabbit');// при отключении пропадают все функции в js, не ясно почему, кроме слайдера  и акордионса
 const cardOff = document.querySelector('.cardOff_cone');
 const newPhoto = document.querySelector('.newPhoto_santa');
 const newCar = document.querySelector('.newCar_car2');
 const newPhoto1 = document.querySelector('.newPhoto1_house');
+// эл-ты, которые мигают, как салют, в переменную в не функций записывать не нужно
 
 newCard.addEventListener('click', function loop(event) {
   event.stopPropagation();//чтоб событие не всплывало 
@@ -203,7 +206,7 @@ function blink() {
     article.style.visibility = "hidden";
   }
 } 
-/*можно сделать в штмл див или артикль id или class с текстом hi, найти его 
+/*можно сделать в штмл див или артикль id, но рекомендуют, чтобы id был 1, или class с текстом hi, найти его 
 const article = document.getElementById, .querySelector('hi'); и включить сэт интервал*/
 //window.setInterval(blink, 2000);
 const timer = setInterval(() => {
@@ -226,7 +229,7 @@ function blinked() {
 window.setInterval(blinked, 1000);
 
 function blinkede() {
-  const figure = document./*getElementById*/querySelector('.salutes');
+  const figure = document./*getElementById('salutes');*/querySelector('.salutes');
   if (figure.style.visibility == "hidden") {
     figure.style.visibility = "visible";
   } else {

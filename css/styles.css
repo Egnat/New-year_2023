@@ -22,7 +22,7 @@ body {
   width: 831px;
   height: 404px;
   top: 1025px;
-  left: 209px;
+  left: 211px;
   border: 5px solid #1c1c97;
   border-radius: 37px;
   box-shadow: 0px 0px 51px 31px #1616ab;
@@ -755,7 +755,7 @@ ox-shadow: 10px 4px 63px -19px rgb(14 14 12 / 99%/*255 255 0 / 99%*/);
   visibility: visible; / * контент виден * /
 }
 
-.ps-accordions {
+.text-accordions {
   text-transform: uppercas;
   font-family: "Nunito Sans", Arial, sans-serif;
   font-style: italic;
@@ -934,7 +934,7 @@ position: absolute;
  width: 30px;
  height: 30px;
  top: 2044px;
- left: 16px;
+ left: 20px;
  z-index: 1;     
 }
 
@@ -970,7 +970,7 @@ position: absolute;
  width: 20px;
  height: 20px;
  top: 2002px;
- left: 98px;
+ left: 90px;
  z-index: 1;     
 }
 
@@ -988,7 +988,7 @@ position: absolute;
  width: 25px;
  height: 25px;
  top: 1994px;
- left: 26px;
+ left: 13px;
  z-index: 1;       
 }
 
@@ -1256,57 +1256,75 @@ text-friends { font-size: 110px; left: 202px; color: #ffa500;}
 }
 
 @media screen and (max-width:1024px) {
-      .houses { width: 322px; right: 699px;}
-      .houses5 { right: 398px; }
-      .houses3 { right: 97px; }
-      .houses6 { right: -253px; }
- .img3 { right: 641px; } 
- .houses4 { left: 729px; box-shadow: -97px 0px 80px 38px #2f2fd3ed;} 
- .houses2 { left: 352px; }
- .forest { width: 390px; right: 622px;}
- .tree1 { right: 810px; } 
- .oval { right: -221px; } 
- .friends { left: 39px; } 
- .text-friends {width: 946px; font-size: 110px; left: 202px; color: #ffa500;}
+.houses { width: 322px; right: 699px;}
+.houses5 { right: 398px; }
+.houses3 { right: 97px; }
+.houses6 { right: -253px; }
+.img3 { right: 641px; } 
+.houses4 { left: 729px; box-shadow: -97px 0px 80px 38px #2f2fd3ed;} 
+.houses2 { left: 352px; }
+.forest { width: 400px; right: 622px;}
+.tree1 { right: 810px; } 
+.salute9 { top: 1046px; right: 824px;}
+.salute10 { top: 1030px; right: 918px;}
+.salute11 { top: 1128px; right: 940px;}
+.salute12 { top: 1154px; right: 827px;}
+.oval { right: -221px; }
+.stars21 { left: 1225px; } 
+.friends { left: 39px; } 
+.text-friends {width: 946px; font-size: 110px; left: 202px; color: #ffa500;}
 }
 
 @media screen and (max-width: 768px) {
-      .houses6 { right: -520px; }
-      .houses3 {right: -170px;}
-      .houses5 {right: 131px;}
-      .houses {width: 334px; right: 432px;}
-      .accordions { left: 224px; }
+.houses6 { right: -520px; }
+.houses3 {right: -170px;}
+.houses5 {right: 131px;}
+.houses {width: 334px; right: 432px;}
+.accordions { left: 224px; }
 .oval {right: -482px;}
 .tree1 {right: 554px;}
+.salute9 { top: 1031px; right: 654px;}
+.salute10 { top: 1043px; right: 565px;}
+.salute11 { top: 1155px; right:565px;}
+.salute12 { top: 1136px; right: 687px;}
 .forest {width: 398px;right: 365px;}
- .img3 { right: 392px; } 
- .houses4 {left: 739px;}
- .text-friends { width: 946p; color: #ffa500; }  
- .houses2 {left: 362px;}
- .forest {width: 408px;right: 353px;}  
+.img3 { right: 392px; } 
+.houses4 {left: 739px;}
+.text-friends { width: 946p; color: #ffa500; }  
+.houses2 {left: 362px;}
+.forest {width: 408px;right: 353px;}  
 }
 
 @media screen and (max-width: 425px) {
 .houses6 { right: -866px; }
-      .houses3 {right: -517px;}
-      .houses5 {right: -216px;}
-      .houses {width: 330px; right: 84px;}
-      .accordions {left: 250px;} 
-      .img3 {right: 46px;}
-      .oval {right: -822px;}
+.houses3 {right: -517px;}
+.houses5 {right: -216px;}
+.houses {width: 337px; right: 84px;}
+.accordions {left: 232px;} 
+.img3 {right: 46px;}
+.oval {right: -822px;}
 .tree1 {right: 196px;}
-.forest {width: 389px;right: 10px;}
-.lаnten { left: 946px; }
-.company {left: 18px;}     
+.salute9 { top: 1031px; right: 306px;}
+.salute10 { top: 1043px; right: 212px;}
+.salute11 { top: 1128px; right:327px;}
+.salute12 { top: 1154px; right: 211px;}
+.forest {width: 389px;right: 22px;}
+.cone { left: 946px; }
+.magic-ball {left: 18p;}     
 }
 
 @media screen and (max-width: 375px) {
-      .houses6 {right: -912px;}
+.continer-salute { left: 16px; }
+.houses6 {right: -912px;}  
 .houses3 {right: -561px;}
 .houses5 {right: -260px;}
 .houses {width: 326px;right: 42px;}
 .oval {right: -875px;}
 .tree1 {right: 157px;}
+.salute9 { top: 1031px; right: 266px;}
+.salute10 { top: 1043px; right:176px;}
+.salute11 { top: 1128px; right:280px;}
+.salute12 { top: 1154px; right: 158px;}
 .img3 {right: -7px;}
 .forest {width: 407px;right: -40px;}
 }
