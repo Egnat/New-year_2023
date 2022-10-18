@@ -51,12 +51,15 @@ accs[i].addEventListener("click", function() {
 
 const newCard = document.querySelector('.accordions');
 const newText = document.querySelector('.text-car2');
-const newPhoto2 = document.querySelector('.rabbit');
-const cardOff = document.querySelector('.cardOff');
+const newPhoto2 = document.querySelector('.newPhoto2_rabbit');
+const cardOff = document.querySelector('.cardOff_cone');
+const newPhoto = document.querySelector('.newPhoto_santa');
+const newCar = document.querySelector('.newCar_car2');
+const newPhoto1 = document.querySelector('.newPhoto1_house');
 
 newCard.addEventListener('click', function loop(event) {
   event.stopPropagation();//чтоб событие не всплывало 
-  const newCar = document.querySelector('#newCar img');
+  const newCar = document.querySelector('.newCar_car2 img');
     newCar.style.cursor = "pointer";
     newText.innerHTML = "Эта тачка тебе";
     newText.style.color = "#ffeb00";
@@ -70,7 +73,7 @@ newCard.addEventListener('click', function loop(event) {
 });
 newCar.addEventListener('mousemove', function loop(event) {
   event.stopPropagation();//чтоб событие не всплывало 
-  const newCar = document.querySelector('#newCar img');
+  const newCar = document.querySelector('.newCar_car2 img');
     newCar.style.cursor = "pointer";
     newText.innerHTML = "А эта тачка жене";
     newText.style.color = "#e30d0d";
@@ -85,7 +88,7 @@ newCar.addEventListener('mousemove', function loop(event) {
 
 newCard.addEventListener('click', function loopp(event) {
   event.stopPropagation();//чтоб событие не всплывало 
-  const newPhoto = document.querySelector('#newPhoto img');
+  const newPhoto = document.querySelector('.newPhoto_santa img');
     newPhoto.style.cursor = "pointer";
   if (newPhoto !== null) { // если элемент найден
     newPhoto.setAttribute('src', 'https://god-krolika.ru/wp-content/uploads/2022/06/snov8y923uu-25.gif');
@@ -96,7 +99,7 @@ newCard.addEventListener('click', function loopp(event) {
 });
 newPhoto.addEventListener('mousemove', function loopp(event) {
   event.stopPropagation();//чтоб событие не всплывало 
-  const newPhoto = document.querySelector('#newPhoto img');
+  const newPhoto = document.querySelector('.newPhoto_santa img');
     newPhoto.style.cursor = "pointer";
   if (newPhoto !== null) { // если элемент найден
     newPhoto.setAttribute('src', 'https://www.mirgif.com/prazdniki/noviy-god/nov-god-7.gif');
@@ -108,7 +111,7 @@ newPhoto.addEventListener('mousemove', function loopp(event) {
 
 newCard.addEventListener('click', function looppp(event) {
   event.stopPropagation();//чтоб событие не всплывало 
-  const newPhoto1 = document.querySelector('#newPhoto1 img');
+  const newPhoto1 = document.querySelector('.newPhoto1_house img');
     newPhoto1.style.cursor = "pointer";
   if (newPhoto1 !== null) { // если элемент найден
     newPhoto1.setAttribute('src', 'https://miranimacii.ru/_ph/2/834869077.gif');
@@ -119,7 +122,7 @@ newCard.addEventListener('click', function looppp(event) {
 });
 newPhoto1.addEventListener('mousemove', function looppp(event) {
  event.stopPropagation();//чтоб событие не всплывало 
-  const newPhoto1 = document.querySelector('#newPhoto1 img');
+  const newPhoto1 = document.querySelector('.newPhoto1_house img');
     newPhoto1.style.cursor = "pointer";
   if (newPhoto1 !== null) { // если элемент найден
     newPhoto1.setAttribute('src', 'https://www.mirgif.com/prazdniki/noviy-god/novyj-god-180.gif');
@@ -131,7 +134,7 @@ newPhoto1.addEventListener('mousemove', function looppp(event) {
 
 newPhoto2.addEventListener('click', function loopppp(event) {
   event.stopPropagation();//чтоб событие не всплывало 
-  const newPhoto2 = document.querySelector('#newPhoto2 img');
+  const newPhoto2 = document.querySelector('.newPhoto2_rabbit img');
     newPhoto2.style.cursor = "pointer";
   if (newPhoto2 !== null) { // если элемент найден
     newPhoto2.setAttribute('src', 'https://2023god.com/wp-content/uploads/2022/09/animacionnye-otkrytki-s-novym-2023-godom-krolika-16-1.gif');
@@ -142,7 +145,7 @@ newPhoto2.addEventListener('click', function loopppp(event) {
 });
 newPhoto2.addEventListener('mousemove', function loopppp(event) {
   event.stopPropagation();//чтоб событие не всплывало 
-  const newPhoto2 = document.querySelector('#newPhoto2 img');
+  const newPhoto2 = document.querySelector('.newPhoto2_rabbit img');
     newPhoto2.style.cursor = "pointer";
   if (newPhoto2 !== null) { // если элемент найден
     newPhoto2.setAttribute('src', 'https://god-krolika.ru/wp-content/uploads/2022/06/6fed085f54bf2b5e385ceb6c2550a4b0.gif');
@@ -164,7 +167,7 @@ newPhoto2.addEventListener('mousemove', function loopppp(event) {
 // можно нажимать на самого Деда Мороза /*photoOff*/
 cardOff.addEventListener('click', function showHide(event) {
   event.stopPropagation();//чтоб событие не всплывало 
-  const photoOff = document.querySelector('#photoOff img');
+  const photoOff = document.querySelector('.photoOff_santaInPipe img');
     photoOff.style.cursor = "pointer";
   if (photoOff.style.display == "block") { // если элемент найден // 
     photoOff.style.display = "none";
@@ -181,8 +184,8 @@ cardOff.addEventListener('click', function showHide(event) {
 //<article></article>,который будет расположен над <img class"friends">
 const content = "Happy New Year !";
 document.querySelector(".friends").insertAdjacentHTML("beforebegin", 
-`<article id="text-friends"> ${content} </article>`);
-const textFriends = document.querySelector('#text-friends');
+`<article class="text-friends"> ${content} </article>`);
+const textFriends = document.querySelector('.text-friends');
   textFriends.style ="font-size: 127px";
   textFriends.style.position ="absolute";
   textFriends.style.color = "#ff9800";
@@ -192,7 +195,7 @@ const textFriends = document.querySelector('#text-friends');
   textFriends.style.textShadow = "7px 7px 7px";
 
 function blink() {
-  const article = document.getElementById('text-friends');//#hi
+  const article = document./*getElementById*/querySelector('.text-friends');//#hi
   if (article.style.visibility == "hidden") {
     article.style.visibility = "visible";
     //textFriends.style.color = "green"; изменить цвет текста здесь можно
@@ -200,8 +203,8 @@ function blink() {
     article.style.visibility = "hidden";
   }
 } 
-/*можно сделать в штмл див или артикль id с текстом hi, найти его 
-const article = document.getElementById('hi'); и включить сэт интервал*/
+/*можно сделать в штмл див или артикль id или class с текстом hi, найти его 
+const article = document.getElementById, .querySelector('hi'); и включить сэт интервал*/
 //window.setInterval(blink, 2000);
 const timer = setInterval(() => {
   const resultLoop = blink();
@@ -213,7 +216,7 @@ const timer = setInterval(() => {
 'https://picsum.photos/100'*/
 
 function blinked() {
-  const div = document.getElementById('copyrite');
+  const div = document./*getElementById('copyrite');*/querySelector('.copyrite');
   if (div.style.visibility == "hidden") {
     div.style.visibility = "visible";
   } else {
@@ -223,7 +226,7 @@ function blinked() {
 window.setInterval(blinked, 1000);
 
 function blinkede() {
-  const figure = document.getElementById('salutes');
+  const figure = document./*getElementById*/querySelector('.salutes');
   if (figure.style.visibility == "hidden") {
     figure.style.visibility = "visible";
   } else {
@@ -232,15 +235,15 @@ function blinkede() {
 } 
 window.setInterval(blinkede, 3000);
 
-/*function blinkeded() {
-  const section = document.getElementById('continer-salute');
+function blinkeded() {
+  const section = document./*getElementById*/querySelector('.continer-salute');
   if (section.style.visibility == "hidden") {
     section.style.visibility = "visible";
   } else {
     section.style.visibility = "hidden";
   }
 } 
-window.setInterval(blinkeded, 4500);*/ // можно подключить, чтоб массив салютов 
+window.setInterval(blinkeded, 4500); // можно подключить, чтоб массив салютов 
 //появился, исчез
 
 /*//3 пример создаем элемент

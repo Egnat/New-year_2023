@@ -1156,7 +1156,7 @@ position: absolute;
   margin-right: 34px;   
 }
 
-#continer-salute {
+.continer-salute {
 position: absolute;
   display: flex;
   justify-content: space-between; 
@@ -1220,7 +1220,7 @@ position: absolute;
     -index: -1;      
 }
 
-#copyrite {
+.copyrite {
  position: absolute;
     top: 3592px;
     left: 41px;
