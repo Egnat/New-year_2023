@@ -13,7 +13,7 @@ body {
   position: absolute;
   width: 75px;
   top: 12px;
-  left: 1176px;
+  left: 1182px;
   box-shadow: 0px 2px 25px 15px yellowgreen;   
 }
 
@@ -22,7 +22,7 @@ body {
   width: 831px;
   height: 404px;
   top: 1025px;
-  left: 211px;
+  left: 224px;
   border: 5px solid #1c1c97;
   border-radius: 37px;
   box-shadow: 0px 0px 51px 31px #1616ab;
@@ -133,7 +133,7 @@ position: absolute;
   display: flex;  
   width: 688px;/*53%;*/
   top: 213px;
-  left: 511px;	
+  left: 539px;	
 }
 
 .slideshow-container {
@@ -200,8 +200,8 @@ to {opacity: 1}
 .slide-text {
   position: absolute;
   width: 162px;
-  right: 506px;
-  bottom: 514px;
+  right: 502px;
+  bottom: 536px;
   color: #E3B873;
 
   font-family: 'Yeseva One';
@@ -324,8 +324,8 @@ text-transform: uppercase;
 .slide-text6 {
 position: absolute;
 width: 929px;
-right: 106px;
-bottom: 587px;
+right: 74px;
+bottom: 600px;
 color: #e3739c;
 
 font-family: 'Yeseva One';
@@ -339,8 +339,8 @@ ext-transform: uppercase;
 .slide-text7 {
 position: absolute;
 width: 815px;
-right: 106px;
-bottom: 561px;
+right: 82px;
+bottom: 584px;
 color: #5ee59a;
 
 font-family: 'Yeseva One';
@@ -354,8 +354,8 @@ ext-transform: uppercase;
 .slide-text8 {
 position: absolute;
 width: 760px;
-right: 143px;
-bottom: 561px;
+right: 149px;
+bottom: 586px;
 color: #ffa500;
 
 font-family: 'Yeseva One';
@@ -438,10 +438,10 @@ z-index: 1;
 
 .menu-list {
 position: absolute;
-width: 766px;
+width: 748px;
 height: 16.32px;
-top: 126px;
-left: 491px;
+top: 122px;
+left: 520px;
 margin: 0 auto;
 }
 
@@ -566,7 +566,7 @@ animation-name: mymove;
 top: 767px;
 right: 242px;
 z-index: 1;
-cursor: pointer;
+cursor: pointe;
 animation-delay: 500s;/*время через сколько запустится анимация*/
 animation: mymove 75s infinite; /*регулируется быстрота и медлительность движения*/
 /*animation-iteration-count: mymove ; /*сколько раз сработает, но пока не работает*/ 
@@ -690,8 +690,8 @@ position: absolute;
     width: 187px;
     height: 296px; 
     top: 1025px;
-    right: 30px; 
-box-shadow: 0px 0px 24px 19px greenyellow; 
+    right: 39px; 
+box-shadow: 0px 0px 52px 28px greenyellow;
 background-color: #15723dba;
     border-radius: 76px;   
 }
@@ -700,7 +700,7 @@ background-color: #15723dba;
 position: absolute;
 width:827px;
 top: 975px;
-left: 215px;
+left: 226px;
 ox-shadow: 10px 4px 63px -19px rgb(14 14 12 / 99%/*255 255 0 / 99%*/);
 }  
 
@@ -816,8 +816,8 @@ position: absolute;
  position: absolute;
     top: 1452px;
     width: 344px;
-    right: 875px;
-    box-shadow: 0px 2px 31px 26px darkred;
+    right: 895px;
+    box-shadow: 0px 2px 80px 31px darkred;
     border-radius: 45px;     
 }
 
@@ -842,7 +842,7 @@ to { left:787px; } /*ставим размер экрана, чтобы гугл
 position: absolute;
 width: 322px;     
 top: 1452px;
-left: 895px;
+left: 910px;
 box-shadow: 2px 0px 56px 42px magenta;
     border-radius: 19px;
 }
@@ -906,7 +906,7 @@ display: block;
  width: 26px;
  height: 26px;
  top: 1997px;
- left: 254px;
+ left: 268px;
  border-radius: 42p;
  z-index: 1;   
 }
@@ -916,7 +916,7 @@ display: block;
  width: 30px;
  height: 30px;
  top: 2088px;
- left: 128px;
+ left: 134px;
  z-index: 1;   
 }
 
@@ -943,7 +943,7 @@ position: absolute;
  width: 25px;
  height: 25px;
  top: 2025px;
- left: 219px;
+ left:230px;
  z-index: 1;      
 }
 
@@ -952,7 +952,7 @@ position: absolute;
  width: 30px;
  height: 30px;
  top: 2049px;
- left: 260px;
+ left: 274px;
  z-index: 1;      
 }
 
@@ -997,7 +997,7 @@ position: absolute;
  width: 15px;
  height: 15px;
  top: 2087px;
- left: 77px;
+ left: 79px;
  z-index: 1;      
 }
 
@@ -1015,7 +1015,7 @@ position: absolute;
  width: 20px;
  height: 20px;
  top: 2091px;
- left: 264px;
+ left: 277px;
  z-index: 1;        
 }
 
@@ -1024,7 +1024,7 @@ position: absolute;
  width: 15px;
  height: 15px;
  top: 1198px;
- left: 44px;
+ left: 64px;
  z-index: 1;      
 }
 
@@ -1033,7 +1033,7 @@ position: absolute;
  width: 15px;
  height: 15px;
  top: 1035px;
- left: 119px;
+ left: 133px;
  z-index: 1;      
 }
 
@@ -1051,7 +1051,7 @@ position: absolute;
  width: 15px;
  height: 15px;
  top: 1203px;
- left: 167px;
+ left: 185px;
  z-index: 1;      
 }
 
@@ -1060,7 +1060,7 @@ position: absolute;
  width: 15px;
  height: 15px;
  top: 1093px;
- left: 50px;
+ left: 78px;
  z-index: 1;      
 }
 
@@ -1086,7 +1086,7 @@ position: absolute;
 position: absolute;
  width: 49px;
  height: 49px;
- top: 2121px;
+ top: 2110px;
  left: 1233px;
  z-index: 1;        
 }
@@ -1132,7 +1132,7 @@ position: absolute;
   display: flex;
   justify-content: space-between; 
   top: 763px;
-  left: 8px;
+  left: 6px;
   z-index: 1;  
 }
 
@@ -1146,13 +1146,13 @@ position: absolute;
 }
 
 .star {
-  width: 15px;
+  width: 14px;
   height: 15px;
   margin-right: 35px;
 }
 
 .star2 {
- width: 16px;
+ width: 15px;
   height: 15px;
   margin-right: 33px;   
 }
@@ -1202,12 +1202,12 @@ position: absolute;
 }
 
 .toy {
-position: absolute;
-    top: 2799px;
-    z-index: 1;
-    width: 102px;
-    left: 1122px;
-    border-radius: 25px;  
+  position: absolute;
+  width: 102px;
+  top: 2803px;
+  left: 1135px;
+  z-index: 1;   
+  border-radius: 25px;  
 }
 
 .friends {
@@ -1215,7 +1215,7 @@ position: absolute;
  width: 1202px;
     height: 854px;  
     top: 2795px;
-    left: 29px;
+    left: 40px;
     border-radius: 36px;
     box-shadow: 0px 0px 80px 38px #9358e1;
     -index: -1;      
