@@ -193,7 +193,7 @@ const textFriends = document.querySelector('.text-friends');
   textFriends.style.position ="absolute";
   textFriends.style.color = "#ff9800";
   textFriends.style.top = "2773px";
-  textFriends.style.left = "70px";
+  textFriends.style.left = "166px";
   textFriends.style.zIndex = "1";
   textFriends.style.textShadow = "7px 7px 7px";
 

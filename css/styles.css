@@ -22,7 +22,7 @@ body {
   width: 831px;
   height: 404px;
   top: 1025px;
-  left: 224px;
+  left: 220px;
   border: 5px solid #1c1c97;
   border-radius: 37px;
   box-shadow: 0px 0px 51px 31px #1616ab;
@@ -456,7 +456,7 @@ font-size: 24px;
 line-height: 29px;
 list-style-type: none; 
 text-transform: uppercase;
-color: #ffffff21;
+color: #ffffff38;
 }
 
 .list_item {
@@ -690,7 +690,7 @@ position: absolute;
     width: 187px;
     height: 296px; 
     top: 1025px;
-    right: 39px; 
+    right: 14px; 
 box-shadow: 0px 0px 52px 28px greenyellow;
 background-color: #15723dba;
     border-radius: 76px;   
@@ -858,7 +858,7 @@ display: block;
 
 .forest {
 position: absolute;
-    width: 405px;
+    width: /*405px;*/100%;
      height: 404px;
     top: 1980px;
     right:878px;
@@ -1253,12 +1253,12 @@ border: 2px solid #2798f1;
 @media screen and (max-width: 1300px) {
 body {width: 1300p;}
 html {width: 1300p;}
-.houses4 {width: 567px;}
-.stars21 { left: 1225px; }
+houses4 {width: 567px;}
+stars21 { left: 1225px; }
 ext-friends { font-size: 110p; left: 202p; color: #ffa500;}
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1024p) {
 .continer-salute { left:6px; }
 .salute-small { width: 95px; }
 .blue-star { left: 6px; }
@@ -1282,7 +1282,7 @@ ext-friends { font-size: 110p; left: 202p; color: #ffa500;}
 .text-friends {width: 946px; font-size: 110px; left: 202px; color: #ffa500;}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768p) {
 .blue-star { left: 6px; }
 .star { margin-right: 34px; }
 .continer-salute { left: 15px; }
@@ -1315,7 +1315,7 @@ ext-friends { font-size: 110p; left: 202p; color: #ffa500;}
 .friends { left: 28px; }  
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 425p) {
 .showman2 { left: 1171px; }
 .continer-salute { left: 11px; }
 .salute-small { width: 94px; }
@@ -1341,7 +1341,7 @@ ext-friends { font-size: 110p; left: 202p; color: #ffa500;}
 .friends { left: 26px; }     
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 375p) {
 .showman2 { left: 1157px; }
 .continer-salute { left: 9px; }
 .houses6 {width: 317px; right: -879px;}  
