@@ -193,7 +193,7 @@ const textFriends = document.querySelector('.text-friends');
   textFriends.style.position ="absolute";
   textFriends.style.color = "#ff9800";
   textFriends.style.top = "2773px";
-  textFriends.style.left = "161px";
+  textFriends.style.left = "70px";
   textFriends.style.zIndex = "1";
   textFriends.style.textShadow = "7px 7px 7px";
 
@@ -209,12 +209,12 @@ function blink() {
 /*можно сделать в штмл див или артикль id, но рекомендуют, чтобы id был 1, или class с текстом hi, найти его 
 const article = document.getElementById, .querySelector('hi'); и включить сэт интервал*/
 //window.setInterval(blink, 2000);
-const timer = setInterval(() => {
+/*const timer = setInterval(() => {
   const resultLoop = blink();
   if (resultLoop === true) { // если элемент найден
     clearInterval(timer); // остановить setInterval
   }
-}, 2000); /* можно использовать для изменения фото если 
+}, 2000);*/ /* можно использовать для изменения фото если 
 поставить ссылку с неограниченным колличеством фоток, на пример, 
 'https://picsum.photos/100'*/
 
