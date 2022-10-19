@@ -850,11 +850,11 @@ box-shadow: 2px 0px 56px 42px magenta;
 .forest {
 position: absolute;
     width: /*398px;*/380px;
+     height: 404px;
     top: 1980px;
-    right: 879px;
+    right: 900px;
     border-radius: 0px;
     z-index: ;
-    height: 404px;
     box-shadow: 0px 0px 80px 38px #2f2fd3ed;
 }
 
@@ -880,7 +880,7 @@ display: block;
 
 .houses4 {
  position: absolute;
-    width: 550px;
+    width: 570px;
     height: 404px;
     top: 1982px;
      left: 713px;
@@ -1087,7 +1087,7 @@ position: absolute;
  width: 49px;
  height: 49px;
  top: 2110px;
- left: 1210px;
+ left: 1222px;
  z-index: 1;        
 }
 
@@ -1215,7 +1215,7 @@ position: absolute;
  width: 1202px;
     height: 854px;  
     top: 2795px;
-    left: 30px;
+    left: 40px;
     border-radius: 36px;
     box-shadow: 0px 0px 80px 38px #9358e1;
     -index: -1;      
