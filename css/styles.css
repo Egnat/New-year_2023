@@ -438,7 +438,7 @@ z-index: 1;
 
 .menu-list {
 position: absolute;
-width: 748px;
+width: 743px;
 height: 16.32px;
 top: 122px;
 left: 520px;
@@ -849,7 +849,7 @@ box-shadow: 2px 0px 56px 42px magenta;
 
 .forest {
 position: absolute;
-    width: 402px;
+    width: 398px;
     top: 1980px;
     right: 879px;
     border-radius: 0px;
@@ -880,11 +880,11 @@ display: block;
 
 .houses4 {
  position: absolute;
-    width: 568px;
-    top: 1982px;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
-    left: 712px;
+    width: 564px;
     height: 404px;
+    top: 1982px;
+     left: 713px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
     border-radius: 12p;
     box-shadow: -79px 0px 37px 38px #2f2fd3ed;
 }
@@ -1087,7 +1087,7 @@ position: absolute;
  width: 49px;
  height: 49px;
  top: 2110px;
- left: 1233px;
+ left: 1220px;
  z-index: 1;        
 }
 
@@ -1114,7 +1114,7 @@ position: absolute;
  width: 38px;
  height: 38px;
  top: 1994px;
- left: 1222px;
+ left: 1216px;
  z-index: 1;        
 }
 
@@ -1132,7 +1132,7 @@ position: absolute;
   display: flex;
   justify-content: space-between; 
   top: 763px;
-  left: 6px;
+  left: 11px;
   z-index: 1;  
 }
 
@@ -1148,7 +1148,7 @@ position: absolute;
 .star {
   width: 14px;
   height: 15px;
-  margin-right: 35px;
+  margin-right: 34px;
 }
 
 .star2 {
@@ -1162,7 +1162,7 @@ position: absolute;
   display: flex;
   justify-content: space-between; 
   top: 793px;
-  left: 37p;
+  left: 6px;
   z-index: 1;  
 }
 
@@ -1257,12 +1257,15 @@ text-friends { font-size: 110px; left: 202px; color: #ffa500;}
 }
 
 @media screen and (max-width:1024px) {
-.houses { width: 322px; right: 699px;}
+.continer-salute { left:13px; }
+.salute-small { width: 98px; }
+.blue-star { left: 6px; }
+.houses { width: 325px; right:698px;}
 .houses5 { right: 398px; }
 .houses3 { right: 97px; }
-.houses6 { right: -253px; }
+.houses6 { width: 360px; right: -263px; }
 .img3 { right: 641px; } 
-.houses4 { left: 729px; box-shadow: -97px 0px 80px 38px #2f2fd3ed;} 
+.houses4 { width:569px; left: 716px; box-shadow: -97px 0px 80px 38px #2f2fd3ed;} 
 .houses2 { left: 352px; }
 .forest { width: 400px; right: 622px;}
 .tree1 { right: 810px; } 
@@ -1270,14 +1273,17 @@ text-friends { font-size: 110px; left: 202px; color: #ffa500;}
 .salute10 { top: 1030px; right: 918px;}
 .salute11 { top: 1128px; right: 940px;}
 .salute12 { top: 1154px; right: 827px;}
-.oval { right: -221px; }
-.stars21 { left: 1225px; } 
-.friends { left: 39px; } 
+.oval { right: -238px; }
+.stars21 { left: 1230px; } 
+.friends { left: 45px; } 
 .text-friends {width: 946px; font-size: 110px; left: 202px; color: #ffa500;}
 }
 
 @media screen and (max-width: 768px) {
-.houses6 { right: -520px; }
+.blue-star { left: 8px; }
+.star { margin-right: 34px; }
+.continer-salute { left: 15px; }
+.houses6 { width: 371px; right: -541px; }
 .houses3 {right: -170px;}
 .houses5 {right: 131px;}
 .houses {width: 334px; right: 432px;}
@@ -1290,14 +1296,24 @@ text-friends { font-size: 110px; left: 202px; color: #ffa500;}
 .salute12 { top: 1136px; right: 687px;}
 .forest {width: 398px;right: 365px;}
 .img3 { right: 392px; } 
-.houses4 {left: 739px;}
+.houses4 {width: 563px; left: 739px;}
 .text-friends { width: 946p; color: #ffa500; }  
 .houses2 {left: 362px;}
-.forest {width: 408px;right: 353px;}  
+.forest {width: 406px;right: 353px;}
+.showman { left: 926px; }
+.stars5 { left: 239px; } 
+.stars6 { left: 282px; } 
+.stars11 { left: 86px; } 
+.stars21 { left: 1246px; } 
+.stars23 { left: 589px; } 
+.cone { left: 940px; } 
+.friends { left: 52px; }  
 }
 
 @media screen and (max-width: 425px) {
-.houses6 { right: -866px; }
+.continer-salute { left: 11px; }
+.salute-small { width: 99px; }
+.houses6 {width: 366px; right: -882px; }
 .houses3 {right: -517px;}
 .houses5 {right: -216px;}
 .houses {width: 337px; right: 84px;}
@@ -1309,17 +1325,18 @@ text-friends { font-size: 110px; left: 202px; color: #ffa500;}
 .salute10 { top: 1043px; right: 212px;}
 .salute11 { top: 1128px; right:327px;}
 .salute12 { top: 1154px; right: 211px;}
-.forest {width: 389px;right: 22px;}
+.forest {width: 398px;right: 22px;}
+.showman { left: 928px; }
 .cone { left: 946px; }
 .magic-ball {left: 18p;}     
 }
 
 @media screen and (max-width: 375px) {
 .continer-salute { left: 16px; }
-.houses6 {right: -912px;}  
+.houses6 {width: 368px; right: -929px;}  
 .houses3 {right: -561px;}
 .houses5 {right: -260px;}
-.houses {width: 326px;right: 42px;}
+.houses {width: 332px;right: 40px;}
 .oval {right: -875px;}
 .tree1 {right: 157px;}
 .salute9 { top: 1031px; right: 266px;}
@@ -1328,4 +1345,6 @@ text-friends { font-size: 110px; left: 202px; color: #ffa500;}
 .salute12 { top: 1154px; right: 158px;}
 .img3 {right: -7px;}
 .forest {width: 407px;right: -40px;}
+.stars24 { left: 1250px; }
+.salute2 { left: 1144px; }
 }
