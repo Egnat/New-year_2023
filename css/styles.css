@@ -1256,16 +1256,16 @@ html {width: 1300p;}
 ext-friends { font-size: 110p; left: 202p; color: #ffa500;}
 }
 
-@media screen and (max-width:1024p) {
+@media screen and (max-width:1024px) {
 .continer-salute { left:6px; }
-.salute-small { width: 98px; }
+.salute-small { width: 95px; }
 .blue-star { left: 6px; }
 .houses { width: 325px; right:698px;}
 .houses5 { right: 398px; }
 .houses3 { right: 97px; }
-.houses6 { width: 360px; right: -260px; }
+.houses6 { width: 332px; right: -235px; }
 .img3 { right: 641px; } 
-.houses4 { width:568px; left: 716px; box-shadow: -97px 0px 80px 38px #2f2fd3ed;} 
+.houses4 { width: 544px; left: 716px; box-shadow: -97px 0px 80px 38px #2f2fd3ed;} 
 .houses2 { left: 352px; }
 .forest { width: 400px; right: 622px;}
 .tree1 { right: 810px; } 
@@ -1274,16 +1274,18 @@ ext-friends { font-size: 110p; left: 202p; color: #ffa500;}
 .salute11 { top: 1128px; right: 940px;}
 .salute12 { top: 1154px; right: 827px;}
 .oval { right: -238px; }
-.stars21 { left: 1230px; } 
-.friends { left: 45px; } 
+.stars21 { left: 1206px; } 
+.friends { left: 30px; }
+.toy { left: 1124px; } 
 .text-friends {width: 946px; font-size: 110px; left: 202px; color: #ffa500;}
 }
 
-@media screen and (max-width: 768p) {
-.blue-star { left: 8px; }
+@media screen and (max-width: 768px) {
+.blue-star { left: 6px; }
 .star { margin-right: 34px; }
 .continer-salute { left: 15px; }
-.houses6 { width:361px; right: -531px; }
+.salute-small { width: 94px; }
+.houses6 { width:318px; right: -488px; }
 .houses3 {right: -170px;}
 .houses5 {right: 131px;}
 .houses {width: 334px; right: 432px;}
@@ -1296,7 +1298,7 @@ ext-friends { font-size: 110p; left: 202p; color: #ffa500;}
 .salute12 { top: 1136px; right: 687px;}
 .forest {width: 398px;right: 365px;}
 .img3 { right: 392px; } 
-.houses4 {width: 560px; left: 739px;}
+.houses4 {width: 519px; left: 739px;}
 .text-friends { width: 946p; color: #ffa500; }  
 .houses2 {left: 362px;}
 .forest {width: 406px;right: 353px;}
@@ -1304,17 +1306,20 @@ ext-friends { font-size: 110p; left: 202p; color: #ffa500;}
 .stars5 { left: 239px; } 
 .stars6 { left: 282px; } 
 .stars11 { left: 86px; } 
-.stars21 { left: 1246px; } 
+.stars21 { left: 1205px; } 
 .stars23 { left: 589px; } 
-.cone { left: 940px; } 
-.friends { left: 52px; }  
+.cone { left: 933px; } 
+.toy { left: 1120px; }
+.friends { left: 28px; }  
 }
 
-@media screen and (max-width: 425p) {
+@media screen and (max-width: 425px) {
+.showman2 { left: 1171px; }
 .continer-salute { left: 11px; }
-.salute-small { width: 99px; }
-.houses6 {width: 366px; right: -882px; }
+.salute-small { width: 94px; }
+.houses6 {width: 313px; right: -830px; }
 .houses3 {right: -517px;}
+.houses4 { width: 515px; }
 .houses5 {right: -216px;}
 .houses {width: 337px; right: 84px;}
 .accordions {left: 232px;} 
@@ -1328,16 +1333,20 @@ ext-friends { font-size: 110p; left: 202p; color: #ffa500;}
 .forest {width: 398px;right: 22px;}
 .showman { left: 928px; }
 .cone { left: 946px; }
-.magic-ball {left: 18p;}     
+.iframe { left: 336px; }
+.santaInPipe { left: 625px; }
+.magic-ball {left: 18p;}
+.friends { left: 26px; }     
 }
 
-@media screen and (max-width: 375p) {
+@media screen and (max-width: 375px) {
+.showman2 { left: 1157px; }
 .continer-salute { left: 9px; }
-.houses6 {width: 368px; right: -929px;}  
+.houses6 {width: 317px; right: -879px;}  
 .houses3 {right: -561px;}
 .houses5 {right: -260px;}
 .houses {width: 332px;right: 40px;}
-.oval {right: -875px;}
+.oval {right: -857px;}
 .tree1 {right: 157px;}
 .salute9 { top: 1031px; right: 266px;}
 .salute10 { top: 1043px; right:176px;}
@@ -1345,6 +1354,9 @@ ext-friends { font-size: 110p; left: 202p; color: #ffa500;}
 .salute12 { top: 1154px; right: 158px;}
 .img3 {right: -7px;}
 .forest {width: 407px;right: -40px;}
-.stars24 { left: 1250px; }
-.salute2 { left: 1144px; }
+.stars24 { left: 1197px; }
+.stars21 { left: 1196px; }
+.salute2 { left: 1117px; }
+.cone { left: 916px; }
+.showman { left: 910px; }
 }
