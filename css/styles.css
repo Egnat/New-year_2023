@@ -63,8 +63,8 @@ body {
  position: absolute;
  width: 91px;
  height: 91px;
- top: 2064px;
- left: 695px;
+ top: 2076px;
+ left: 652px;
  border-radius: 53px;
  z-index: 1;
 }
@@ -610,10 +610,10 @@ animation: mymove 75s infinite; /*регулируется быстрота и �
 
 .houses6 {
      position: absolute;
-    width: 355px;
+    width: 354px;
     height: 198px;
     top: 757px;
-    right: 0px;
+    right: 1px;
     z-index: ;
     box-shadow: -110px 2px 80px 38px rgb(203 200 215 / 97%);
     transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -856,40 +856,34 @@ display: block;
     width: 68px;
 }
 
-.wrapper_houses {
-  position: absolute;
-  display: flex;
-  top: 1982px;
-}
-
 .forest {
-position: absolut;
-    width: /*398px;*/380px;
+position: absolute;
+    width: 384px;
      height: 404px;
-    top: 1980p;
-    right: 900p;
+    top: 1980px;
+    right: 899px;
     border-radius: 0px;
     z-index: ;
     box-shadow: 0px 0px 80px 38px #2f2fd3ed;
 }
 
 .houses2 {
- position: absolut;
+ position: absolute;
     width: 377px;
-    top: 1982p;
+    top: 1982px;
     ransform: matrix(-1, 0, 0, 1, 0, 0);
-    left: 336p;
+    left: 336px;
     height: 404px;
     border-radius: 12p;
     box-shadow: 72px 0px 80px 38px #0f0f74ed;
 }
 
 .houses4 {
- position: absolut;
-    width: 506px;
+ position: absolute;
+    width: 570px;
     height: 404px;
-    top: 1982p;
-     left: 713p;
+    top: 1982px;
+     left: 713px;
     transform: matrix(-1, 0, 0, 1, 0, 0);
     border-radius: 12p;
     box-shadow: -79px 0px 37px 38px #2f2fd3ed;
@@ -1012,7 +1006,7 @@ position: absolute;
  width: 62px;
  height: 62px;
  top: 2021px;
- left: 440px;
+ left: 402px;
  z-index: 1;      
 }
 
@@ -1084,7 +1078,7 @@ position: absolute;
  width: 48px;
  height: 48px;
  top: 2080px;
- left: 832px;
+ left: 809px;
  z-index: 1;      
 }
 
@@ -1093,7 +1087,7 @@ position: absolute;
  width: 49px;
  height: 49px;
  top: 2110px;
- left: 1212px;
+ left: 1231px;
  z-index: 1;        
 }
 
