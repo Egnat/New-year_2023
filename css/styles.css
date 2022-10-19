@@ -180,7 +180,7 @@ to {opacity: 1}
   justify-content: space-between;
   width: 175px;
   top: 493px;
-  right: 248px;     
+  right: 244px;     
 }
 
 .dot.active {
@@ -438,10 +438,10 @@ z-index: 1;
 
 .menu-list {
 position: absolute;
-width: 723px;
+width: 743px;
 height: 16.32px;
 top: 122px;
-left: 520px;
+left: 510px;
 margin: 0 auto;
 }
 
@@ -906,7 +906,7 @@ display: block;
  width: 26px;
  height: 26px;
  top: 1997px;
- left: 268px;
+ left: 257px;
  border-radius: 42p;
  z-index: 1;   
 }
@@ -916,7 +916,7 @@ display: block;
  width: 30px;
  height: 30px;
  top: 2088px;
- left: 134px;
+ left: 128px;
  z-index: 1;   
 }
 
@@ -925,7 +925,7 @@ position: absolute;
  width: 30px;
  height: 30px;
  top: 2108px;
- left: 10px;
+ left: 6px;
  z-index: 1;   
 }
 
@@ -943,7 +943,7 @@ position: absolute;
  width: 25px;
  height: 25px;
  top: 2025px;
- left:230px;
+ left:221px;
  z-index: 1;      
 }
 
@@ -952,7 +952,7 @@ position: absolute;
  width: 30px;
  height: 30px;
  top: 2049px;
- left: 274px;
+ left: 260px;
  z-index: 1;      
 }
 
@@ -1015,7 +1015,7 @@ position: absolute;
  width: 20px;
  height: 20px;
  top: 2091px;
- left: 277px;
+ left: 261px;
  z-index: 1;        
 }
 
@@ -1215,7 +1215,7 @@ position: absolute;
  width: 1202px;
     height: 854px;  
     top: 2795px;
-    left: 31px;
+    left: 30px;
     border-radius: 36px;
     box-shadow: 0px 0px 80px 38px #9358e1;
     -index: -1;      
