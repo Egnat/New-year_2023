@@ -13,7 +13,7 @@ body {
   position: absolute;
   width: 75px;
   top: 12px;
-  left: 1182px;
+  left: 1177px;
   box-shadow: 0px 2px 25px 15px yellowgreen;   
 }
 
@@ -849,7 +849,7 @@ box-shadow: 2px 0px 56px 42px magenta;
 
 .forest {
 position: absolute;
-    width: 398px;
+    width: /*398px;*/380px;
     top: 1980px;
     right: 879px;
     border-radius: 0px;
@@ -1215,7 +1215,7 @@ position: absolute;
  width: 1202px;
     height: 854px;  
     top: 2795px;
-    left: 40px;
+    left: 31px;
     border-radius: 36px;
     box-shadow: 0px 0px 80px 38px #9358e1;
     -index: -1;      
@@ -1250,13 +1250,13 @@ border: 2px solid #2798f1;
 /*Можно добавить .dot:hover, но будут дергаться кнопки*/
 
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300p) {
 body {width: 1280p;}
 html {width: 1280p;}
 text-friends { font-size: 110px; left: 202px; color: #ffa500;}
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1024p) {
 .continer-salute { left:6px; }
 .salute-small { width: 98px; }
 .blue-star { left: 6px; }
@@ -1279,7 +1279,7 @@ text-friends { font-size: 110px; left: 202px; color: #ffa500;}
 .text-friends {width: 946px; font-size: 110px; left: 202px; color: #ffa500;}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768p) {
 .blue-star { left: 8px; }
 .star { margin-right: 34px; }
 .continer-salute { left: 15px; }
@@ -1310,7 +1310,7 @@ text-friends { font-size: 110px; left: 202px; color: #ffa500;}
 .friends { left: 52px; }  
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 425p) {
 .continer-salute { left: 11px; }
 .salute-small { width: 99px; }
 .houses6 {width: 366px; right: -882px; }
@@ -1331,7 +1331,7 @@ text-friends { font-size: 110px; left: 202px; color: #ffa500;}
 .magic-ball {left: 18p;}     
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 375p) {
 .continer-salute { left: 9px; }
 .houses6 {width: 368px; right: -929px;}  
 .houses3 {right: -561px;}
