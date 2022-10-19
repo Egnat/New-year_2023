@@ -610,10 +610,10 @@ animation: mymove 75s infinite; /*регулируется быстрота и �
 
 .houses6 {
      position: absolute;
-    width: 353px;
+    width: 355px;
     height: 198px;
     top: 757px;
-    right: 2px;
+    right: 0px;
     z-index: ;
     box-shadow: -110px 2px 80px 38px rgb(203 200 215 / 97%);
     transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -880,7 +880,7 @@ display: block;
 
 .houses4 {
  position: absolute;
-    width: 567px;
+    width: 550px;
     height: 404px;
     top: 1982px;
      left: 713px;
@@ -1087,7 +1087,7 @@ position: absolute;
  width: 49px;
  height: 49px;
  top: 2110px;
- left: 1223px;
+ left: 1210px;
  z-index: 1;        
 }
 
