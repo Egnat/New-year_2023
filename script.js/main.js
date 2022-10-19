@@ -246,7 +246,7 @@ function blinkeded() {
     section.style.visibility = "hidden";
   }
 } 
-window.setInterval(blinkeded, 4500); // можно подключить, чтоб массив салютов 
+//window.setInterval(blinkeded, 4500); // можно подключить, чтоб массив салютов 
 //появился, исчез
 
 /*//3 пример создаем элемент
