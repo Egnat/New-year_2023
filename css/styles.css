@@ -18,7 +18,7 @@ box-shadow: 4px 0px 46px 8px coral;
   position: absolute;
   width: 75px;
   top: 12px;
-  left: 1167px;
+  left: 1178px;
   box-shadow: 0px 2px 25px 15px yellowgreen;   
 }
 
@@ -488,7 +488,7 @@ flex-direction: column;
 .fly_santa {
 position: absolute;
 top: 770px;
-left: 15px;
+left: 9px;
 }
 
 img.flying_santa {
@@ -599,12 +599,12 @@ display: flex;
 
 .houses6 {
      osition: absolute;
-    width: 284px;
+    width: 298px;
     height: 198px;
     top: 757p;
     right: 0p;
     z-index: ;
-    box-shadow: -22px 0px 15px 15px rgb(112 85 221 / 95%);
+    box-shadow: -14px 0px 15px 15px rgb(112 85 221 / 95%);
     transform: matrix(-1, 0, 0, 1, 0, 0);
     border-radius: 9p;
 }
@@ -940,7 +940,7 @@ position: absolute;
 
 .houses4 {
  position: absolute;
-  width: 490px;
+  width: 495px;
   height: 404px;
   top: 1982p;
   left: 741px;
