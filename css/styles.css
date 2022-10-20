@@ -1275,7 +1275,7 @@ object-fit: cover;
 }
 
 .friends {
- idth: /*1202px100%;*/
+ idth: /*1202px100%;*/;
 height: 854px/*100%*/;    
 border-radius: 36p;
 bject-fit: cover; 

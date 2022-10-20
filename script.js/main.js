@@ -79,7 +79,7 @@ newCar.addEventListener('mousemove', function loop(event) {
   const newCar = document.querySelector('.newCar_car2 img');
     newCar.style.cursor = "pointer";
     newText.innerHTML = "А эта тачка жене";
-    newText.style.color = "#e30d0d";
+    newText.style.color = "#8be726";
     newText.style.left = "198px";
   if (newCar !== null) { // если элемент найден
     newCar.setAttribute('src', 'https://gif5gif.ucoz.ru/_ph/1/883246981.gif');
