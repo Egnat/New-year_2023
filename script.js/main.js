@@ -189,12 +189,12 @@ const content = "Happy New Year !";
 document.querySelector(".friends").insertAdjacentHTML("beforebegin", 
 `<article class="text-friends"> ${content} </article>`);
 const textFriends = document.querySelector('.text-friends');
-  textFriends.style ="font-size: 127px";
+  textFriends.style ="font-size: 124px";
   textFriends.style.position ="absolute";
-  textFriends.style.width =" 1082px";
+  textFriends.style.width =" 1147px";
   textFriends.style.color = "#ff9800";
   textFriends.style.top = "2773p";
-  textFriends.style.left = "64px";
+  textFriends.style.left = "44px";
   textFriends.style.zIndex = "1";
   textFriends.style.textShadow = "7px 7px 7px";
 
