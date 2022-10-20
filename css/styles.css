@@ -488,7 +488,7 @@ flex-direction: column;
 .fly_santa {
 position: absolute;
 top: 770px;
-left: 9px;
+left: 11px;
 }
 
 img.flying_santa {
@@ -515,6 +515,7 @@ to { left:906px; } /*ставим размер экрана, чтобы гугл
   position: absolute;
   display: flex;
   justify-content: space-between; 
+  width: 1218px;
   top: 763p;
   left: 11p;
   z-index: 1;  
@@ -599,7 +600,7 @@ display: flex;
 
 .houses6 {
      osition: absolute;
-    width: 298px;
+    width: 279px;
     height: 198px;
     top: 757p;
     right: 0p;
