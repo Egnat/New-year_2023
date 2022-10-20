@@ -18,7 +18,7 @@ box-shadow: 4px 0px 46px 8px coral;
   position: absolute;
   width: 75px;
   top: 12px;
-  left: 1178px;
+  left: 1162px;
   box-shadow: 0px 2px 25px 15px yellowgreen;   
 }
 
@@ -947,7 +947,7 @@ position: absolute;
   left: 741px;
   order: 1px solid #ff0;
   border-radius: 23px;
-  box-shadow: -24px 0px 15px 15px #6c6cdfed;
+  box-shadow: -20px 0px 15px 15px #6c6cdfed;
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
@@ -985,22 +985,22 @@ position: absolute;
 
 .salute5 {
  position: absolute;
- width: 91px;
- height: 91px;
- top: 88px;
- left: 696px;
- border-radius: 53px;
- z-index: 1;
+    width: 91px;
+    height: 91px;
+    top: 50px;
+    left: 676px;
+    border-radius: 53px;
+    z-index: 1;
 }
 
 .salute6 {
  position: absolute;
- width: 99px;
- height: 78px;
- top: 19px;
- left: 680px;
- border-radius: 53px;
- z-index: 1;   
+    width: 133px;
+    height: 60px;
+    top: 5px;
+    left: 669px;
+    border-radius: 53px;
+    z-index: 1;
 }
 
 .salute7 {
@@ -1015,12 +1015,12 @@ position: absolute;
 
 .salute8 {
 position: absolute;
- width: 82px;
- height: 74px;
- top: 3px;
- left: 527px;
- border-radius: 53px;
- z-index: 1;           
+    width: 118px;
+    height: 69px;
+    top: 3px;
+    left: 507px;
+    border-radius: 53px;
+    z-index: 1;       
 }
 
 .stars {
