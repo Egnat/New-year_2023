@@ -195,8 +195,9 @@ to {opacity: 1}
 
 .mini-text4-slide {
   position: absolute;
-  width: 381px;
-  right: 769px;
+      position: absolute;
+    width: 419px;
+    right: 740px;
   bottom: 388px;
   color: #fff;
 
@@ -305,8 +306,8 @@ ext-transform: uppercase;
 
 .mini2-text4-slide {
 position: absolute;
-width: 379px;
-right: 772px;
+width: 423px;
+right: 738px;
 bottom: -50px;
 color: #fff;
 
@@ -343,15 +344,15 @@ font-size: 47px;
 position: absolute;
 width: 232px;
 bottom: 79px;
-left: -7px;
+left: -20px;
 font-size: 47px;
 }
 
 .year {
 position: absolute;
-width: 302px;
+width: 313px;
 bottom: 79px;
-left: 281px;
+left: 261px;
 font-size: 47px;
 }
 
