@@ -1047,7 +1047,7 @@ position: absolute;
 position: absolute;
  width: 30px;
  height: 30px;
- top: 70px;
+ top: 65px;
  left: 254px;
  z-index: 1;   
 }
@@ -1056,8 +1056,8 @@ position: absolute;
  position: absolute;
  width: 30px;
  height: 30px;
- top: 33px;
- left: 219px;
+ top: 31px;
+ left: 214px;
  z-index: 1;     
 }
 
@@ -1083,7 +1083,7 @@ position: absolute;
 position: absolute;
  width: 25px;
  height: 25px;
- top: 16px;
+ top: 10px;
  left:162px;
  z-index: 1;     
 }
@@ -1110,7 +1110,7 @@ position: absolute;
  position: absolute;
  width: 25px;
  height: 25px;
- top: 17px;
+ top: 7px;
  left: 256px;
  z-index: 1;       
 }
