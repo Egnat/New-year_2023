@@ -9,34 +9,19 @@ body {
   box-sizing: border-box;
 }
 
+.new-year_boll {
+margin-left: 10px;
+box-shadow: 4px 0px 46px 8px coral; 
+}
+
 .showman2 {
   position: absolute;
   width: 75px;
   top: 12px;
-  left: 1177px;
+  left: 1167px;
   box-shadow: 0px 2px 25px 15px yellowgreen;   
 }
 
-.salute {
-  position: absolute;
-  width: 831px;
-  height: 404px;
-  top: 1025px;
-  left: 220px;
-  border: 5px solid #1c1c97;
-  border-radius: 37px;
-  box-shadow: 0px 0px 51px 31px #1616ab;
-}
-
-.salute2 {
-  position: absolute;
-  width: 112px;
-  height: 102px;
-  top: 2001px;
-  left: 1119px;
-  border-radius: 771px;
-  z-index: 1;
-}
 
 .salute3 {
   position: absolute;
@@ -47,56 +32,6 @@ body {
   border: 1px solid #601fd3;
   border-radius: 110px;
   box-shadow: 0px 0px 76px 40px #640ab9;
-}
-
-.salute4 {
- position: absolute;
- width: 92px;
- height: 92px;
- top: 1985px;
- left: 832px;
- border-radius: 53px;
- z-index: 1;   
-}
-
-.salute5 {
- position: absolute;
- width: 91px;
- height: 91px;
- top: 2076px;
- left: 652px;
- border-radius: 53px;
- z-index: 1;
-}
-
-.salute6 {
- position: absolute;
- width: 99px;
- height: 78px;
- top: 1983px;
- left: 497px;
- border-radius: 53px;
- z-index: 1;   
-}
-
-.salute7 {
-position: absolute;
- width: 88px;
- height: 88px;
- top: 2004px;
- left: 745px;
- border-radius: 53px;
- z-index: 1;       
-}
-
-.salute8 {
-position: absolute;
- width: 95px;
- height: 97px;
- top: 1986px;
- left: 656px;
- border-radius: 53px;
- z-index: 1;           
 }
 
 .slider_demonstration {
@@ -127,6 +62,30 @@ position: absolute;
 .btn-prev:hover, .btn-next:hover {
   background-color: #bf88369e;
 }
+
+.dots-wrapper {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 175px;
+  top: 493px;
+  right: 244px;     
+}
+
+.dot.active {
+  background-color: red;    
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color:#8693df; 
+  cursor: pointer; 
+  transition: background-color 0.6s ease;  
+}
+
 
 .slider-wrapper {
   position: absolute;
@@ -162,40 +121,18 @@ from {opacity: .5}
 to {opacity: 1}
 }
 
-.img {
-  width: 100%;
-  height: 100%;
-  vertical-align: middle;
-}
-
 .filter_img {
   width: 100%;
   height: 100%;
   filter: brightness(0.8);/*drop-shadow(0px 20px 10px rgba(0, 0, 0, 0.15));*/
 }
 
-.dots-wrapper {
-  position: absolute;
-  display: flex;
-  justify-content: space-between;
-  width: 175px;
-  top: 493px;
-  right: 244px;     
+.img {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
 }
 
-.dot.active {
-  background-color: red;    
-}
-
-.dot {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  margin-right: 10px;
-  background-color:#8693df; 
-  cursor: pointer; 
-  transition: background-color 0.6s ease;  
-}
 
 .slide-text {
   position: absolute;
@@ -548,36 +485,87 @@ display: flex;
 flex-direction: column;
 }
 
-.img1 {
-  margin-left: 10px;
+.fly_santa {
+position: absolute;
+top: 770px;
 }
 
-@keyframes mymove {
-from { left:0px; }
-to { left:938px; } /*ставим размер экрана, чтобы гугл исчезал если нужно*/
-}
-    
-img.img-2 {
+img.flying_santa {
 position: absolute;
 width: 650p;
 height: 64px;
 /*animation-duration: 100s; /*регулируется быстрота и медлительность движения при включенном js*/
 animation-name: mymove;
-top: 767px;
-right: 242px;
-z-index: 1;
+top: 767p;
+right: 242p;
+z-index: 2;
 cursor: pointe;
 animation-delay: 500s;/*время через сколько запустится анимация*/
 animation: mymove 75s infinite; /*регулируется быстрота и медлительность движения*/
 /*animation-iteration-count: mymove ; /*сколько раз сработает, но пока не работает*/ 
 }
 
+@keyframes mymove {
+from { left:0px; }
+to { left:938px; } /*ставим размер экрана, чтобы гугл исчезал если нужно*/
+}
+
+.blue-star {
+  position: absolute;
+  display: flex;
+  justify-content: space-between; 
+  top: 763p;
+  left: 11p;
+  z-index: 1;  
+}
+
+.blue-star2 {
+  position: absolute;
+  display: flex;
+  justify-content: space-between; 
+  top: 10px;
+  left: 22px;
+  z-index: 1;  
+}
+
+.star {
+  width: 14px;
+  height: 15px;
+  margin-right: 34px;
+}
+
+.star2 {
+ width: 15px;
+  height: 15px;
+  margin-right: 33px;   
+}
+
+.continer-salute {
+position: absolute;
+  display: flex;
+  justify-content: space-between; 
+  top: 33px;
+  left: 6p;
+  z-index: 1;  
+}
+
+.salute-small {
+ width: 96px;
+  height: 60px;
+  margin-right: 33p;   
+}
+
+.houses-fly_santa {
+position: absolute;
+display: flex;
+}
+
 .houses {
- position: absolute;
-    width: 325px;
+ osition: absolute;
+    width: 325p;
     height: 198px;
-    top: 757px;
-    right: 957px;
+    top: 757p;
+    right: 957p;
     z-index: ;
     box-shadow: -116px 0px 80px 38px rgb(203 200 215 / 97%);
     ransform: matrix(-1, 0, 0, 1, 0, 0);
@@ -585,11 +573,11 @@ animation: mymove 75s infinite; /*регулируется быстрота и �
 }
 
 .houses3 {
- position: absolute;
-    width: 301px;
+ osition: absolute;
+    width: 301p;
     height: 198px;
-    top: 757px;
-    right: 355px;
+    top: 757p;
+    right: 355p;
     z-index: ;
     box-shadow: 93px 0px 80px 38px rgb(203 200 215 / 97%);
     ransform: matrix(-1, 0, 0, 1, 0, 0);
@@ -597,11 +585,11 @@ animation: mymove 75s infinite; /*регулируется быстрота и �
 }
 
 .houses5 {
- position: absolute;
-    width: 301px;
+ osition: absolute;
+    width: 301p;
     height: 198px;
-    top: 757px;
-    right: 656px;
+    top: 757p;
+    right: 656p;
     z-index: ;
     box-shadow: 0px -3px 80px 38px rgb(203 200 215 / 97%);
     transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -609,98 +597,28 @@ animation: mymove 75s infinite; /*регулируется быстрота и �
 }
 
 .houses6 {
-     position: absolute;
-    width: 355px;
+     osition: absolute;
+    width: 313px;
     height: 198px;
-    top: 757px;
-    right: 0px;
+    top: 757p;
+    right: 0p;
     z-index: ;
     box-shadow: -110px 2px 80px 38px rgb(203 200 215 / 97%);
     transform: matrix(-1, 0, 0, 1, 0, 0);
     border-radius: 9p;
 }
 
-#newPhoto2 {
-margin: 0 auto;
-}
-
-.rabbit {
-position: absolute;
-    width: 459px;
-    height: 473px;
-    top: 1431px;
-    left: 411px;
-    box-shadow: 0px 2px 55px 45px #cbdfeb;
-    border-radius: 62px;
-    background-color: #b0e0e6c9;
-}
-
-.salute9 {
-    position: absolute;
-    width: 64px;
-    height: 64px;
-    top: 1027px;
-    right: 1159px;
-     border-radius: 25px;
-    z-index: 1;
-}
-
-.salute10 {
- position: absolute;
-    width: 64px;
-    height: 64px;
-    top: 1050px;
-    right: 1063px;
-    border-radius: 25px;
-    z-index: 1;   
-}
-
-.salute11 {
- position: absolute;
-    width: 44px;
-    height: 44px;
-    top: 1121px;
-    right: 1179px;
-    border-radius: 25px;
-    z-index: 1;      
-}
-
-.salute12 {
- position: absolute;
-    width: 44px;
-    height: 44px;
-    top: 1154px;
-    right: 1070px;
-    border-radius: 25px;
-    z-index: 1;      
-}
-
-.tree1 {
-position: absolute;
-    width: 187px;
-    top: 1023px;
-    right: 1054px;
-    height: 296px;
-    border-radius: 46px;
-    box-shadow: 0px 4px 27px 23px lightskyblue;
-}
-
-.oval {
-position: absolute;
-    width: 187px;
-    height: 296px; 
-    top: 1025px;
-    right: 14px; 
-box-shadow: 0px 0px 52px 28px greenyellow;
-background-color: #15723dba;
-    border-radius: 76px;   
+.block_acordions {
+  position: absolute;
+  top: 1041px;
+  left: 226px;
 }
 
 .accordions {
 position: absolute;
 width:827px;
-top: 975px;
-left: 226px;
+top: 975p;
+left: -11px;
 ox-shadow: 10px 4px 63px -19px rgb(14 14 12 / 99%/*255 255 0 / 99%*/);
 }  
 
@@ -812,19 +730,175 @@ position: absolute;
   height: 170px;       
 }
 
-.img3 {
+.common_acordions {
+
+}
+
+.tree1 {
+position: absolute;
+    width: 187px;
+    top: 1023p;
+    right: 11px;
+    height: 296px;
+    border-radius: 46px;
+    box-shadow: 0px 4px 27px 23px lightskyblue;
+}
+
+.salute9 {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 1027p;
+    right: 120px;
+     border-radius: 25px;
+    z-index: 1;
+}
+
+.salute10 {
  position: absolute;
-    top: 1452px;
-    width: 344px;
-    right: 895px;
-    box-shadow: 0px 2px 80px 31px darkred;
-    border-radius: 45px;     
+    width: 64px;
+    height: 64px;
+    top: 28px;
+    right: 24px;
+    border-radius: 25px;
+    z-index: 1;   
+}
+
+.salute11 {
+ position: absolute;
+    width: 44px;
+    height: 44px;
+    top: 99px;
+    right: 141px;
+    border-radius: 25px;
+    z-index: 1;      
+}
+
+.salute12 {
+ position: absolute;
+    width: 44px;
+    height: 44px;
+    top: 124px;
+    right: 23px;
+    border-radius: 25px;
+    z-index: 1;      
+}
+
+.salute {
+  position: absolute;
+  width: 803px;
+  height: 404px;
+  top: 53px;
+  left: 220p;
+  border: 5px solid #1c1c97;
+  border-radius: 37px;
+  z-index: -1;
+  box-shadow: 0px 0px 51px 31px #1616ab;
+}
+
+.stars14 {
+ position: absolute;
+ width: 15px;
+ height: 15px;
+ top: 103px;
+ right: 43px;
+ z-index: 1;      
+}
+
+.stars15 {
+ position: absolute;
+ width: 15px;
+ height: 15px;
+ top: 183px;
+ right: 36px;
+ z-index: 1;      
+}
+
+.stars16 {
+ position: absolute;
+ width: 15px;
+ height: 15px;
+ top: 14px;
+ right: 89px;
+ z-index: 1;      
+}
+
+.stars17 {
+ position: absolute;
+ width: 15px;
+ height: 15px;
+ top: 71px;
+ right: 145px;
+ z-index: 1;      
+}
+
+.stars18 {
+ position: absolute;
+ width: 15px;
+ height: 15px;
+ top: 173px;
+ right: 156px;
+ z-index: 1;      
+}
+
+.oval {
+position: absolute;
+    width: 187px;
+    height: 296px; 
+    top: 1025p;
+    left: 818px; 
+box-shadow: 0px 0px 52px 28px greenyellow;
+background-color: #15723dba;
+    border-radius: 76px;   
+}
+
+.change_rabbits {
+position: absolute;
+top: 1582px;
+}
+
+.newPhoto2_rabbit { 
+  position: absolute;
+  top: 1431p;
+  left: 397px;
+margin: 0 auto;
+}
+
+.rabbit {
+  width: 459px;
+   height: 473px; 
+   box-shadow: 0px 2px 55px 45px #cbdfeb;
+  border-radius: 62px;
+  background-color: #b0e0e6c9;
+}
+
+.santa-with-violin {
+ position: absolute;
+ width: 344px;
+  top: 46px; 
+  left: 23px;
+  box-shadow: 0px 2px 80px 31px darkred;
+  border-radius: 45px;     
+}
+
+.showman {
+position: absolute;
+width: 322px;     
+top: 1452p;
+left: 900px;
+box-shadow: 2px 0px 56px 42px magenta;
+border-radius: 19px;
+}
+
+.block_walking-santa {
+position: absolute;
+top: 2145px;  
 }
 
 .santa1 {
  position: absolute;
     width: 81px;
-    top: 2271px;
+    top: 293px;
     left: 827px;
     animation-name: go;
     animation-delay: 500s;
@@ -835,33 +909,15 @@ position: absolute;
 
 @keyframes go {
 from { left:0px; }
-to { left:787px; } /*ставим размер экрана, чтобы гугл исчезал если нужно*/
-}
-
-.showman {
-position: absolute;
-width: 322px;     
-top: 1452px;
-left: 910px;
-box-shadow: 2px 0px 56px 42px magenta;
-    border-radius: 19px;
-}
-
-.santaInPipe {
-position: absolute;
-display: block;
-    top: 2428px;
-    z-index: 1;
-    left: 661px;
-    width: 68px;
+to { left:821px; } /*ставим размер экрана, чтобы гугл исчезал если нужно*/
 }
 
 .forest {
 position: absolute;
-    width: /*405px;*/100%;
+    width: 378px; /*100%;*/
      height: 404px;
-    top: 1980px;
-    right:878px;
+    top: 1980p;
+    right:878p;
     border-radius: 0px;
     z-index: ;
     box-shadow: 0px 0px 80px 38px #2f2fd3ed;
@@ -869,31 +925,31 @@ position: absolute;
 
 .houses2 {
  position: absolute;
-    width: 377px;
-    top: 1982px;
-    ransform: matrix(-1, 0, 0, 1, 0, 0);
-    left: 336px;
+    width: 452px;
     height: 404px;
+    top: 1982p; 
+    left: 328px;
     border-radius: 12p;
     box-shadow: 72px 0px 80px 38px #0f0f74ed;
+     ransform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 .houses4 {
  position: absolute;
-    width: 550px;
+    width: 483px;
     height: 404px;
-    top: 1982px;
-     left: 713px;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
+    top: 1982p;
+     left: 780px;
     border-radius: 12p;
     box-shadow: -79px 0px 37px 38px #2f2fd3ed;
+     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 .moon {
     position: absolute;
     width: 61px;
-    top: 2023px;
-    left: 65px;
+    top: 23px;
+    left: 62px;
     border-radius: 80px;
     border: 1px solid #00f;
     box-shadow: 0px 0px 21px 23px blue;
@@ -901,12 +957,72 @@ position: absolute;
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
+.salute2 {
+  position: absolute;
+  width: 112px;
+  height: 102px;
+  top: 20px;
+  left: 1138px;
+  border-radius: 771px;
+  z-index: 1;
+}
+
+.salute4 {
+ position: absolute;
+ width: 92px;
+ height: 92px;
+ top: 5px;
+ left: 877px;
+ border-radius: 53px;
+ z-index: 1;   
+}
+
+.salute5 {
+ position: absolute;
+ width: 91px;
+ height: 91px;
+ top: 88px;
+ left: 704px;
+ border-radius: 53px;
+ z-index: 1;
+}
+
+.salute6 {
+ position: absolute;
+ width: 99px;
+ height: 78px;
+ top: 19px;
+ left: 680px;
+ border-radius: 53px;
+ z-index: 1;   
+}
+
+.salute7 {
+position: absolute;
+ width: 67px;
+ height: 67px;
+ top: 56px;
+ left: 800px;
+ border-radius: 53px;
+ z-index: 1;       
+}
+
+.salute8 {
+position: absolute;
+ width: 82px;
+ height: 74px;
+ top: 3px;
+ left: 527px;
+ border-radius: 53px;
+ z-index: 1;           
+}
+
 .stars {
  position: absolute;
  width: 26px;
  height: 26px;
- top: 1997px;
- left: 267px;
+ top: 11px;
+ left: 24px;
  border-radius: 42p;
  z-index: 1;   
 }
@@ -915,7 +1031,7 @@ position: absolute;
  position: absolute;
  width: 30px;
  height: 30px;
- top: 2088px;
+ top: 110px;
  left: 121px;
  z-index: 1;   
 }
@@ -924,8 +1040,8 @@ position: absolute;
 position: absolute;
  width: 30px;
  height: 30px;
- top: 2108px;
- left: 6px;
+ top: 70px;
+ left: 254px;
  z-index: 1;   
 }
 
@@ -933,8 +1049,8 @@ position: absolute;
  position: absolute;
  width: 30px;
  height: 30px;
- top: 2044px;
- left: 20px;
+ top: 33px;
+ left: 219px;
  z-index: 1;     
 }
 
@@ -942,8 +1058,8 @@ position: absolute;
  position: absolute;
  width: 25px;
  height: 25px;
- top: 2025px;
- left:231px;
+ top: 64px;
+ left:13px;
  z-index: 1;      
 }
 
@@ -951,8 +1067,8 @@ position: absolute;
  position: absolute;
  width: 30px;
  height: 30px;
- top: 2049px;
- left: 275px;
+ top: 114px;
+ left: 8px;
  z-index: 1;      
 }
 
@@ -960,8 +1076,8 @@ position: absolute;
 position: absolute;
  width: 25px;
  height: 25px;
- top: 1984px;
- left: 174px;
+ top: 16px;
+ left:162px;
  z-index: 1;     
 }
 
@@ -969,8 +1085,8 @@ position: absolute;
 position: absolute;
  width: 20px;
  height: 20px;
- top: 2002px;
- left: 90px;
+ top: 13px;
+ left: 82px;
  z-index: 1;     
 }
 
@@ -978,8 +1094,8 @@ position: absolute;
  position: absolute;
  width: 42px;
  height: 42px;
- top: 2024px;
- left: 135px;
+ top: 42px;
+ left: 131px;
  z-index: 1;        
 }
 
@@ -987,8 +1103,8 @@ position: absolute;
  position: absolute;
  width: 25px;
  height: 25px;
- top: 1994px;
- left: 13px;
+ top: 17px;
+ left: 256px;
  z-index: 1;       
 }
 
@@ -996,17 +1112,8 @@ position: absolute;
  position: absolute;
  width: 15px;
  height: 15px;
- top: 2087px;
- left: 78px;
- z-index: 1;      
-}
-
-.stars12 {
- position: absolute;
- width: 62px;
- height: 62px;
- top: 2021px;
- left: 402px;
+ top: 102px;
+ left: 72px;
  z-index: 1;      
 }
 
@@ -1014,53 +1121,17 @@ position: absolute;
  position: absolute;
  width: 20px;
  height: 20px;
- top: 2091px;
- left: 277px;
+ top: 112px;
+ left: 257px;
  z-index: 1;        
 }
 
-.stars14 {
+.stars12 {
  position: absolute;
- width: 15px;
- height: 15px;
- top: 1198px;
- left: 64px;
- z-index: 1;      
-}
-
-.stars15 {
- position: absolute;
- width: 15px;
- height: 15px;
- top: 1035px;
- left: 133px;
- z-index: 1;      
-}
-
-.stars16 {
- position: absolute;
- width: 15px;
- height: 15px;
- top: 1127px;
- left: 166px;
- z-index: 1;      
-}
-
-.stars17 {
- position: absolute;
- width: 15px;
- height: 15px;
- top: 1203px;
- left: 185px;
- z-index: 1;      
-}
-
-.stars18 {
- position: absolute;
- width: 15px;
- height: 15px;
- top: 1093px;
- left: 78px;
+ width: 62px;
+ height: 62px;
+ top: 36px;
+ left:415px;
  z-index: 1;      
 }
 
@@ -1068,8 +1139,8 @@ position: absolute;
  position: absolute;
  width: 48px;
  height: 48px;
- top: 1994px;
- left: 970px;
+ top: 3px;
+ left: 1000px;
  z-index: 1;      
 }
 
@@ -1077,8 +1148,8 @@ position: absolute;
  position: absolute;
  width: 48px;
  height: 48px;
- top: 2080px;
- left: 809px;
+ top: 97px;
+ left: 871px;
  z-index: 1;      
 }
 
@@ -1086,8 +1157,8 @@ position: absolute;
 position: absolute;
  width: 49px;
  height: 49px;
- top: 2110px;
- left: 1206px;
+ top: 127px;
+ left: 1210px;
  z-index: 1;        
 }
 
@@ -1095,8 +1166,8 @@ position: absolute;
 position: absolute;
  width: 51px;
  height: 46px;
- top: 1984px;
- left: 774px;
+ top: 17px;
+ left: 801px;
  z-index: 1;        
 }
 
@@ -1104,17 +1175,17 @@ position: absolute;
 position: absolute;
  width: 38px;
  height: 38px;
- top: 1997px;
- left: 606px;
+ top: 14px;
+ left: 632px;
  z-index: 1;        
 }
 
 .stars24 {
 position: absolute;
- width: 38px;
- height: 38px;
- top: 1994px;
- left: 1219px;
+ width: 29px;
+ height: 29px;
+ top: 1994p;
+ left: 1216px;
  z-index: 1;        
 }
 
@@ -1122,61 +1193,21 @@ position: absolute;
 position: absolute;
  width: 38px;
  height: 38px;
- top: 1985px;
- left: 1091px;
+ top: 6px;
+ left: 1111px;
  z-index: 1;        
 }
 
-.blue-star {
-  position: absolute;
-  display: flex;
-  justify-content: space-between; 
-  top: 763px;
-  left: 11px;
-  z-index: 1;  
-}
-
-.blue-star2 {
-  position: absolute;
-  display: flex;
-  justify-content: space-between; 
-  top: 773px;
-  left: 44px;
-  z-index: 1;  
-}
-
-.star {
-  width: 14px;
-  height: 15px;
-  margin-right: 34px;
-}
-
-.star2 {
- width: 15px;
-  height: 15px;
-  margin-right: 33px;   
-}
-
-.continer-salute {
+.all_iframe {
 position: absolute;
-  display: flex;
-  justify-content: space-between; 
-  top: 793px;
-  left: 6px;
-  z-index: 1;  
-}
-
-.salute-small {
- width: 96px;
-  height: 60px;
-  margin-right: 33p;   
+top: 2597px;
 }
 
 .iframe {
 position: absolute;
     width: 555px;
-    top: 2435px;
-    left: 356px;
+    top: 2435p;
+    left: 357px;
    box-shadow: 0px 21px 86px 38px #21afe5f2;
 }
 
@@ -1184,60 +1215,82 @@ position: absolute;
 position: absolute;
     width: 325px;
     height: 350px;
-    top: 2414px;
-    left: 11px;
+    top: 2414p;
+    left: 17px;
     border-radius: 27px;
     box-shadow: 0px 27px 80px 30px rgb(41 211 38 / 91%);
 }
 
+.cardOff_cone {
+ position: absolute;
+ bottom: -370px;
+  left:885px; 
+}
+
 .cone {
+width: 319px;
+height: 354px;
+border-radius: 56px;
+box-shadow: -1px 2px 43px 21px gold;
+cursor: pointer;
+}
+
+.photoOff_santaInPipe {
 position: absolute;
-    width: 319px;
-    height: 354px;
-    top: 2412px;
-    left: 933px;
-    border-radius: 56px;
-    box-shadow: -1px 2px 43px 21px gold;
-    cursor: pointer;
+bottom: -74px;
+ left: 611px;
+ z-index: 1; 
+}
+
+.santaInPipe {
+display: block;
+width: 68px;     
+}
+
+.all_friends {
+position: absolute;
+top: 3012px;
+ left: 30px;
+ border-radius: 36px;
+box-shadow: 0px 0px 80px 38px #9358e1;
+-index: -1;    
+background-image: url('https://bestgif.su/_ph/108/2/2370639.gif');
 }
 
 .toy {
   position: absolute;
   width: 102px;
-  top: 2803px;
-  left: 1135px;
+  top: 3px;
+  right: 6px;
   z-index: 1;   
   border-radius: 25px;  
 }
 
 .friends {
- position: absolute;
  width: 1202px;
-    height: 854px;  
-    top: 2795px;
-    left: 40px;
-    border-radius: 36px;
-    box-shadow: 0px 0px 80px 38px #9358e1;
-    -index: -1;      
+height: 854px;    
+border-radius: 36p;
+ox-shadow: 0px 0px 80px 38px #9358e1;
+-index: -1;      
 }
 
 .copyrite {
  position: absolute;
-    top: 3592px;
-    left: 41px;
-    color: #f44336;
+  top: 3787px;
+  left: 41px;
+  color: #f44336;
 
-    font-size: 42px;
-    font-family: 'Yeseva One';
-    font-weight: 400;   
+  font-size: 42px;
+  font-family: 'Yeseva One';
+  font-weight: 400;   
 }
 
 .copy {
-    color: darkgreen;
+  color: darkgreen;
 }
 
 .missing {
-    color: yellow;
+  color: yellow;
 }
 
 .span:hove {
@@ -1251,7 +1304,7 @@ border: 2px solid #2798f1;
 
 
 @media screen and (max-width: 1300px) {
-body {width: 1300p;}
+body {width: 1300p; background-color: skyblue;}
 html {width: 1300p;}
 houses4 {width: 567px;}
 stars21 { left: 1225px; }

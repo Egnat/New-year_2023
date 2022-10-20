@@ -192,8 +192,8 @@ const textFriends = document.querySelector('.text-friends');
   textFriends.style ="font-size: 127px";
   textFriends.style.position ="absolute";
   textFriends.style.color = "#ff9800";
-  textFriends.style.top = "2773px";
-  textFriends.style.left = "166px";
+  textFriends.style.top = "2773p";
+  textFriends.style.left = "119px";
   textFriends.style.zIndex = "1";
   textFriends.style.textShadow = "7px 7px 7px";
 
@@ -258,7 +258,7 @@ const appp = document.querySelector("#appp");
 document.body.insertBefore(div, appp);*/
 
 /*document.getElementsByTagName("img")[0];
-const img = document.querySelector('.img-2');
+const img = document.querySelector('.flying_santa');
 img.addEventListener('mousemove', (event) => {
 //img.classList.toggle('img--mymove');
 //img.style.animationIterationCount= 5;
