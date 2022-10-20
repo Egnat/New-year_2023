@@ -488,6 +488,7 @@ flex-direction: column;
 .fly_santa {
 position: absolute;
 top: 770px;
+left: 15px;
 }
 
 img.flying_santa {
@@ -507,7 +508,7 @@ animation: mymove 75s infinite; /*регулируется быстрота и �
 
 @keyframes mymove {
 from { left:0px; }
-to { left:938px; } /*ставим размер экрана, чтобы гугл исчезал если нужно*/
+to { left:906px; } /*ставим размер экрана, чтобы гугл исчезал если нужно*/
 }
 
 .blue-star {
@@ -550,7 +551,7 @@ position: absolute;
 }
 
 .salute-small {
- width: 96px;
+ width: 94px;
   height: 60px;
   margin-right: 33p;   
 }
@@ -567,7 +568,7 @@ display: flex;
     top: 757p;
     right: 957p;
     z-index: ;
-    box-shadow: -116px 0px 80px 38px rgb(203 200 215 / 97%);
+    box-shadow: -21px 0px 15px 15px rgb(112 85 221 / 95%);
     ransform: matrix(-1, 0, 0, 1, 0, 0);
     border-radius: 9p;
 }
@@ -578,8 +579,8 @@ display: flex;
     height: 198px;
     top: 757p;
     right: 355p;
-    z-index: ;
-    box-shadow: 93px 0px 80px 38px rgb(203 200 215 / 97%);
+    z-index: -1;
+    box-shadow: 24px 0px 15px 15px rgb(112 85 221 / 95%);
     ransform: matrix(-1, 0, 0, 1, 0, 0);
     border-radius: 9p;
 }
@@ -590,20 +591,20 @@ display: flex;
     height: 198px;
     top: 757p;
     right: 656p;
-    z-index: ;
-    box-shadow: 0px -3px 80px 38px rgb(203 200 215 / 97%);
+    z-index: -1;
+    box-shadow: 0px 0px 15px 15px rgb(112 85 221 / 95%);
     transform: matrix(-1, 0, 0, 1, 0, 0);
     border-radius: 9p;
 }
 
 .houses6 {
      osition: absolute;
-    width: 313px;
+    width: 284px;
     height: 198px;
     top: 757p;
     right: 0p;
     z-index: ;
-    box-shadow: -110px 2px 80px 38px rgb(203 200 215 / 97%);
+    box-shadow: -22px 0px 15px 15px rgb(112 85 221 / 95%);
     transform: matrix(-1, 0, 0, 1, 0, 0);
     border-radius: 9p;
 }
@@ -860,7 +861,7 @@ top: 1582px;
 .newPhoto2_rabbit { 
   position: absolute;
   top: 1431p;
-  left: 397px;
+  left: 401px;
 margin: 0 auto;
 }
 
@@ -892,7 +893,8 @@ border-radius: 19px;
 
 .block_walking-santa {
 position: absolute;
-top: 2145px;  
+top: 2145px;
+left: 17px;  
 }
 
 .santa1 {
@@ -918,31 +920,34 @@ position: absolute;
      height: 404px;
     top: 1980p;
     right:878p;
-    border-radius: 0px;
+    order: 1px solid #ff0;
+    border-radius: 23px;
     z-index: ;
-    box-shadow: 0px 0px 80px 38px #2f2fd3ed;
+    box-shadow: -2px 0px 15px 15px #6c6cdfed;
 }
 
 .houses2 {
  position: absolute;
-    width: 452px;
+    width: 430px;
     height: 404px;
     top: 1982p; 
     left: 328px;
+    order: 1px solid #ff0;
     border-radius: 12p;
-    box-shadow: 72px 0px 80px 38px #0f0f74ed;
-     ransform: matrix(-1, 0, 0, 1, 0, 0);
+    box-shadow: 18px 0px 15px 15px #6c6cdfed;
+    ransform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 .houses4 {
  position: absolute;
-    width: 483px;
-    height: 404px;
-    top: 1982p;
-     left: 780px;
-    border-radius: 12p;
-    box-shadow: -79px 0px 37px 38px #2f2fd3ed;
-     transform: matrix(-1, 0, 0, 1, 0, 0);
+  width: 490px;
+  height: 404px;
+  top: 1982p;
+  left: 741px;
+  order: 1px solid #ff0;
+  border-radius: 23px;
+  box-shadow: -24px 0px 15px 15px #6c6cdfed;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 .moon {
@@ -962,7 +967,7 @@ position: absolute;
   width: 112px;
   height: 102px;
   top: 20px;
-  left: 1138px;
+  left: 1095px;
   border-radius: 771px;
   z-index: 1;
 }
@@ -982,7 +987,7 @@ position: absolute;
  width: 91px;
  height: 91px;
  top: 88px;
- left: 704px;
+ left: 696px;
  border-radius: 53px;
  z-index: 1;
 }
@@ -1149,7 +1154,7 @@ position: absolute;
  width: 48px;
  height: 48px;
  top: 97px;
- left: 871px;
+ left: 849px;
  z-index: 1;      
 }
 
@@ -1158,7 +1163,7 @@ position: absolute;
  width: 49px;
  height: 49px;
  top: 127px;
- left: 1210px;
+ left: 1180px;
  z-index: 1;        
 }
 
@@ -1184,8 +1189,8 @@ position: absolute;
 position: absolute;
  width: 29px;
  height: 29px;
- top: 1994p;
- left: 1216px;
+ top: 8px;
+ left: 1192px;
  z-index: 1;        
 }
 
@@ -1193,8 +1198,8 @@ position: absolute;
 position: absolute;
  width: 38px;
  height: 38px;
- top: 6px;
- left: 1111px;
+ top: 141px;
+ left: 663px;
  z-index: 1;        
 }
 
