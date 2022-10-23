@@ -1347,6 +1347,12 @@ border: 2px solid #2798f1;
   right: -17px;
   font-size: 74px;
 }
+
+.text-friends {
+width: 1207px; 
+ left: 3px;
+ font-size: 124px;
+}
 }
 @media screen and (max-width: 768px) {
 
@@ -1368,6 +1374,12 @@ font-size: 67px;
   right: -17px;
   font-size: 74px;
 } 
+
+.text-friends {
+width: 1207px; 
+ left: 3px;
+ font-size: 124px;  
+}
 }
 
 @media screen and (max-width: 425px) {
@@ -1390,6 +1402,12 @@ font-size: 67px;
   right: -17px;
   font-size: 74px;
 }
+
+.text-friends {
+width: 1207px; 
+ left: 3px;
+ font-size: 124px;  
+}
 }
 
 @media screen and (max-width: 375px) {
@@ -1411,5 +1429,11 @@ font-size: 67px;
   width: 1022px;
   right: -17px;
   font-size: 74px;
+}
+
+.text-friends {
+ width: 1207px; 
+ left: 3px;
+ font-size: 124px;
 }
 }

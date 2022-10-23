@@ -190,10 +190,10 @@ document.querySelector(".friends").insertAdjacentHTML("beforebegin",
 const textFriends = document.querySelector('.text-friends');
   textFriends.style ="font-size: 124px";
   textFriends.style.position ="absolute";
-  textFriends.style.width =" 1207px";
+  textFriends.style.width =" 1001px";
   textFriends.style.color = "#ff9800";
   textFriends.style.top = "2773p";
-  textFriends.style.left = "3px";
+  textFriends.style.left = "139px";
   textFriends.style.zIndex = "1";
   textFriends.style.textShadow = "7px 7px 7px";
 
