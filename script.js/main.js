@@ -32,7 +32,6 @@ btnPrev.addEventListener("click", () => {positionSlides(-1);});
 btnNext.addEventListener("click", () => {positionSlides(1);});
 
 const articleText = document.querySelector(".slide-text5");
-
 articleText.addEventListener('mousemove', (event) => {
   event.stopPropagation();
   articleText.innerHTML = "З Новим роком !";
@@ -210,12 +209,12 @@ function blink() {
 /*можно сделать в штмл див или артикль id, но рекомендуют, чтобы id был 1, или class с текстом hi, найти его 
 const article = document.getElementById, .querySelector('hi'); и включить сэт интервал*/
 //window.setInterval(blink, 2000);
-const timer = setInterval(() => {
+const time = setInterval(() => {
   const resultLoop = blink();
   if (resultLoop === true) { // если элемент найден
-    clearInterval(timer); // остановить setInterval
+    clearInterval(time); // остановить setInterval
   }
-}, 2000); /* можно использовать для изменения фото если 
+}, 2000);  /*можно использовать для изменения фото если 
 поставить ссылку с неограниченным колличеством фоток, на пример, 
 'https://picsum.photos/100'*/
 
@@ -227,7 +226,7 @@ function blinked() {
     div.style.visibility = "hidden";
   }
 } 
-window.setInterval(blinked, 1000);
+ window.setInterval(blinked, 1000);
 
 function blinkede() {
   const figure = document./*getElementById('salutes');*/querySelector('.salutes');
@@ -237,7 +236,7 @@ function blinkede() {
     figure.style.visibility = "hidden";
   }
 } 
-window.setInterval(blinkede, 3000);
+ window.setInterval(blinkede, 3000);
 
 function blinkeded() {
   const section = document./*getElementById*/querySelector('.continer-salute');
@@ -247,8 +246,34 @@ function blinkeded() {
     section.style.visibility = "hidden";
   }
 } 
-window.setInterval(blinkeded, 4500); // можно подключить, чтоб массив салютов 
+ window.setInterval(blinkeded, 4500); // можно подключить, чтоб массив салютов 
 //появился, исчез
+
+ function timer() {
+    // Находим элемент h1 в документе
+   //h1 = document.getElementsByTagName('h1')[0];
+   const h1 = document.querySelector('.time');
+    // Устанавливаем дату
+    var date = new Date();
+    
+    var hours = date.getHours();
+    var minutes = date.getMinutes();
+    var seconds = date.getSeconds();
+    
+    if (hours < 10) hours = "0" + hours;       // Для удобства отображения
+    if (minutes < 10) minutes = "0" + minutes;
+    if (seconds < 10) seconds = "0" + seconds;
+    
+   h1.innerHTML = hours + ":" + minutes + ":" + seconds;
+   
+    // Вызываем функцию раз в одну секунду
+    setTimeout('timer()', 1000);/*setInterval работает тоже*/
+}
+
+// Получает текущую дату и время
+//d = new Date();
+//document.write/*body.textContent =*/('Время: '+ d.toLocaleTimeString());должно показывать время, пока не показывает
+//alert('Время: '+ d.toLocaleTimeString());
 
 /*//3 пример создаем элемент
 const div = document.createElement("div");

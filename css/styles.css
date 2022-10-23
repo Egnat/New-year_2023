@@ -9,7 +9,17 @@ body {
   box-sizing: border-box;
 }
 
+.time {
+  position: absolute;
+  top: 174px;
+  left: 9px;
+  margin: 0; 
+  color: #ffe504; 
+  font-size: 30px;
+}
+
 .new-year_boll {
+  margin-top: 15px;
 margin-left: 10px;
 box-shadow: 4px 0px 46px 8px coral; 
 }
@@ -92,7 +102,8 @@ box-shadow: 4px 0px 46px 8px coral;
   display: flex;  
   width: 688px;/*53%;*/
   top: 213px;
-  left: 539px;	
+  left: 539px;
+  box-shadow: 0px 0px 22px 20px rgb(225 225 235 / 38%);  	
 }
 
 .slideshow-container {
@@ -100,8 +111,7 @@ box-shadow: 4px 0px 46px 8px coral;
   width: 100%;
   height: 479px;
   top: 0px;
-  border-radius: 17px;
-  box-shadow: 0px 0px 22px 20px rgb(225 225 235 / 38%);  
+  border-radius: 17px; 
 }
 
 .mySlides {
@@ -247,7 +257,7 @@ position: absolute;
 .slide-text5 {
 position: absolute;
 width: 963px;
-right: 45px;
+right: -62px;
 bottom: 564px;
 color: #f00;
 
@@ -1315,115 +1325,12 @@ border: 2px solid #2798f1;
 /*Можно добавить .dot:hover, но будут дергаться кнопки*/
 
 
-@media screen and (max-width: 1300px) {
-body {width: 1270p; ackground-color: skyblue;}
-html {width: 1270p;}
-houses4 {width: 567px;}
-stars21 { left: 1225px; }
-ext-friends { font-size: 110p; left: 202p; color: #ffa500;}
-}
+@media screen and (max-width: 1300px) {}
 
-@media screen and (max-width:1024p) {
-.continer-salute { left:6px; }
-.salute-small { width: 95px; }
-.blue-star { left: 6px; }
-.houses { width: 325px; right:698px;}
-.houses5 { right: 398px; }
-.houses3 { right: 97px; }
-.houses6 { width: 332px; right: -235px; }
-.img3 { right: 641px; } 
-.houses4 { width: 544px; left: 716px; box-shadow: -97px 0px 80px 38px #2f2fd3ed;} 
-.houses2 { left: 352px; }
-.forest { width: 400px; right: 622px;}
-.tree1 { right: 810px; } 
-.salute9 { top: 1046px; right: 824px;}
-.salute10 { top: 1030px; right: 918px;}
-.salute11 { top: 1128px; right: 940px;}
-.salute12 { top: 1154px; right: 827px;}
-.oval { right: -238px; }
-.stars21 { left: 1206px; } 
-.friends { left: 30px; }
-.toy { left: 1124px; } 
-.text-friends {width: 946px; font-size: 110px; left: 202px; color: #ffa500;}
-}
+@media screen and (max-width:1024p) {}
 
-@media screen and (max-width: 768p) {
-.blue-star { left: 6px; }
-.star { margin-right: 34px; }
-.continer-salute { left: 15px; }
-.salute-small { width: 94px; }
-.houses6 { width:318px; right: -488px; }
-.houses3 {right: -170px;}
-.houses5 {right: 131px;}
-.houses {width: 334px; right: 432px;}
-.accordions { left: 224px; }
-.oval {right: -482px;}
-.tree1 {right: 554px;}
-.salute9 { top: 1031px; right: 654px;}
-.salute10 { top: 1043px; right: 565px;}
-.salute11 { top: 1155px; right:565px;}
-.salute12 { top: 1136px; right: 687px;}
-.forest {width: 398px;right: 365px;}
-.img3 { right: 392px; } 
-.houses4 {width: 519px; left: 739px;}
-.text-friends { width: 946p; color: #ffa500; }  
-.houses2 {left: 362px;}
-.forest {width: 406px;right: 353px;}
-.showman { left: 926px; }
-.stars5 { left: 239px; } 
-.stars6 { left: 282px; } 
-.stars11 { left: 86px; } 
-.stars21 { left: 1205px; } 
-.stars23 { left: 589px; } 
-.cone { left: 933px; } 
-.toy { left: 1120px; }
-.friends { left: 28px; }  
-}
+@media screen and (max-width: 768p) {}
 
-@media screen and (max-width: 425p) {
-.showman2 { left: 1171px; }
-.continer-salute { left: 11px; }
-.salute-small { width: 94px; }
-.houses6 {width: 313px; right: -830px; }
-.houses3 {right: -517px;}
-.houses4 { width: 515px; }
-.houses5 {right: -216px;}
-.houses {width: 337px; right: 84px;}
-.accordions {left: 232px;} 
-.img3 {right: 46px;}
-.oval {right: -822px;}
-.tree1 {right: 196px;}
-.salute9 { top: 1031px; right: 306px;}
-.salute10 { top: 1043px; right: 212px;}
-.salute11 { top: 1128px; right:327px;}
-.salute12 { top: 1154px; right: 211px;}
-.forest {width: 398px;right: 22px;}
-.showman { left: 928px; }
-.cone { left: 946px; }
-.iframe { left: 336px; }
-.santaInPipe { left: 625px; }
-.magic-ball {left: 18p;}
-.friends { left: 26px; }     
-}
+@media screen and (max-width: 425p) {}
 
-@media screen and (max-width: 375p) {
-.showman2 { left: 1157px; }
-.continer-salute { left: 9px; }
-.houses6 {width: 317px; right: -879px;}  
-.houses3 {right: -561px;}
-.houses5 {right: -260px;}
-.houses {width: 332px;right: 40px;}
-.oval {right: -857px;}
-.tree1 {right: 157px;}
-.salute9 { top: 1031px; right: 266px;}
-.salute10 { top: 1043px; right:176px;}
-.salute11 { top: 1128px; right:280px;}
-.salute12 { top: 1154px; right: 158px;}
-.img3 {right: -7px;}
-.forest {width: 407px;right: -40px;}
-.stars24 { left: 1197px; }
-.stars21 { left: 1196px; }
-.salute2 { left: 1117px; }
-.cone { left: 916px; }
-.showman { left: 910px; }
-}
+@media screen and (max-width: 375p) {}
