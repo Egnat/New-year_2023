@@ -142,7 +142,6 @@ to {opacity: 1}
   vertical-align: middle;
 }
 
-
 .slide-text {
   position: absolute;
   width: 162px;
@@ -498,7 +497,7 @@ flex-direction: column;
 .fly_santa {
 position: absolute;
 top: 770px;
-left: 11px;
+left: 17px;
 }
 
 img.flying_santa {
@@ -1333,6 +1332,10 @@ border: 2px solid #2798f1;
 
 .showman2 {
 left: 1162px;
+}
+
+.fly_santa {
+left: 11px;
 }
 
 .slide-text6 { 
