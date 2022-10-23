@@ -272,7 +272,7 @@ text-transform: uppercase;
 .slide-text6 {
 position: absolute;
 width: 927px;
-right: -8px;
+right: -3px;
 bottom: 600px;
 color: #e3739c;
 
@@ -286,8 +286,8 @@ ext-transform: uppercase;
 
 .slide-text7 {
 position: absolute;
-width:1011px;
-right: -16px;
+width:941px;
+right: -13px;
 bottom: 584px;
 color: #5ee59a;
 
@@ -301,7 +301,7 @@ ext-transform: uppercase;
 
 .slide-text8 {
 position: absolute;
-width: 1022px;
+width: 960px;
 right: -17px;
 bottom: 586px;
 color: #ffa500;
@@ -1330,19 +1330,44 @@ border: 2px solid #2798f1;
 @media screen and (max-width:1024px) {
 
 .slide-text6 { 
-width: 1022px;
-right: -8px;
-font-size: 67px;
-}
+  width: 1022px;
+  right: -8px;
+  font-size: 67px;
 }
 
+.slide-text7 {
+  width: 1011px;
+  right: -16px;
+  font-size: 74px;
+}
+
+.slide-text8 {
+  position: absolute;
+  width: 1022px;
+  right: -17px;
+  font-size: 74px;
+}
+}
 @media screen and (max-width: 768px) {
 
 .slide-text6 { 
 width: 1022px;
 right: -8px;
 font-size: 67px;
-}  
+} 
+
+.slide-text7 {
+  width: 1011px;
+  right: -16px;
+  font-size: 74px;
+}
+
+.slide-text8 {
+  position: absolute;
+  width: 1022px;
+  right: -17px;
+  font-size: 74px;
+} 
 }
 
 @media screen and (max-width: 425px) {
@@ -1352,6 +1377,19 @@ width: 1022px;
 right: -8px;
 font-size: 67px;
 }
+
+.slide-text7 {
+  width: 1011px;
+  right: -16px;
+  font-size: 74px;
+}
+
+.slide-text8 {
+  position: absolute;
+  width: 1022px;
+  right: -17px;
+  font-size: 74px;
+}
 }
 
 @media screen and (max-width: 375px) {
@@ -1360,5 +1398,18 @@ font-size: 67px;
 width: 1022px;
 right: -8px;
 font-size: 67px;
+}
+
+.slide-text7 {
+  width: 1011px;
+  right: -16px;
+  font-size: 74px;
+}
+
+.slide-text8 {
+  position: absolute;
+  width: 1022px;
+  right: -17px;
+  font-size: 74px;
 }
 }
