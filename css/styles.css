@@ -271,7 +271,7 @@ text-transform: uppercase;
 
 .slide-text6 {
 position: absolute;
-width: 927px;
+width: 943px;
 right: -3px;
 bottom: 600px;
 color: #e3739c;
@@ -1359,6 +1359,7 @@ width: 1207px;
  font-size: 124px;
 }
 }
+
 @media screen and (max-width: 768px) {
 
 .slide-text6 { 
