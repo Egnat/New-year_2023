@@ -28,7 +28,7 @@ box-shadow: 4px 0px 46px 8px coral;
   position: absolute;
   width: 75px;
   top: 12px;
-  left: 1193px;
+  left: 1179px;
   box-shadow: 0px 2px 25px 15px yellowgreen;   
 }
 
@@ -1324,12 +1324,14 @@ border: 2px solid #2798f1;
 /*Можно добавить .dot:hover, но будут дергаться кнопки*/
 
 
-@media screen and (max-width: 1300px) {}
+@media screen and (max-width: 1300px) {
+  .showman2 { left: 1193px; }
+}
 
 @media screen and (max-width:1024px) {
 
 .showman2 {
-left: 1162px;
+left: 1179px;
 }
 
 .slide-text6 { 
