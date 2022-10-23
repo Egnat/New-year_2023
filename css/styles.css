@@ -1362,7 +1362,7 @@ width: 1207px;
  font-size: 124px;
 }
 
-.all_friends { left: 28px; }
+.all_friends { left: 27px; }
 }
 
 @media screen and (max-width: 768px) {
@@ -1396,7 +1396,7 @@ width: 1207px;
  font-size: 124px;  
 }
 
-.all_friends { left: 28px; }
+.all_friends { left: 27px; }
 }
 
 @media screen and (max-width: 425px) {
@@ -1430,7 +1430,7 @@ width: 1207px;
  font-size: 124px;  
 }
 
-.all_friends { left: 28px; }
+.all_friends { left: 27px; }
 }
 
 @media screen and (max-width: 375px) {
@@ -1464,5 +1464,5 @@ font-size: 67px;
  font-size: 124px;
 }
 
-.all_friends { left: 28px; }
+.all_friends { left: 27px; }
 }
