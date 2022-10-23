@@ -28,7 +28,7 @@ box-shadow: 4px 0px 46px 8px coral;
   position: absolute;
   width: 75px;
   top: 12px;
-  left: 1162px;
+  left: 1170px;
   box-shadow: 0px 2px 25px 15px yellowgreen;   
 }
 
@@ -1329,6 +1329,9 @@ border: 2px solid #2798f1;
 
 @media screen and (max-width:1024px) {
 
+.showman2 {
+left: 1162px;
+}
 .slide-text6 { 
   width: 1022px;
   right: -8px;
