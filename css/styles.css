@@ -9,50 +9,6 @@ body {
   box-sizing: border-box;
 }
 
-/*Начало Позиционирование h1 по середине*/
-.action {
-  display: block;
-  margin: 0 auto;        
-  text-align: center;
-}
-.action-wrapper{
-  display: inline-block;
-  padding: 0 10px;
-}
-/*Конец Позиционирование h1 по середине*/
-.container{
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  }
-     /*Форма и цвет кнопки*/
-.btn {
-    padding: 0;                     
-    background-color: transparent;
-    border: none;
-    outline: none;
-    -webkit-tap-highlight-color: transparent;     
-    box-shadow: none;
-    cursor: pointer;
-    display: flex;
-    margin: 50px 50px;
-    padding: 20px 50px;
-    border-radius: 5px;
-    font-size: 20px;
-    line-height: 15px;
-    text-transform: uppercase;
-    color: white;
-    background: #315efb;
-    transition: 0.3s;
-  }
-.btn_text {
-    margin-right: 50px; /*оцтупы текста*/
-   }
-.btn:hover {
-  transform: skew(-10deg);/*искажение кнопки*/
-  }
-
 .time {
   position: absolute;
   top: 174px;
