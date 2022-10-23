@@ -497,7 +497,8 @@ flex-direction: column;
 .fly_santa {
 position: absolute;
 top: 770px;
-left: 31px;
+left: 18px;
+margin: 0 auto;
 }
 
 img.flying_santa {
@@ -904,7 +905,8 @@ border-radius: 19px;
 .block_walking-santa {
 position: absolute;
 top: 2145px;
-left: 8px;  
+left: 14px;
+margin: 0 auto;  
 }
 
 .santa1 {
