@@ -188,7 +188,7 @@ const content = "Happy New Year !";
 document.querySelector(".friends").insertAdjacentHTML("beforebegin", 
 `<article class="text-friends"> ${content} </article>`);
 const textFriends = document.querySelector('.text-friends');
-  textFriends.style ="font-size: 124px";
+  textFriends.style ="font-size: 117px";
   textFriends.style.position ="absolute";
   textFriends.style.width =" 1001px";
   textFriends.style.color = "#ff9800";
