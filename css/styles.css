@@ -1331,6 +1331,7 @@ border: 2px solid #2798f1;
 .showman2 {
 left: 1162px;
 }
+
 .slide-text6 { 
   width: 1022px;
   right: -8px;
@@ -1360,10 +1361,16 @@ width: 1207px;
  left: 3px;
  font-size: 124px;
 }
+
+.all_friends { left: 30px; }
 }
 
 @media screen and (max-width: 768px) {
 
+.showman2 {
+left: 1162px;
+}
+
 .slide-text6 { 
 width: 1022px;
 right: -8px;
@@ -1388,10 +1395,16 @@ width: 1207px;
  left: 3px;
  font-size: 124px;  
 }
+
+.all_friends { left: 30px; }
 }
 
 @media screen and (max-width: 425px) {
 
+.showman2 {
+left: 1162px;
+}
+
 .slide-text6 { 
 width: 1022px;
 right: -8px;
@@ -1416,9 +1429,15 @@ width: 1207px;
  left: 3px;
  font-size: 124px;  
 }
+
+.all_friends { left: 30px; }
 }
 
 @media screen and (max-width: 375px) {
+
+.showman2 {
+left: 1162px;
+}
 
 .slide-text6 { 
 width: 1022px;
@@ -1444,4 +1463,6 @@ font-size: 67px;
  left: 3px;
  font-size: 124px;
 }
+
+.all_friends { left: 30px; }
 }
