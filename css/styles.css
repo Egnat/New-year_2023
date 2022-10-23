@@ -12,7 +12,7 @@ body {
 .time {
   position: absolute;
   top: 174px;
-  left: 9px;
+  left: 7px;
   margin: 0; 
   color: #ffe504; 
   font-size: 30px;
@@ -271,7 +271,7 @@ text-transform: uppercase;
 
 .slide-text6 {
 position: absolute;
-width: 1022px;
+width: 927px;
 right: -8px;
 bottom: 600px;
 color: #e3739c;
@@ -1327,10 +1327,38 @@ border: 2px solid #2798f1;
 
 @media screen and (max-width: 1300px) {}
 
-@media screen and (max-width:1024p) {}
+@media screen and (max-width:1024px) {
 
-@media screen and (max-width: 768p) {}
+.slide-text6 { 
+width: 1022px;
+right: -8px;
+font-size: 67px;
+}
+}
 
-@media screen and (max-width: 425p) {}
+@media screen and (max-width: 768px) {
 
-@media screen and (max-width: 375p) {}
+.slide-text6 { 
+width: 1022px;
+right: -8px;
+font-size: 67px;
+}  
+}
+
+@media screen and (max-width: 425px) {
+
+.slide-text6 { 
+width: 1022px;
+right: -8px;
+font-size: 67px;
+}
+}
+
+@media screen and (max-width: 375px) {
+
+.slide-text6 { 
+width: 1022px;
+right: -8px;
+font-size: 67px;
+}
+}
