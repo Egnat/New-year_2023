@@ -254,8 +254,8 @@ position: absolute;
 
 .slide-text5 {
 position: absolute;
-width: 963px;
-right: -62px;
+width: 893px;
+right: 9px;
 bottom: 564px;
 color: #f00;
 
@@ -330,7 +330,7 @@ text-shadow: 7px 7px 7px;
 .mini2-text5-slide {
 position: absolute;
 width: 615px;
-right: 555px;
+right: 563px;
 bottom: -43px;
 color: #daa520;
 
@@ -935,7 +935,7 @@ position: absolute;
     order: 1px solid #ff0;
     border-radius: 23px;
     z-index: ;
-    box-shadow: -2px 0px 15px 15px #6c6cdfed;
+    box-shadow: -2px 0px 15px 15px #f44336;
 }
 
 .houses2 {
@@ -946,7 +946,7 @@ position: absolute;
     left: 328px;
     order: 1px solid #ff0;
     border-radius: 12p;
-    box-shadow: 18px 0px 15px 15px #6c6cdfed;
+    box-shadow: 18px 0px 15px 15px #f44336;
     ransform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
@@ -958,7 +958,7 @@ position: absolute;
   left: 741px;
   order: 1px solid #ff0;
   border-radius: 23px;
-  box-shadow: -20px 0px 15px 15px #6c6cdfed;
+  box-shadow: -20px 0px 15px 15px #f44336;
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
