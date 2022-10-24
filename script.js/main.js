@@ -3,7 +3,7 @@ var a_href = str.bold().fontcolor('green').link('JavaScript:alert("Привет!
 
 document.write(a_href);// создается ссылка в штмл зеленого цвета с выводом alert("Привет!")*/
 
-let answer = prompt("Как жизнь молодая, всё ok ?"); 
+let answer = prompt("Как жизнь молодая ?"); 
   //if(answer !== "string") {alert("Нужны буквы");}
   if (answer == 'ok') { 
     alert(`Так держать ! 👍`); 
