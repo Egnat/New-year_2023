@@ -9,7 +9,7 @@
   pacity: 0.02;
 } /* УБРАЛ ПОЛОСУ ПРОКРУТКИ С ЭКРАНА*/
 
-::-webkit-scrollbar-button {background :#42e10e; }  /*2 - кнопка*/  
+::-webkit-scrollbar-button {height: 50px; background :#42e10e; }  /*2 - кнопка*/  
 
 ::-webkit-scrollbar-track {background: #274dd7; }  /*3 - трек */ 
 
