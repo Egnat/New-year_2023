@@ -3,10 +3,38 @@
   font-family:"Yeseva+One";
 }
 
+::-webkit-scrollbar {
+  width : 0px; 
+  height: 0px;
+  pacity: 0.02;
+} /* УБРАЛ ПОЛОСУ ПРОКРУТКИ С ЭКРАНА*/
+
+/*настраивает полосу прокрутки с помощью вэбкит. С этими еще не разобрался
+
+::-webkit-scrollbar{ width: 22px;  1 - вертикальный скроллбар }
+
+::-webkit-scrollbar:horizontal{ height: 22px; 1 - горизонтальный скроллбар }
+
+::-webkit-scrollbar-button {background : #008000; }  2 - кнопка 
+
+::-webkit-scrollbar-track {background: #008000; }  3 - трек 
+
+::-webkit-scrollbar-track-piece { background: #32CD32;}  4 - видимая часть трека 
+
+::-webkit-scrollbar-thumb {background: #008000; border-radius: 10px;
+ -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);  5 - ползунок }
+
+::-webkit-scrollbar-corner {: #32CD32; }  6 - уголок 
+
+::-webkit-resizer { : #32CD32; } 7 - изменение размеров 
+*/
+
 body {
   background-image: url('https://highstar.ru/pictures/snejinki/09.gif');
   margin: 0 auto;
   box-sizing: border-box;
+  verflow: hidden;/*убирает полностью прокрутку с экрана*/
+  -webkit-resizer: /*— изменение размеров*/
 }
 
 .time {
@@ -28,7 +56,7 @@ box-shadow: 4px 0px 46px 8px coral;
   position: absolute;
   width: 75px;
   top: 12px;
-  left: 1175px;
+  left: 1188px;
   box-shadow: 0px 2px 25px 15px yellowgreen;   
 }
 
@@ -145,7 +173,7 @@ to {opacity: 1}
 .slide-text {
   position: absolute;
   width: 162px;
-  right: 502px;
+  right: 488px;
   bottom: 536px;
   color: #E3B873;
 
@@ -497,7 +525,7 @@ flex-direction: column;
 .fly_santa {
 position: absolute;
 top: 770px;
-left: 18px;
+left: 15px;
 margin: 0 auto;
 }
 
@@ -518,7 +546,7 @@ animation: mymove 75s infinite; /*регулируется быстрота и �
 
 @keyframes mymove {
 from { left:0px; }
-to { left:906px; } /*ставим размер экрана, чтобы гугл исчезал если нужно*/
+to { left:927px; } /*ставим размер экрана, чтобы гугл исчезал если нужно*/
 }
 
 .blue-star {
@@ -527,7 +555,7 @@ to { left:906px; } /*ставим размер экрана, чтобы гугл
   justify-content: space-between; 
   width: 1218px;
   top: 763p;
-  left: 11p;
+  left: 11px;
   z-index: 1;  
 }
 
@@ -536,7 +564,7 @@ to { left:906px; } /*ставим размер экрана, чтобы гугл
   display: flex;
   justify-content: space-between; 
   top: 10px;
-  left: 22px;
+  left: 34px;
   z-index: 1;  
 }
 
@@ -579,7 +607,7 @@ display: flex;
     top: 757p;
     right: 957p;
     z-index: ;
-    box-shadow: -21px 0px 15px 15px rgb(112 85 221 / 95%);
+    box-shadow: -22px 0px 15px 15px rgb(112 85 221 / 95%);
     ransform: matrix(-1, 0, 0, 1, 0, 0);
     border-radius: 9p;
 }
@@ -610,7 +638,7 @@ display: flex;
 
 .houses6 {
      osition: absolute;
-    width: 279px;
+    width: 298px;
     height: 198px;
     top: 757p;
     right: 0p;
@@ -623,7 +651,7 @@ display: flex;
 .block_acordions {
   position: absolute;
   top: 1041px;
-  left: 226px;
+  left: 235px;
 }
 
 .accordions {
@@ -867,6 +895,7 @@ background-color: #15723dba;
 .change_rabbits {
 position: absolute;
 top: 1582px;
+left: 16px;
 }
 
 .newPhoto2_rabbit { 
@@ -905,7 +934,7 @@ border-radius: 19px;
 .block_walking-santa {
 position: absolute;
 top: 2145px;
-left: 14px;
+left: 25px;
 margin: 0 auto;  
 }
 
@@ -935,7 +964,7 @@ position: absolute;
     order: 1px solid #ff0;
     border-radius: 23px;
     z-index: ;
-    box-shadow: -2px 0px 15px 15px #f44336;
+    box-shadow: -7px 0px 15px 15px #f44336;
 }
 
 .houses2 {
@@ -1218,6 +1247,7 @@ position: absolute;
 .all_iframe {
 position: absolute;
 top: 2597px;
+left: 12px;
 }
 
 .iframe {
@@ -1269,7 +1299,7 @@ width: 68px;
 .all_friends {
 position: absolute;
 top: 3012px;
-left: 36px;
+left: 42px;
 -index: -1;    
 
 }
@@ -1327,15 +1357,15 @@ border: 2px solid #2798f1;
 /*Можно добавить .dot:hover, но будут дергаться кнопки*/
 
 
-@media screen and (max-width: 1300px) {
-.showman2 { left: 1193p; }
-}
+@media screen and (max-width: 1300px) {}
 
 @media screen and (max-width:1024px) {
 
 .showman2 {left: 1162px;}
 
-.fly_santa {left: 11px;}
+.fly_santa {left: 3px;}
+
+.houses6 { width: 296px; }
 
 .slide-text6 { width: 1022px;right: -8px;font-size: 67px;}
 
@@ -1345,7 +1375,9 @@ border: 2px solid #2798f1;
 
 .santa {width: 140px;height: 162px;}
 
-.block_walking-santa  { left: 8px; }
+.block_walking-santa  { left: 10px; }
+
+.all_iframe{ left: -3px; }
 
 .text-friends {width: 1207px; left: 3px;font-size: 124px;}
 
@@ -1360,7 +1392,13 @@ border: 2px solid #2798f1;
 
 .slide-text7 { width: 1011px;right: -16px;font-size: 74px;}
 
-.slide-text8 { width: 1022px;right: -17px;font-size: 74px;} 
+.slide-text8 { width: 1022px;right: -17px;font-size: 74px;}
+
+.houses6 { width: 294px; } 
+
+.block_acordions { left: 226px; }
+
+.change_rabbits { left: 4px; }
 
 .text-friends {width: 1207px; left: 3px;font-size: 124px;  }
 
@@ -1369,68 +1407,30 @@ border: 2px solid #2798f1;
 
 @media screen and (max-width: 425px) {
 
-.showman2 {
-left: 1162px;
-}
+.showman2 {left: 1162px;}
 
-.slide-text6 { 
-width: 973px;
-right: -8px;
-font-size: 67px;
-}
+.slide-text6 { width: 973px;right: -8px;font-size: 67px;}
 
-.slide-text7 {
-  width: 1011px;
-  right: -16px;
-  font-size: 74px;
-}
+.slide-text7 {width: 1011px;right: -16px;font-size: 74px;}
 
-.slide-text8 {
-  position: absolute;
-  width: 1022px;
-  right: -17px;
-  font-size: 74px;
-}
+.slide-text8 {position: absolute;width: 1022px;right: -17px;font-size: 74px;}
 
-.text-friends {
-width: 1207px; 
- left: 3px;
- font-size: 124px;  
-}
+.text-friends {width: 1207px; left: 3px;font-size: 124px; }
 
 .all_friends { left: 27px; }
 }
 
 @media screen and (max-width: 375px) {
 
-.showman2 {
-left: 1162px;
-}
+.showman2 {left: 1162px;}
 
-.slide-text6 { 
-width: 975px;
-right: -8px;
-font-size: 67px;
-}
+.slide-text6 { width: 975px;right: -8px;font-size: 67px;}
 
-.slide-text7 {
-  width: 1011px;
-  right: -16px;
-  font-size: 74px;
-}
+.slide-text7 {width: 1011px;right: -16px;font-size: 74px;}
 
-.slide-text8 {
-  position: absolute;
-  width: 1022px;
-  right: -17px;
-  font-size: 74px;
-}
+.slide-text8 {position: absolute;width: 1022px;right: -17px;font-size: 74px;}
 
-.text-friends {
- width: 1207px; 
- left: 3px;
- font-size: 124px;
-}
+.text-friends {width: 1207px; left: 3px;font-size: 124px;}
 
 .all_friends { left: 27px; }
 }
