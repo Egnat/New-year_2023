@@ -380,7 +380,9 @@ line-height: 48px;
 position: absolute;
 width: 372px;
 right: 187px;
-bottom: 79px;
+bottom: 76px;
+
+font-family: 'Yeseva One', Arial, sans-serif;
 font-size: 47px;
 }
 
@@ -389,6 +391,8 @@ position: absolute;
 width: 284px;
 bottom: 79px;
 left: -29px;
+
+font-family: 'Yeseva One', Arial, sans-serif;
 font-size: 47px;
 }
 
@@ -397,6 +401,8 @@ position: absolute;
 width: 406px;
 bottom: 79px;
 left: 242px;
+
+font-family: 'Yeseva One', Arial, sans-serif;
 font-size: 47px;
 }
 
