@@ -187,7 +187,7 @@ to {opacity: 1}
   font-family: 'Yeseva One', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 24px;  
   text-transform: uppercase;
 }
 
@@ -383,6 +383,7 @@ right: 187px;
 bottom: 79px;
 
 font-size: 47px;
+line-height: 56px;
 }
 
 .text-with-new {
