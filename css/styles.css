@@ -184,7 +184,7 @@ to {opacity: 1}
   bottom: 536px;
   color: #E3B873;
 
-  font-family: 'Yeseva One';
+  font-family: 'Yeseva One', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -382,7 +382,6 @@ width: 375px;
 right: 187px;
 bottom: 79px;
 
-font-family: 'Yeseva One', Arial, sans-serif;
 font-size: 47px;
 }
 
@@ -392,7 +391,6 @@ width: 284px;
 bottom: 79px;
 left: -29px;
 
-font-family: 'Yeseva One', Arial, sans-serif;
 font-size: 47px;
 }
 
@@ -402,7 +400,6 @@ width: 406px;
 bottom: 79px;
 left: 242px;
 
-font-family: 'Yeseva One', Arial, sans-serif;
 font-size: 47px;
 }
 
@@ -437,7 +434,7 @@ margin: 0 auto;
 display: flex;
 justify-content: space-between;
 
-font-family: 'Yeseva One';
+font-family: 'Yeseva One', Arial, sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 24px;
