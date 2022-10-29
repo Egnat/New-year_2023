@@ -378,9 +378,9 @@ line-height: 48px;
 
 .congratulations {
 position: absolute;
-width: 372px;
+width: 375px;
 right: 187px;
-bottom: 76px;
+bottom: 79px;
 
 font-family: 'Yeseva One', Arial, sans-serif;
 font-size: 47px;
@@ -736,6 +736,12 @@ ox-shadow: 10px 4px 63px -19px rgb(14 14 12 / 99%/*255 255 0 / 99%*/);
   line-height: 24px;
   text-align: cente;
   color: #ef2222; 
+}
+
+.h4 {
+position: absolute;
+bottom: 181px;
+left: 348px;
 }
 
 .accordions .contentBs.active .labels-accordions:before {
