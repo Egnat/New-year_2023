@@ -1312,8 +1312,19 @@ bottom: -74px;
 }
 
 .santaInPipe {
-display: block;
-width: 68px;     
+isplay: block;
+width: 68px;
+cursor: grab;     
+}
+
+.deer {
+position: absolute;  
+width: 168px;
+height: 168px;
+top: 2872px;
+left: 566px;
+cursor: grab;
+z-index: 1;
 }
 
 .all_friends {
