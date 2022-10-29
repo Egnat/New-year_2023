@@ -203,7 +203,7 @@ document.querySelector(".friends").insertAdjacentHTML("beforebegin",
 const textFriends = document.querySelector('.text-friends');
   textFriends.style ="font-size: 117px";
   textFriends.style.position ="absolute";
-  textFriends.style.width =" 1001px";
+  textFriends.style.width =" 1058px";
   textFriends.style.color = "#ff9800";
   textFriends.style.top = "2773p";
   textFriends.style.left = "139px";
