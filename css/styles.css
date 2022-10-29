@@ -738,8 +738,10 @@ ox-shadow: 10px 4px 63px -19px rgb(14 14 12 / 99%/*255 255 0 / 99%*/);
 
 .h4 {
 position: absolute;
-bottom: 181px;
+width: 257px;
+bottom: 200px;
 left: 348px;
+margin: 0 auto;
 }
 
 .accordions .contentBs.active .labels-accordions:before {
@@ -1399,6 +1401,8 @@ border: 2px solid #2798f1;
 
 .block_acordions {left: 223px;}
 
+.h4 {  }
+
 .change_rabbits { left: 5px; }
 
 .block_walking-santa  { left: 10px; }
@@ -1424,6 +1428,8 @@ border: 2px solid #2798f1;
 
 .block_acordions { left: 226px; }
 
+.h4 {  }
+
 .change_rabbits { left: 4px; }
 
 .text-friends {width: 1207px; left: 3px;font-size: 124px;  }
@@ -1441,6 +1447,8 @@ border: 2px solid #2798f1;
 
 .slide-text8 {position: absolute;width: 1022px;right: -17px;font-size: 74px;}
 
+.h4 {  }
+
 .text-friends {width: 1207px; left: 3px;font-size: 124px; }
 
 .all_friends { left: 27px; }
@@ -1455,6 +1463,8 @@ border: 2px solid #2798f1;
 .slide-text7 {width: 1011px;right: -16px;font-size: 74px;}
 
 .slide-text8 {position: absolute;width: 1022px;right: -17px;font-size: 74px;}
+
+.h4 {  }
 
 .text-friends {width: 1207px; left: 3px;font-size: 124px;}
 
