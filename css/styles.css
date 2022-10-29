@@ -5,7 +5,7 @@
 
 ::-webkit-scrollbar {
   width : 2px; 
-  height: 3p;
+  height: 10px;
   pacity: 0.02;
 } /* УБРАЛ ПОЛОСУ ПРОКРУТКИ С ЭКРАНА*/
 
@@ -36,7 +36,6 @@
 /*::-webkit-scrollbar-corner {: #32CD32; }  6 - уголок */
 
 /*::-webkit-resizer { : #32CD32; } 7 - изменение размеров*/ 
-
 
 body {
   background-image: url('https://highstar.ru/pictures/snejinki/09.gif');
@@ -380,24 +379,25 @@ line-height: 48px;
 
 .congratulations {
 position: absolute;
-right: 240px;
+width: 372px;
+right: 214px;
 bottom: 79px;
 font-size: 47px;
 }
 
 .text-with-new {
 position: absolute;
-width: 232px;
+width: 284px;
 bottom: 79px;
-left: -20px;
+left: -28px;
 font-size: 47px;
 }
 
 .year {
 position: absolute;
-width: 313px;
+width: 427px;
 bottom: 79px;
-left: 261px;
+left: 270px;
 font-size: 47px;
 }
 
@@ -1349,7 +1349,11 @@ height: 854px/*100%*/;
 }
 
 .copy {
-  color: darkgreen;
+  color: #096ebf;
+}
+
+.dollar {
+  color: #008000;
 }
 
 .missing {
