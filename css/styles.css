@@ -1387,28 +1387,28 @@ left: 12px;
 
 .iframe {
 position: absolute;
-    width: 555px;
-    top: 2435p;
-    left: 357px;
-   box-shadow: 0px 21px 86px 38px #21afe5f2;
+width: 555px;
+top: 2435p;
+left: 357px;
+box-shadow: 0px 21px 86px 38px #21afe5f2;
 }
 
 .magic-ball {
 position: absolute;
-    width: 325px;
-    height: 350px;
-    top: 2414p;
-    left: 17px;
-    border-radius: 27px;
-    z-index: -1;
-    box-shadow: 0px 27px 80px 30px rgb(41 211 38 / 91%);
-    transform: matrix(-1, 0, 0, 1, 0, 0);
+width: 325px;
+height: 350px;
+to 2414p;
+left: 17px;
+border-radius: 27px;
+z-index: -1;
+box-shadow: 0px 27px 80px 30px rgb(41 211 38 / 91%);
+transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 .cardOff_cone {
  position: absolute;
  bottom: -370px;
-  left:885px; 
+left:885px; 
 }
 
 .cone {
@@ -1429,7 +1429,7 @@ bottom: -74px;
 .santaInPipe {
 isplay: block;
 width: 68px;
-cursor: grab;     
+cursor:none;     
 }
 
 .deer {
