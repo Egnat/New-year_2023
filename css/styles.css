@@ -854,57 +854,57 @@ position: absolute;
 
 .tree1 {
 position: absolute;
-    width: 187px;
+    width: 212px;
+    height: 440px;
     top: 1023p;
     right: 11px;
-    height: 296px;
     border-radius: 46px;
     box-shadow: 0px 4px 27px 23px lightskyblue;
 }
 
 .santa_with_deers {
  position: absolute;
- width: 92px;
- top: 229px;
-right: 62px; 
+ width: 105px;
+ top: 355px;
+right: 95px; 
 }
 
 .salute9 {
     position: absolute;
-    width: 64px;
-    height: 64px;
-    top: 4px;
-    right: 120px;
+    width: 98px;
+    height: 83px;
+    top: 15px;
+    right: 121px;
      border-radius: 25px;
     z-index: 1;
 }
 
 .salute10 {
  position: absolute;
-    width: 64px;
-    height: 64px;
+    width: 92px;
+    height: 97px;
     top: 28px;
-    right: 24px;
+    right: 15px;
     border-radius: 25px;
     z-index: 1;   
 }
 
 .salute11 {
  position: absolute;
-    width: 44px;
-    height: 44px;
-    top: 99px;
-    right: 141px;
+    width: 60px;
+    height: 85px;
+    top: 147px;
+    right: 149px;
     border-radius: 25px;
     z-index: 1;      
 }
 
 .salute12 {
  position: absolute;
-    width: 44px;
-    height: 44px;
-    top: 124px;
-    right: 23px;
+    width: 76px;
+    height: 84px;
+    top: 175px;
+    right: 13px;
     border-radius: 25px;
     z-index: 1;      
 }
@@ -925,7 +925,7 @@ right: 62px;
  position: absolute;
  width: 15px;
  height: 15px;
- top: 103px;
+ top: 144px;
  right: 43px;
  z-index: 1;      
 }
@@ -934,7 +934,7 @@ right: 62px;
  position: absolute;
  width: 15px;
  height: 15px;
- top: 183px;
+ top: 282px;
  right: 36px;
  z-index: 1;      
 }
@@ -944,7 +944,7 @@ right: 62px;
  width: 15px;
  height: 15px;
  top: 14px;
- right: 81px;
+ right: 102px;
  z-index: 1;      
 }
 
@@ -952,8 +952,8 @@ right: 62px;
  position: absolute;
  width: 15px;
  height: 15px;
- top: 71px;
- right: 145px;
+ top: 108px;
+ right: 165px;
  z-index: 1;      
 }
 
@@ -961,8 +961,8 @@ right: 62px;
  position: absolute;
  width: 15px;
  height: 15px;
- top: 173px;
- right: 156px;
+ top: 258px;
+ right: 177px;
  z-index: 1;      
 }
 
@@ -975,6 +975,13 @@ left: 818px;
 box-shadow: 0px 0px 52px 28px greenyellow;
 background-color: #15723dba;
 border-radius: 125px;   
+}
+
+.fabulous-animals {
+  position: absolute;
+  width: 216px;
+  top: 313px;
+  left: 820px;
 }
 
 .change_rabbits {
@@ -1469,7 +1476,7 @@ border: 2px solid #2798f1;
 
 @media screen and (max-width:1024px) {
 
-.showman2 {left: 1162px;}
+.showman2 {left: 1171px;}
 
 .fly_santa {left: 3px;}
 
@@ -1500,7 +1507,7 @@ border: 2px solid #2798f1;
 
 @media screen and (max-width: 768px) {
 
-.showman2 {left: 1162px;}
+.showman2 {left: 1171px;}
 
 .slide-text6 { width: 987px;right: -8px;font-size: 67px;} 
 
@@ -1523,7 +1530,7 @@ border: 2px solid #2798f1;
 
 @media screen and (max-width: 425px) {
 
-.showman2 {left: 1162px;}
+.showman2 {left: 1171px;}
 
 .slide-text6 { width: 973px;right: -8px;font-size: 67px;}
 
@@ -1540,7 +1547,7 @@ border: 2px solid #2798f1;
 
 @media screen and (max-width: 375px) {
 
-.showman2 {left: 1162px;}
+.showman2 {left: 1171px;}
 
 .slide-text6 { width: 975px;right: -8px;font-size: 67px;}
 
