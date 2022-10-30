@@ -78,7 +78,7 @@ newCard.addEventListener('click', function loop(event) {
     newCar.style.cursor = "pointer";
     newText.innerHTML = "Эта тачка тебе";
     newText.style.color = "#ffeb00";
-    newText.style.left = "-84px";
+    newText.style.left = "3px";
   if (newCar !== null) { // если элемент найден
     newCar.setAttribute('src', 'https://gif5gif.ucoz.ru/_ph/1/130202818.gif?1665612335');
     return true;
