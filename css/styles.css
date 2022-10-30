@@ -547,7 +547,7 @@ width: 650p;
 height: 64px;
 /*animation-duration: 100s; /*регулируется быстрота и медлительность движения при включенном js*/
 animation-name: mymove;
-top: 767p;
+top: 13px;
 right: 242p;
 z-index: 2;
 cursor: pointe;
