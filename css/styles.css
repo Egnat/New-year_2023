@@ -1062,15 +1062,15 @@ margin: 0 auto;
 }
 
 .santa1 {
- position: absolute;
-    width: 81px;
-    top: 293px;
-    left: 827px;
-    animation-name: go;
-    animation-delay: 500s;
-    animation: go 45s infinite;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
-    z-index: 1;
+position: absolute;
+width: 81px;
+top: 293px;
+left: 827px;
+animation-name: go;
+animation-delay: 500s;
+animation: go 45s infinite;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+z-index: 1;
 }
 
 @keyframes go {
@@ -1080,60 +1080,60 @@ to { left:821px; } /*ставим размер экрана, чтобы гугл
 
 .forest {
 position: absolute;
-    width: 378px; /*100%;*/
-     height: 404px;
-    top: 1980p;
-    right:878p;
-    order: 1px solid #ff0;
-    border-radius: 23px;
-    z-index: ;
-    box-shadow: -15px 0px 15px 15px #f44336;
+width: 378px; /*100%;*/
+height: 404px;
+top: 1980p;
+right:878p;
+order: 1px solid #ff0;
+border-radius: 23px;
+z-index: ;
+box-shadow: -15px 0px 15px 15px #f44336;
 }
 
 .houses2 {
- position: absolute;
-    width: 430px;
-    height: 404px;
-    top: 1982p; 
-    left: 328px;
-    order: 1px solid #ff0;
-    border-radius: 12p;
-    box-shadow: 18px 0px 15px 15px #f44336;
-    ransform: matrix(-1, 0, 0, 1, 0, 0);
+position: absolute;
+width: 430px;
+height: 404px;
+top: 1982p; 
+left: 328px;
+order: 1px solid #ff0;
+border-radius: 12p;
+box-shadow: 18px 0px 15px 15px #f44336;
+ransform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 .houses4 {
- position: absolute;
-  width: 495px;
-  height: 404px;
-  top: 1982p;
-  left: 741px;
-  order: 1px solid #ff0;
-  border-radius: 23px;
-  box-shadow: -20px 0px 15px 15px #f44336;
-  transform: matrix(-1, 0, 0, 1, 0, 0);
+position: absolute;
+width: 495px;
+height: 404px;
+top: 1982p;
+left: 741px;
+order: 1px solid #ff0;
+border-radius: 23px;
+box-shadow: -20px 0px 15px 15px #f44336;
+transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 .moon {
-    position: absolute;
-    width: 61px;
-    top: 23px;
-    left: 62px;
-    border-radius: 80px;
-    border: 1px solid #00f;
-    box-shadow: 0px 0px 21px 23px blue;
-    z-index: 1;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
+position: absolute;
+width: 61px;
+top: 23px;
+left: 62px;
+border-radius: 80px;
+border: 1px solid #00f;
+box-shadow: 0px 0px 21px 23px blue;
+z-index: 1;
+transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 .salute2 {
-  position: absolute;
-  width: 112px;
-  height: 102px;
-  top: 20px;
-  left: 1095px;
-  border-radius: 771px;
-  z-index: 1;
+position: absolute;
+width: 112px;
+height: 102px;
+top: 20px;
+left: 1095px;
+border-radius: 771px;
+z-index: 1;
 }
 
 .salute4 {
@@ -1147,43 +1147,43 @@ position: absolute;
 }
 
 .salute5 {
- position: absolute;
-    width: 91px;
-    height: 91px;
-    top: 50px;
-    left: 676px;
-    border-radius: 53px;
-    z-index: 1;
+position: absolute;
+width: 91px;
+height: 91px;
+top: 50px;
+left: 676px;
+border-radius: 53px;
+z-index: 1;
 }
 
 .salute6 {
- position: absolute;
-    width: 133px;
-    height: 60px;
-    top: 5px;
-    left: 669px;
-    border-radius: 53px;
-    z-index: 1;
+position: absolute;
+width: 133px;
+height: 60px;
+top: 5px;
+left: 669px;
+border-radius: 53px;
+z-index: 1;
 }
 
 .salute7 {
 position: absolute;
- width: 67px;
- height: 67px;
- top: 56px;
- left: 790px;
- border-radius: 53px;
- z-index: 1;       
+width: 67px;
+height: 67px;
+top: 56px;
+left: 790px;
+border-radius: 53px;
+z-index: 1;       
 }
 
 .salute8 {
 position: absolute;
-    width: 118px;
-    height: 69px;
-    top: 3px;
-    left: 507px;
-    border-radius: 53px;
-    z-index: 1;       
+width: 118px;
+height: 69px;
+top: 3px;
+left: 507px;
+border-radius: 53px;
+z-index: 1;       
 }
 
 .stars {
@@ -1365,6 +1365,13 @@ position: absolute;
  top: 141px;
  left: 663px;
  z-index: 1;        
+}
+
+.garland-9 {
+position: absolute;
+width: 1246px;
+top: 406px;
+z-index: 1;
 }
 
 .all_iframe {
