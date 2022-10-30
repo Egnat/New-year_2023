@@ -561,6 +561,22 @@ from { left:0px; }
 to { left:927px; } /*ставим размер экрана, чтобы гугл исчезал если нужно*/
 }
 
+.block_falling-gifts {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 24px;
+  top: 87px;
+  left: 108px;
+z-index: 1;
+}
+
+.falling-gifts {
+  width: 32px;
+  height: 107px;
+  margin-right:298px;
+}
+
 .blue-star {
   position: absolute;
   display: flex;
@@ -804,6 +820,13 @@ position: absolute;
     box-shadow: 0px 4px 27px 23px lightskyblue;
 }
 
+.santa_with_deers {
+ position: absolute;
+ width: 92px;
+ top: 229px;
+right: 62px; 
+}
+
 .salute9 {
     position: absolute;
     width: 64px;
@@ -903,13 +926,13 @@ position: absolute;
 
 .oval {
 position: absolute;
-    width: 187px;
-    height: 296px; 
-    top: 1025p;
-    left: 818px; 
+width: 187px;
+height: 296px; 
+top: 1025p;
+left: 818px; 
 box-shadow: 0px 0px 52px 28px greenyellow;
 background-color: #15723dba;
-    border-radius: 76px;   
+border-radius: 125px;   
 }
 
 .change_rabbits {
