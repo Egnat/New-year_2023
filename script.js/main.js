@@ -356,3 +356,7 @@ img.style.cursor = "pointer";
 //img.style.animationDelay = "5s"; //время через сколько запустится анимация
 event.stopPropagation();//чтоб событие не всплывало
 });*/
+
+//<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+//<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.2.0/lodash.js"></script>
+//Убрал с головы штмл.
