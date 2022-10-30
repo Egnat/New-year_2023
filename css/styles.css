@@ -574,10 +574,10 @@ flex-direction: column;
 .garland-8 {
 position: absolute;
 width: 1186px;
-height: 149px;
+height: 44px;
 top: 514px;
 right: 0px;
-   
+z-index: 1;   
 }
 
 .fly_santa {
