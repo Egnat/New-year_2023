@@ -1006,10 +1006,18 @@ border-radius: 125px;
 }
 
 .fabulous-animals {
-  position: absolute;
-  width: 216px;
-  top: 313px;
-  left: 821px;
+position: absolute;
+width: 216px;
+top: 313px;
+left: 821px;
+cursor: pointer;
+}
+
+.fabulous-animals:hover {
+width: 270px;
+height: 400p;
+transform: 0.8s;
+transform: matrix(2, 1, 0, 2, -223, -140);  
 }
 
 .change_rabbits {
