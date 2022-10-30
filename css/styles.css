@@ -54,6 +54,27 @@ body {
   font-size: 30px;
 }
 
+.garland-5 {
+  position: absolute;
+  width: 434px;
+  height: 30px;
+  left: 129px;
+}
+
+.garland-4 {
+  position: absolute;
+  width: 190px;
+  height: 101px;
+  left: 568px;
+}
+
+.garland-6 {
+ position: absolute;
+   width: 434px;
+  height: 30px;
+  left: 754px;
+}
+
 .new-year_boll {
   margin-top: 15px;
 margin-left: 21px;
@@ -66,6 +87,14 @@ box-shadow: 4px 0px 46px 8px coral;
   top: 12px;
   left: 1188px;
   box-shadow: 0px 2px 25px 15px yellowgreen;   
+}
+
+.garland-3 {
+ position: absolute;
+ width: 1021px;
+ height: 101px;
+ top: 2913px;
+ z-index: 1; 
 }
 
 .salute3 {
@@ -676,6 +705,13 @@ display: flex;
     border-radius: 9p;
 }
 
+.garland-1 {
+position: absolute;
+width: 1242px;
+height: 57px; 
+top: 202px;
+}
+
 .block_acordions {
   position: absolute;
   top: 1041px;
@@ -808,6 +844,12 @@ position: absolute;
 
 .common_acordions {
 
+}
+
+.garland-2 {
+  position: absolute;
+  width: 1236px;
+  bottom: 20px;
 }
 
 .tree1 {
@@ -948,6 +990,14 @@ left: 16px;
 margin: 0 auto;
 }
 
+.garland-7 {
+  position: absolute;
+  width: 1252px;
+  height: 99px;
+  bottom: -41px;
+  z-index: 1;
+}
+
 .rabbit {
   width: 459px;
    height: 473px; 
@@ -968,7 +1018,7 @@ margin: 0 auto;
 .showman {
 position: absolute;
 width: 322px;     
-top: 1452p;
+top: 46px;
 left: 900px;
 box-shadow: 2px 0px 56px 42px magenta;
 border-radius: 19px;
@@ -1345,7 +1395,7 @@ position: absolute;
 width: 168px;
 height: 168px;
 top: 2872px;
-left: 534px;
+left: 526px;
 cursor: grab;
 z-index: 1;
 }
