@@ -441,6 +441,11 @@ left: 242px;
 font-size: 47px;
 }
 
+.year1 {
+color: #ffeb3b; 
+font-weight: bold; 
+}
+
 .line {
 position: relative;
 display: inline-block;
