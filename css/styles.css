@@ -1039,7 +1039,7 @@ cursor: pointer;
 .fabulous-animals:hover {
 width: 270px;
 height: 400p;
-transform: 0.8s;
+transition: all 2s ease-out .2s; /*фото медленно увеличивается*/ 
 transform: matrix(2, 1, 0, 2, -223, -140);  
 }
 
