@@ -149,7 +149,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
   position: absolute;
   display: flex;
   justify-content: space-between;
-  width: 175px;
+  width: 195px;
   top: 493px;
   right: 244px;     
 }
