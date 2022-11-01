@@ -275,9 +275,8 @@ to {opacity: 1}
 
 .mini-text4-slide {
   position: absolute;
-      position: absolute;
-    width: 419px;
-    right: 740px;
+  width: 419px;
+  right: 740px;
   bottom: 388px;
   color: #fff;
 
@@ -287,6 +286,21 @@ to {opacity: 1}
   font-size: 51px;
   line-height: 21px;
   text-shadow: 6px 9px 10px;
+}
+
+.mini-text9-slide {
+position: absolute;
+  width: 419px;
+  right: 763px;
+  bottom: 388px;
+  color: #fff;
+
+  font-family: 'Nunito Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 21px;
+  ext-shadow: 6px 9px 10px;
 }
 
 .photo-slide-4 {
@@ -322,6 +336,15 @@ position: absolute;
     bottom: 60px;
     border-radius: 82px;
     box-shadow: 0px 4px 43px 24px red; 
+}
+
+.photo-slide-9 {
+ position: absolute;
+    width: 443px;
+    right: 755px;
+    bottom: 60px;
+    border-radius: 82px;
+    ox-shadow: 0px 4px 43px 24px red;  
 }
 
 .slide-text5 {
