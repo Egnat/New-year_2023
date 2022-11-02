@@ -290,6 +290,21 @@ to {opacity: 1}
 
 .mini-text9-slide {
 position: absolute;
+  width: 449px;
+  right: 745px;
+  bottom: 397px;
+  color: #fff;
+
+  font-family: 'Nunito Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 21px;
+  ext-shadow: 6px 9px 10px;  
+}
+
+.mini-text10-slide {
+position: absolute;
   width: 419px;
   right: 763px;
   bottom: 388px;
@@ -338,7 +353,7 @@ position: absolute;
     box-shadow: 0px 4px 43px 24px red; 
 }
 
-.photo-slide-9 {
+.photo-slide-10 {
  position: absolute;
     width: 443px;
     right: 755px;
@@ -434,6 +449,20 @@ font-style: normal;
 font-weight: 400;
 font-size: 36px;
 line-height: 48px;  
+}
+
+.mini2-text9-slide {
+position: absolute;
+width: 489px;
+right: 727px;
+bottom: 106px;
+color: #cddc39;
+
+font-family: 'Nunito Sans', Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 48px;    
 }
 
 .congratulations {
@@ -1050,35 +1079,35 @@ left: 16px;
 }
 
 .newPhoto2_rabbit { 
-  position: absolute;
-  top: 1431p;
-  left: 401px;
+position: absolute;
+top: 1431p;
+left: 401px;
 margin: 0 auto;
 }
 
 .garland-7 {
-  position: absolute;
-  width: 1252px;
-  height: 99px;
-  bottom: -41px;
-  z-index: 1;
+position: absolute;
+width: 1252px;
+height: 99px;
+bottom: -41px;
+z-index: 1;
 }
 
 .rabbit {
-  width: 459px;
-   height: 473px; 
-   box-shadow: 0px 2px 55px 45px #cbdfeb;
-  border-radius: 62px;
-  background-color: #b0e0e6c9;
+width: 459px;
+height: 473px; 
+box-shadow: 0px 2px 55px 45px #cbdfeb;
+border-radius: 62px;
+background-color: #b0e0e6c9;
 }
 
 .santa-with-violin {
- position: absolute;
- width: 344px;
-  top: 46px; 
-  left: 23px;
-  box-shadow: 0px 2px 80px 31px darkred;
-  border-radius: 45px;     
+position: absolute;
+width: 344px;
+top: 46px; 
+left: 23px;
+box-shadow: 0px 2px 80px 31px darkred;
+border-radius: 45px;     
 }
 
 .showman {
