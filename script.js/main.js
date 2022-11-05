@@ -180,7 +180,8 @@ newPhoto2.addEventListener('mousemove', function loopppp(event) {
 </div> это пример, как нужно записывать img для замены ссылок */
 
 // можно нажимать на самого Деда Мороза /*photoOff*/
-cardOff.addEventListener('click', function showHide(event) {
+//const photoOff = document.querySelector('.photoOff_santaInPipe img');//нужно если нажимать на самого Деда Мороза , чтобы его выключить
+cardOff.addEventListener('click', function showHide(event) {/*нажимаем на шишку, чтобы  выключить Деда Мороза */
   event.stopPropagation();//чтоб событие не всплывало 
   const photoOff = document.querySelector('.photoOff_santaInPipe img');
     //photoOff.style.cursor = "pointer";
