@@ -3,13 +3,13 @@ var a_href = str.bold().fontcolor('green').link('JavaScript:alert("Привет!
 
 document.write(a_href);// создается ссылка в штмл зеленого цвета с выводом alert("Привет!")*/
 
-let answer = prompt("Как жизнь молодая, все ok ?"); 
+/*let answer = prompt("Как жизнь молодая, все ok ?"); 
   //if(answer !== "string") {alert("Нужны буквы");}
   if (answer == 'ok') { 
     alert(`Так держать ! 👍`); 
-  } else /*if (answer !== 'ok')*/ { 
-    alert(`Нуу, нужен ок !`); 
-  } //else {alert("Нужны буквы"); } 
+  } else /*if (answer !== 'ok')*/ //{ 
+    //alert(`Нуу, нужен ок !`); 
+  //} //else {alert("Нужны буквы"); } 
 
 let slideIndex = 1;
         
@@ -239,8 +239,10 @@ function blinked() {
   } else {
     div.style.visibility = "hidden";
   }
+  //requestAnimationFrame(blinked);
 } 
- window.setInterval(blinked, 1000);
+//requestAnimationFrame(blinked);//мигет в течении 60 сек. много раз
+window.setInterval(blinked, 1000);
 
 function blinkede() {
   const figure = document./*getElementById('salutes');*/querySelector('.salutes');
@@ -259,8 +261,10 @@ function blinkeded() {
   } else {
     section.style.visibility = "hidden";
   }
+  //requestAnimationFrame(blinkeded);
 } 
- window.setInterval(blinkeded, 4500); // можно подключить, чтоб массив салютов 
+//requestAnimationFrame(blinkeded); мигают салюты через 60 сек. много раз
+window.setInterval(blinkeded, 4500); // можно подключить, чтоб массив салютов 
 //появился, исчез
 
  function timer() {
@@ -284,7 +288,7 @@ function blinkeded() {
     setTimeout('timer()', 1000);/*setInterval работает тоже*/
 }
 
-//функция для перетаскивания элементы мышкой на экране
+//функция для перетаскивания элементы целующегося оленя мышкой на экране
 const deer = document.querySelector('.deer');
 
 // Отключаем дефолтный DnD
@@ -348,16 +352,51 @@ div.innerHTML = "<p id=\"custom\">Hello!</p>";
 const appp = document.querySelector("#appp");
 document.body.insertBefore(div, appp);*/
 
-/*document.getElementsByTagName("img")[0];
+/*let step = 0;
+document.getElementsByTagName("img")[0];
 const img = document.querySelector('.flying_santa');
-img.addEventListener('mousemove', (event) => {
-//img.classList.toggle('img--mymove');
-//img.style.animationIterationCount= 5;
+img.addEventListener('mousemove', /*function front* (event) => {
+//step = 5;  
+img.classList.toggle('img--mymove');
+img.style.animationIterationCount= 5;// колличество раз
 img.style.cursor = "pointer";
-//img.style.animationDelay = "5s"; //время через сколько запустится анимация
+img.style.animationDelay = "5s"; //время через сколько запустится анимация
 event.stopPropagation();//чтоб событие не всплывало
-});*/
+//requestAnimationFrame(front); из мод 23.6, хотел попробовать менее весомую функцию, пока не работает
+});
+//requestAnimationFrame(front);*/
 
-//<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-//<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.2.0/lodash.js"></script>
-//Убрал с головы штмл.
+//const img = document.querySelector('.flying_santa');
+/*flying_santa.mousemove = function() {
+  this.mousemove = null; // анимация должна начинаться только после первого клика
+  let times = 1;
+
+  function goo() {
+    if (times % 2) {
+      // плыть вправо
+      flying_santa.classList.remove('back');
+      flying_santa.style.Left = 100 * times + 200 + 'px';
+    } else {
+      // плыть влево
+      flying_santa.classList.add('back');
+     flying_santa.style.Left = 100 * times - 200 + 'px';
+    }
+
+  }
+  goo();
+
+  flying_santa.addEventListener('transitionend', function() {
+    times++;
+    goo();
+  });
+};
+
+.back {
+  transform: scaleX(-1);
+  filter: fliph;
+}
+transition: left 3s ease-in-out;*/
+
+/*<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.2.0/lodash.js"></script>
+Убрал с головы штмл.*/
