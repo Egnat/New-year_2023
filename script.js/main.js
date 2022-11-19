@@ -1,7 +1,18 @@
+/*var animation = bodymovin.loadAnimation({
+  container: document.getElementsByClassName('santa1 '), // Required /*lottie*
+  path: 'data.json', // Required
+  renderer: 'svg', // Required /canvas/html
+  loop: true, // Optional
+  autoplay: true, // Optional
+  //name: "Hello World",  Name for future reference. Optional.
+});библиотека lottie*/
+
+
 /*var str =  'щелкни здесь!';
 var a_href = str.bold().fontcolor('green').link('JavaScript:alert("Привет!")');
 
 document.write(a_href);// создается ссылка в штмл зеленого цвета с выводом alert("Привет!")*/
+
 
 /*let answer = prompt("Как жизнь молодая, все ok ?"); 
   //if(answer !== "string") {alert("Нужны буквы");}
@@ -10,6 +21,7 @@ document.write(a_href);// создается ссылка в штмл зелен
   } else /*if (answer !== 'ok')*/ //{ 
     //alert(`Нуу, нужен ок !`); 
   //} //else {alert("Нужны буквы"); } 
+
 
 let slideIndex = 1;
         
