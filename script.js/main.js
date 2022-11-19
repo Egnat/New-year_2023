@@ -210,7 +210,7 @@ cardOff.addEventListener('click', function showHide(event) {/*нажимаем �
 //5 пример с AdjacentHTML
 //создаем переменну с контентом, который будет в новом элементе 
 //<article></article>,который будет расположен над <img class"friends">
-const content = "Ħappy Ñew ϒear !";
+const content = "Ħappy Ñew ϒear";
 document.querySelector(".friends").insertAdjacentHTML("beforebegin", 
 `<article class="text-friends"> ${content} </article>`);
 const textFriends = document.querySelector('.text-friends');
