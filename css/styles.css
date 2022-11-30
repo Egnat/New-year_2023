@@ -663,24 +663,52 @@ top: 770px;
 left: 17px;
 margin: 0 auto;
 }
-
-@keyframes mymove {
-from { left:0px; }
-to { left:927px; } /*ставим размер экрана, чтобы гугл исчезал если нужно*/
+/*Элемент двигается по всей странице туда-обратно с разворотом*/
+@-webkit-keyframes mymove {
+  0% {
+    left: 0;
+  }
+  48% {
+    -webkit-transform: rotateY(0deg); 
+  }
+  50% { 
+    left: calc(85% - 100px);/*85% регулируют длину движения элемента*/
+    -webkit-transform: rotateY(180deg);
+  }
+  98% {
+    -webkit-transform: rotateY(180deg); 
+  }
+  100% {
+    left: 0;    
+     -webkit-transform: rotateY(0deg);
+  }
 }
+/*
+from { left:0px; }
+to { left:927px; } }/*ставим размер экрана, чтобы гугл исчезал если нужно*/
+
 
 /*img*/#flying_santa {/*img нужно сделать если подключаю через скрипт*/
 position: absolute;
 width: 650p;
-height: 64px;
-top: 13px;
+eight: 64px;
+top: 789px;
 right: 242p;
-left: 0;
+eft: 0;
 z-index: 2;
+-webkit-animation: linear infinite;
+  -webkit-animation-name: mymove;
+  -webkit-animation-duration: 75s;
+/*animation-direction: alternate-reverse;
+  animation-duration: 5s;
+  animation-name: mymove;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;*/
 cursor: pointe;
-nimation-timing-function: linear;/*Линейная функция, анимация происходит равномерно на протяжении всего времени, без колебаний в скорости.*/
-animation-name: mymove;
-animation: mymove 75s infinite; /*регулируется быстрота и медлительность движения*/
+/*nimation-timing-function: linear;/*Линейная функция, анимация происходит равномерно на протяжении всего времени, без колебаний в скорости.*/
+/*nimation-direction: alternate;
+nimation-name: mymove;
+nimation: mymove 75s infinite; /*-iteration-count регулируется быстрота и медлительность движения*/
 /*animation-duration: 100s; /*регулируется быстрота и медлительность движения при включенном js*/
 /*transition: /*left 3s ease-in-out /*cubic-bezier(.65,.17,1,-0.08) 0s*/;/*можно использовать для движения анимации*/
 /*animation-delay: 500s;/*время через сколько запустится анимация*/
@@ -1636,6 +1664,34 @@ border: 2px solid #2798f1;
 
 .fly_santa {left: 3px;}
 
+@-webkit-keyframes mymove {
+  0% {
+    left: 0;
+  }
+  48% {
+    -webkit-transform: rotateY(0deg); 
+  }
+  50% { 
+    left: calc(101% - 100px);/*85% регулируют длину движения элемента*/
+    -webkit-transform: rotateY(180deg);
+  }
+  98% {
+    -webkit-transform: rotateY(180deg); 
+  }
+  100% {
+    left: 0;    
+     -webkit-transform: rotateY(0deg);
+  }
+}
+#flying_santa {
+position: absolute;
+top: 789px;
+z-index: 2;
+-webkit-animation: linear infinite;
+-webkit-animation-name: mymove;
+-webkit-animation-duration: 75s;
+}
+
 .houses6 { width: 296px; }
 
 .tree1 { right: 8px; }
@@ -1665,9 +1721,67 @@ border: 2px solid #2798f1;
 .all_friends { left: 27px; }
 }
 
+@media screen and (max-width: 800px) {
+@-webkit-keyframes mymove {
+  0% {
+    left: 0;
+  }
+  48% {
+    -webkit-transform: rotateY(0deg); 
+  }
+  50% { 
+    left: calc(136% - 100px);/*85% регулируют длину движения элемента*/
+    -webkit-transform: rotateY(180deg);
+  }
+  98% {
+    -webkit-transform: rotateY(180deg); 
+  }
+  100% {
+    left: 0;    
+     -webkit-transform: rotateY(0deg);
+  }
+}
+#flying_santa {
+position: absolute;
+top: 789px;
+z-index: 2;
+-webkit-animation: linear infinite;
+-webkit-animation-name: mymove;
+-webkit-animation-duration: 75s;
+}
+}
+
 @media screen and (max-width: 768px) {
 
 .showman2 {left: 1171px;}
+
+@-webkit-keyframes mymove {
+  0% {
+    left: 0;
+  }
+  48% {
+    -webkit-transform: rotateY(0deg); 
+  }
+  50% { 
+    left: calc(136% - 100px);/*85% регулируют длину движения элемента*/
+    -webkit-transform: rotateY(180deg);
+  }
+  98% {
+    -webkit-transform: rotateY(180deg); 
+  }
+  100% {
+    left: 0;    
+     -webkit-transform: rotateY(0deg);
+  }
+}
+#flying_santa {
+position: absolute;
+top: 789px;
+z-index: 2;
+-webkit-animation: linear infinite;
+-webkit-animation-name: mymove;
+-webkit-animation-duration: 75s;
+}
 
 .tree1 { right: 8px; }
 
@@ -1696,6 +1810,34 @@ border: 2px solid #2798f1;
 
 .showman2 {left: 1171px;}
 
+@-webkit-keyframes mymove {
+  0% {
+    left: 0;
+  }
+  48% {
+    -webkit-transform: rotateY(0deg); 
+  }
+  50% { 
+    left: calc(241% - 100px);/*85% регулируют длину движения элемента*/
+    -webkit-transform: rotateY(180deg);
+  }
+  98% {
+    -webkit-transform: rotateY(180deg); 
+  }
+  100% {
+    left: 0;    
+     -webkit-transform: rotateY(0deg);
+  }
+}
+#flying_santa {
+position: absolute;
+top: 789px;
+z-index: 2;
+-webkit-animation: linear infinite;
+-webkit-animation-name: mymove;
+-webkit-animation-duration: 75s;
+}
+
 .tree1 { right: 8px; }
 
 .fabulous-animals { left: 814px; }
@@ -1716,6 +1858,34 @@ border: 2px solid #2798f1;
 @media screen and (max-width: 375px) {
 
 .showman2 {left: 1171px;}
+
+@-webkit-keyframes mymove {
+  0% {
+    left: 0;
+  }
+  48% {
+    -webkit-transform: rotateY(0deg); 
+  }
+  50% { 
+    left: calc(278% - 100px);/*85% регулируют длину движения элемента*/
+    -webkit-transform: rotateY(180deg);
+  }
+  98% {
+    -webkit-transform: rotateY(180deg); 
+  }
+  100% {
+    left: 0;    
+     -webkit-transform: rotateY(0deg);
+  }
+}
+#flying_santa {
+position: absolute;
+top: 789px;
+z-index: 2;
+-webkit-animation: linear infinite;
+-webkit-animation-name: mymove;
+-webkit-animation-duration: 75s;
+}
 
 .tree1 { right: 8px; }
 
