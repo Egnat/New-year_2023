@@ -224,7 +224,7 @@ cardOff.addEventListener('click', function showHide(event) {/*нажимаем �
 //5 пример с AdjacentHTML
 //создаем переменну с контентом, который будет в новом элементе 
 //<article></article>,который будет расположен над <img class"friends">
-const content = "Ħappy Ñew ϒear";
+const content = "Ħappy Ñew ϒear !";
 document.querySelector(".friends").insertAdjacentHTML("beforebegin", 
 `<article class="text-friends"> ${content} </article>`);
 const textFriends = document.querySelector('.text-friends');
@@ -257,6 +257,26 @@ const time = setInterval(() => {
 }, 2000);  /*можно использовать для изменения фото если 
 поставить ссылку с неограниченным колличеством фоток, на пример, 
 'https://picsum.photos/100'*/
+
+let colorNames = ["blue", "cyan", "red", "gold", "green", "yellow", "orange", "violet", "#7fff00", "#ff7f50"];
+
+// функция поиска random-числа
+const random = (min, max) => {
+  max = colorNames.length - 1;
+  const rand = min + Math.round(Math.random() * (max - min));
+  return rand;
+};
+
+// найти элементы для изменения свойств
+let paragraphs = document.getElementsByClassName("text-friends");
+
+// менять цвет каждую секунду, присвоив каждому эл-ту массива paragraphs новое значение
+setInterval(() => {
+  for (let i = 0; i < paragraphs.length; i++) {
+    paragraphs[i].style.color = colorNames[random(0)];
+  }
+}, 2000);
+console.log(colorNames);
 
 function blinked() {
   const div = document./*getElementById('copyrite');*/querySelector('.copyrite');

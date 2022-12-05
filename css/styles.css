@@ -3,6 +3,11 @@
   font-family:"Yeseva+One";
 }
 
+* {
+margin: 0p;/*нужно прописывать сразу, до токо, как начал прописывать стили элементам*/
+padding: 0p;/*или не ставить вообще иначе, когда стили элементам выставлены уже и прописать эту фишку, стили в некоторых элементах нужно будет менять*/
+}
+
 ::-webkit-scrollbar {
   width : 2px; 
   height: 10px;
@@ -89,14 +94,14 @@ body {
 }
 
 .garland-6 {
- position: absolute;
-   width: 434px;
-  height: 30px;
-  left: 754px;
+position: absolute;
+width: 434px;
+height: 30px;
+left: 754px;
 }
 
 .new-year_boll {
-  margin-top: 15px;
+margin-top: 15px;
 margin-left: 21px;
 box-shadow: 4px 0px 46px 8px coral; 
 }
@@ -683,11 +688,6 @@ margin: 0 auto;
      -webkit-transform: rotateY(0deg);
   }
 }
-/*
-from { left:0px; }
-to { left:927px; } }/*ставим размер экрана, чтобы гугл исчезал если нужно*/
-
-
 /*img*/#flying_santa {/*img нужно сделать если подключаю через скрипт*/
 position: absolute;
 width: 650p;
@@ -697,16 +697,16 @@ right: 242p;
 eft: 0;
 z-index: 2;
 -webkit-animation: linear infinite;
-  -webkit-animation-name: mymove;
-  -webkit-animation-duration: 75s;
-/*animation-direction: alternate-reverse;
+-webkit-animation-name: mymove;
+-webkit-animation-duration: 75s;
+/*animation-direction: alternate-reverse; /*движение элемента вперёд и назад без разворота, подходит для кубиков, мячиков*
   animation-duration: 5s;
   animation-name: mymove;
   animation-iteration-count: infinite;
   animation-timing-function: linear;*/
 cursor: pointe;
 /*nimation-timing-function: linear;/*Линейная функция, анимация происходит равномерно на протяжении всего времени, без колебаний в скорости.*/
-/*nimation-direction: alternate;
+/*nimation-direction: alternate; /*движение элемента слева вправо, потом пропадает и снова появляется слева*
 nimation-name: mymove;
 nimation: mymove 75s infinite; /*-iteration-count регулируется быстрота и медлительность движения*/
 /*animation-duration: 100s; /*регулируется быстрота и медлительность движения при включенном js*/
@@ -714,7 +714,11 @@ nimation: mymove 75s infinite; /*-iteration-count регулируется бы�
 /*animation-delay: 500s;/*время через сколько запустится анимация*/
 /*animation-iteration-count: mymove ; /*сколько раз сработает, но пока не работает*/ 
 }
-
+/*
+@keyframes {
+from { left:0px; } можно использовать для движения эл-ов без разворота, таких как мячик, куб
+to { left:927px; } }/*ставим размер экрана, чтобы гугл исчезал если нужно
+}*/
 /*.img--mymove {
 animation-duration: 2s;
 animation-name: mymove;
